@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "siteName": "Elías Mattfeld Campos",
+    "home": {
+      "title": "Elías Mattfeld Campos | Voluntario de Cuerpo de Paz",
+      "description": "Portafolio profesional de Elías Mattfeld Campos, Voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz en Colombia."
+    },
+    "about": {
+      "title": "Sobre Mí | Elías Mattfeld Campos",
+      "description": "Conoce mi trayectoria educativa, profesional e internacional."
+    },
+    "peaceCorps": {
+      "title": "Qué es el Cuerpo de Paz | Elías Mattfeld Campos",
+      "description": "Una explicación en lenguaje sencillo sobre el Cuerpo de Paz y su misión."
+    },
+    "cedRole": {
+      "title": "Mi Rol de CED | Elías Mattfeld Campos",
+      "description": "Cómo trabajo como Voluntario de Desarrollo Económico Comunitario en Colombia."
+    },
+    "projects": {
+      "title": "Proyectos | Elías Mattfeld Campos",
+      "description": "Explora los proyectos comunitarios y profesionales en los que he colaborado."
+    },
+    "project": {
+      "title": "Proyecto | Elías Mattfeld Campos",
+      "description": "Detalles de un proyecto comunitario o profesional."
+    },
+    "experience": {
+      "title": "Experiencia y Habilidades | Elías Mattfeld Campos",
+      "description": "Mi trayectoria profesional, educativa y de servicio, junto con mis habilidades."
+    },
+    "gallery": {
+      "title": "Galería | Elías Mattfeld Campos",
+      "description": "Fotos de talleres, proyectos comunitarios y actividades de servicio."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "peaceCorps": "Qué es el Cuerpo de Paz",
+    "cedRole": "Mi Rol de CED",
+    "projects": "Proyectos",
+    "experience": "Experiencia y Habilidades",
+    "gallery": "Galería",
+    "contact": "Contacto",
+    "menu": "Menú",
+    "langToggle": "EN"
+  },
+  "footer": {
+    "tagline": "El verdadero desarrollo ocurre cuando las comunidades cuentan con las herramientas necesarias para construir su propio futuro.",
+    "disclaimer": "Este es un sitio web personal. Las opiniones expresadas aquí son mías y no reflejan necesariamente las opiniones del Gobierno de los Estados Unidos o del Cuerpo de Paz.",
+    "rights": "Portafolio personal de Elías Mattfeld Campos.",
+    "backToTop": "Volver arriba"
+  },
+  "home": {
+    "headline": "Voluntario del Cuerpo de Paz | Desarrollo Económico Comunitario | Gestión Empresarial | Emprendimiento | Educación",
+    "intro": "Durante mi servicio como voluntario del Cuerpo de Paz en Colombia he trabajado junto a instituciones educativas, gobiernos locales, emprendedores y organizaciones comunitarias para fortalecer capacidades empresariales, promover la educación financiera y apoyar iniciativas de desarrollo económico sostenible.\n\nEste sitio reúne los proyectos, experiencias y aprendizajes desarrollados durante mi servicio, así como mi trayectoria profesional y académica.",
+    "shortIntro": "Creo que el desarrollo sostenible ocurre cuando las comunidades cuentan con las herramientas, conocimientos y oportunidades necesarias para liderar su propio crecimiento. Mi trabajo se ha enfocado en fortalecer esas capacidades mediante la educación, el emprendimiento y la colaboración comunitaria.",
+    "photoAlt": "Retrato profesional de Elías Mattfeld Campos",
+    "ctaProjects": "Explorar Mis Proyectos",
+    "ctaAbout": "Sobre Mi Trabajo",
+    "resumeLink": "Ver / Descargar Currículum",
+    "resumeIntro": "Aquí podrá descargar mi currículum actualizado, que resume mi experiencia profesional, académica y de servicio.",
+    "roleOverviewTitle": "Mi Rol en el Cuerpo de Paz",
+    "roleOverviewText": "Sirvo como Voluntario de Desarrollo Económico Comunitario (CED) en Colombia, colaborando con socios locales en educación empresarial, alfabetización financiera y desarrollo económico local.",
+    "roleOverviewLink": "Conoce más sobre mi rol de CED",
+    "featuredTitle": "Proyectos Destacados",
+    "featuredSubtitle": "Una muestra de los proyectos en los que he colaborado con socios comunitarios.",
+    "featuredViewAll": "Ver todos los proyectos",
+    "backgroundTitle": "Trayectoria Profesional",
+    "backgroundText": "[AÑADIR: breve avance de mi experiencia educativa y profesional antes y durante el servicio.]",
+    "backgroundLink": "Ver experiencia completa",
+    "whatIDoTitle": "Mi Servicio en Colombia",
+    "whatIDoItems": [
+      { "title": "Educación Financiera", "text": "Sesiones y talleres sobre presupuesto, ahorro y manejo básico de finanzas personales y familiares." },
+      { "title": "Formación en Emprendimiento", "text": "Talleres de planificación de negocios, marketing y gestión con emprendedores locales." },
+      { "title": "Habilidades Socioemocionales", "text": "Desarrollo de habilidades blandas y de empleabilidad con estudiantes y jóvenes." },
+      { "title": "Fortalecimiento Empresarial", "text": "Apoyo a pequeños negocios y artesanos con herramientas de gestión y desarrollo de productos." },
+      { "title": "Turismo Comunitario", "text": "Colaboración en iniciativas de turismo comunitario y economía local sostenible." },
+      { "title": "Diseño de Material Educativo", "text": "Creación conjunta de materiales, currículos y recursos adaptados al contexto local." }
+    ],
+    "statsTitle": "Impacto en Números",
+    "stats": [
+      { "label": "Talleres facilitados", "value": "[AÑADIR: número de talleres facilitados]" },
+      { "label": "Socios comunitarios", "value": "[AÑADIR: número de organizaciones socias]" },
+      { "label": "Participantes alcanzados", "value": "[AÑADIR: número de participantes]" },
+      { "label": "Meses de servicio", "value": "[AÑADIR: meses de servicio activo]" }
+    ],
+    "statsNote": "Estas cifras se actualizarán a medida que se documenten los proyectos.",
+    "contactTitle": "Contacto",
+    "contactText": "Siempre estoy abierto a conversar sobre desarrollo internacional, emprendimiento, educación, liderazgo y oportunidades profesionales. Si desea conocer más sobre mi trabajo o colaborar en futuros proyectos, no dude en ponerse en contacto.",
+    "contactCta": "Contáctame"
+  },
+  "about": {
+    "heading": "Sobre Mí",
+    "intro": "Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, y actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.",
+    "portraitAlt": "Retrato de Elías Mattfeld Campos",
+    "sections": [
+      { "title": "Introducción Personal", "text": "Desde joven he vivido en distintos países y he desarrollado una profunda pasión por el intercambio cultural, el desarrollo internacional y el emprendimiento social." },
+      { "title": "Intereses Profesionales", "text": "Mi objetivo profesional es construir soluciones que generen impacto social sostenible mediante la innovación, la educación y el desarrollo empresarial." },
+      { "title": "Trayectoria Internacional", "text": "Antes de unirme al Cuerpo de Paz participé en programas académicos y profesionales en México y Europa, donde tuve la oportunidad de conocer distintos modelos económicos, organizaciones sociales y formas de desarrollo comunitario." },
+      { "title": "Educación en Administración de Negocios", "text": "Soy graduado en Administración y Gestión de Empresas (Bachelor of Science in Business Administration and Management) con énfasis en Negocios Internacionales por California State University San Marcos." },
+      { "title": "Motivación para el Trabajo de CED", "text": "Actualmente sirvo como voluntario del Cuerpo de Paz Colombia en el sector de Desarrollo Económico Comunitario (CED), colaborando con instituciones educativas, gobiernos municipales y organizaciones locales para fortalecer el emprendimiento y la educación financiera." },
+      { "title": "Experiencia Viviendo y Estudiando en el Extranjero", "text": "He tenido la oportunidad de vivir y estudiar en México, Alemania, Austria e Italia, experiencias que ampliaron mi comprensión de distintas culturas, economías y modelos de desarrollo." },
+      { "title": "Valores Personales y Enfoque de Colaboración", "text": "Creo que el desarrollo sostenible ocurre cuando las comunidades cuentan con las herramientas, conocimientos y oportunidades necesarias para liderar su propio crecimiento. Mi trabajo se ha enfocado en fortalecer esas capacidades mediante la educación, el emprendimiento y la colaboración comunitaria." }
+    ],
+    "timelineTitle": "Trayectoria",
+    "timeline": [
+      { "date": "[AÑADIR fecha]", "title": "[AÑADIR hito educativo, internacional, profesional o de servicio]", "text": "[AÑADIR descripción]" }
+    ]
+  },
+  "peaceCorps": {
+    "heading": "Qué es Cuerpo de Paz Colombia",
+    "disclaimer": "Este es un sitio web personal. Las opiniones expresadas aquí son mías y no reflejan necesariamente las opiniones del Gobierno de los Estados Unidos o del Cuerpo de Paz.",
+    "intro": "Cuerpo de Paz Colombia es una agencia independiente del Gobierno de los Estados Unidos que trabaja en alianza con comunidades e instituciones colombianas para fortalecer capacidades locales y promover el desarrollo sostenible a través del intercambio de conocimientos.",
+    "whatItIsTitle": "Proyectos en Colombia",
+    "whatItIsText": "Actualmente, Cuerpo de Paz Colombia desarrolla dos proyectos principales:",
+    "projects": ["Enseñanza del Inglés (TEFL)", "Desarrollo Económico Comunitario (CED)"],
+    "howItWorksTitle": "Cómo Funciona",
+    "howItWorksText": "Los voluntarios viven e integran sus comunidades durante aproximadamente dos años, trabajando junto a organizaciones locales, instituciones educativas y gobiernos municipales para apoyar iniciativas lideradas por la comunidad.",
+    "goalsTitle": "Los Tres Objetivos del Cuerpo de Paz",
+    "goals": [
+      { "title": "Objetivo 1", "text": "Ayudar a los pueblos de los países interesados a satisfacer su necesidad de personal capacitado." },
+      { "title": "Objetivo 2", "text": "Ayudar a promover una mejor comprensión de los estadounidenses por parte de los pueblos a quienes se sirve." },
+      { "title": "Objetivo 3", "text": "Ayudar a promover una mejor comprensión de otros pueblos por parte de los estadounidenses." }
+    ],
+    "exchangeTitle": "La Importancia del Intercambio Cultural",
+    "exchangeText": "Construir relaciones genuinas y de confianza es tan importante como el trabajo técnico de cualquier proyecto. El intercambio cultural ocurre en ambas direcciones: los voluntarios aprenden tanto como aportan.",
+    "practiceTitle": "Cómo Se Ve el Servicio del Cuerpo de Paz en la Práctica",
+    "practiceSteps": [
+      { "title": "Capacitación Inicial", "text": "Los voluntarios reciben capacitación intensiva en idioma, cultura, seguridad y habilidades técnicas antes de comenzar su servicio." },
+      { "title": "Integración Comunitaria", "text": "Los voluntarios se mudan a su comunidad anfitriona y dedican tiempo a construir relaciones y comprender el contexto local." },
+      { "title": "Evaluación Colaborativa", "text": "Junto con socios locales, los voluntarios identifican necesidades y oportunidades comunitarias." },
+      { "title": "Trabajo de Proyecto", "text": "Los voluntarios co-facilitan talleres, apoyan iniciativas locales y contribuyen a proyectos definidos conjuntamente." },
+      { "title": "Reflexión y Cierre", "text": "Los voluntarios documentan aprendizajes, aseguran la sostenibilidad de los proyectos y realizan una transición responsable al finalizar el servicio." }
+    ],
+    "statsNote": "[AÑADIR: estadísticas oficiales del Cuerpo de Paz con cita, cuando estén disponibles.]"
+  },
+  "cedRole": {
+    "heading": "Mi Rol de Desarrollo Económico Comunitario (CED)",
+    "intro": "El Proyecto de Desarrollo Económico Comunitario (CED) busca fortalecer las capacidades de personas, organizaciones e instituciones para contribuir al desarrollo económico local y sostenible de Colombia.",
+    "objectivesTitle": "Objetivos del Programa",
+    "objectives": [
+      "Promover el desarrollo personal, económico y empresarial de jóvenes, emprendedores y organizaciones comunitarias.",
+      "Fortalecer las capacidades para la creación, administración y crecimiento de pequeños negocios.",
+      "Fomentar la educación financiera y el uso responsable de los recursos económicos."
+    ],
+    "whoWeWorkWithTitle": "Con Quién Colaboro",
+    "whoWeWorkWith": ["Ministerio de Educación Nacional", "SENA", "Alcaldías municipales", "Gobernaciones", "Instituciones educativas", "Universidades", "Fundaciones", "Organizaciones sociales", "Asociaciones comunitarias"],
+    "whoWeWorkWithClosing": "El objetivo no es crear dependencia, sino desarrollar capacidades que permitan a las comunidades continuar creciendo de forma autónoma.",
+    "responsibilitiesTitle": "Mi Rol como Voluntario de CED",
+    "responsibilitiesText": "Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, organizaciones comunitarias y entidades locales para fortalecer habilidades de emprendimiento, empleabilidad y desarrollo económico. Mi trabajo consiste en acompañar a socios locales para desarrollar proyectos sostenibles, compartiendo conocimientos y trabajando de manera colaborativa con la comunidad.",
+    "collaborativeNatureTitle": "La Naturaleza Colaborativa del Rol",
+    "collaborativeNatureText": "Todo el trabajo de CED se realiza en colaboración con socios locales. Los proyectos se co-diseñan y co-facilitan; los resultados reflejan el esfuerzo compartido entre voluntarios y comunidades.",
+    "institutionsTitle": "Trabajo en Instituciones Educativas",
+    "institutionsIntro": "En el ámbito educativo colaboro con docentes mediante un modelo de coenseñanza para diseñar e implementar actividades orientadas al desarrollo de habilidades emprendedoras y socioemocionales en estudiantes. Entre las iniciativas desarrolladas se incluyen:",
+    "institutionsList": ["Currículos de emprendimiento y educación financiera (como Construye Tus Sueños)", "Proyectos transversales", "Centros de interés", "Clubes de liderazgo juvenil", "Actividades de fortalecimiento del turismo local", "Recursos educativos relacionados con emprendimiento y desarrollo económico"],
+    "communityWorkTitle": "Trabajo con la Comunidad",
+    "communityWorkIntro": "Además del trabajo en las instituciones educativas, colaboro con organizaciones y aliados locales para fortalecer las capacidades de la comunidad mediante iniciativas como:",
+    "communityWorkList": ["Talleres de emprendimiento", "Educación financiera", "Administración de pequeños negocios", "Finanzas personales", "Fortalecimiento de organizaciones comunitarias", "Apoyo a emprendedores y pequeños empresarios", "Desarrollo de proyectos económicos sostenibles"],
+    "communityWorkClosing": "Estas actividades se realizan en conjunto con aliados como SENA, universidades, alcaldías, organizaciones comunitarias y otras instituciones locales, respondiendo a las necesidades y prioridades de cada comunidad.",
+    "myServiceTitle": "Mi Servicio en Colombia",
+    "myServiceIntro": "Durante mi servicio he tenido la oportunidad de trabajar en distintas regiones de Colombia apoyando iniciativas de emprendimiento, educación y desarrollo económico. Entre las principales áreas de trabajo se encuentran:",
+    "myServiceAreas": ["Educación financiera", "Formación en emprendimiento", "Desarrollo de habilidades socioemocionales", "Fortalecimiento empresarial", "Turismo comunitario", "Diseño de material educativo", "Organización de eventos", "Capacitación de estudiantes", "Apoyo a emprendimientos locales"],
+    "myServiceClosing": "Cada proyecto representa una colaboración construida junto con instituciones y líderes comunitarios, buscando siempre generar resultados sostenibles y medibles."
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "intro": "Cada proyecto presentado en este sitio refleja una necesidad identificada por la comunidad y una solución desarrollada en conjunto con los actores locales.",
+    "searchLabel": "Buscar proyectos",
+    "searchPlaceholder": "Buscar por título o palabra clave...",
+    "filterCategory": "Categoría",
+    "filterLocation": "Ubicación",
+    "filterStatus": "Estado",
+    "filterAll": "Todas",
+    "clearFilters": "Limpiar filtros",
+    "noResults": "No se encontraron proyectos con estos criterios.",
+    "featuredBadge": "Destacado",
+    "viewProject": "Ver proyecto",
+    "roleLabel": "Mi rol",
+    "statusOptions": {
+      "ongoing": "En curso",
+      "completed": "Completado",
+      "planned": "Planeado"
+    }
+  },
+  "project": {
+    "backLink": "Volver a Proyectos",
+    "dateLabel": "Fecha",
+    "overviewTitle": "Resumen",
+    "roleTitle": "Mi Rol",
+    "partnersTitle": "Organizaciones Socias",
+    "activitiesTitle": "Actividades Realizadas",
+    "skillsTitle": "Habilidades Demostradas",
+    "documentsTitle": "Documentos Relacionados",
+    "relatedTitle": "Proyectos Relacionados",
+    "externalLinkTitle": "Enlace Externo",
+    "galleryTitle": "Galería del Proyecto",
+    "notFound": "Proyecto no encontrado.",
+    "download": "Descargar"
+  },
+  "experience": {
+    "heading": "Experiencia y Habilidades",
+    "intro": "Mi experiencia profesional combina el sector privado, organizaciones sin fines de lucro y desarrollo internacional. A lo largo de mi carrera he trabajado en áreas como:",
+    "areas": ["Ventas", "Atención al cliente", "Gestión empresarial", "Capacitación de personal", "Liderazgo de equipos", "Desarrollo comunitario", "Educación", "Emprendimiento", "Relaciones interculturales"],
+    "closing": "Estas experiencias me han permitido desarrollar habilidades de liderazgo, comunicación, resolución de problemas y gestión de proyectos en distintos contextos culturales.",
+    "timelineTitle": "Trayectoria Profesional",
+    "responsibilitiesTitle": "Responsabilidades",
+    "accomplishmentsTitle": "Logros",
+    "skillsUsedTitle": "Habilidades Aplicadas",
+    "skillsHeading": "Habilidades",
+    "skillsIntro": "Áreas de habilidad desarrolladas a través del servicio, la educación y la experiencia profesional.",
+    "skillGroups": [
+      { "title": "Liderazgo y Habilidades Profesionales", "skills": ["Liderazgo", "Planificación estratégica", "Resolución de problemas", "Trabajo en equipo", "Adaptabilidad", "Análisis empresarial"] },
+      { "title": "Desarrollo Económico Comunitario", "skills": ["Diagnóstico de necesidades comunitarias", "Desarrollo de proyectos colaborativos", "Fortalecimiento organizacional"] },
+      { "title": "Gestión de Proyectos", "skills": ["Planificación de proyectos", "Monitoreo y evaluación", "Coordinación con socios"] },
+      { "title": "Facilitación de Talleres", "skills": ["Diseño curricular", "Facilitación participativa", "Adaptación de contenido"] },
+      { "title": "Educación Empresarial", "skills": ["Planificación de negocios", "Modelos de negocio", "Asesoría a emprendedores"] },
+      { "title": "Alfabetización Financiera", "skills": ["Presupuesto personal", "Ahorro", "Educación financiera básica"] },
+      { "title": "Alcance Comunitario", "skills": ["Construcción de relaciones", "Mapeo de actores", "Comunicación comunitaria"] },
+      { "title": "Desarrollo de Alianzas", "skills": ["Gestión de relaciones institucionales", "Negociación colaborativa"] },
+      { "title": "Investigación y Evaluación de Necesidades", "skills": ["Recolección de datos", "Análisis cualitativo", "Diagnóstico participativo"] },
+      { "title": "Oratoria", "skills": ["Presentaciones públicas", "Capacitación de adultos"] },
+      { "title": "Comunicación Intercultural", "skills": ["Adaptación cultural", "Trabajo en contextos diversos"] },
+      { "title": "Desarrollo de Negocios", "skills": ["Estrategia de crecimiento", "Análisis de mercado local"] },
+      { "title": "Marketing", "skills": ["Marketing digital básico", "Branding para pequeños negocios"] },
+      { "title": "Diseño Gráfico", "skills": ["Materiales educativos", "Identidad visual básica"] },
+      { "title": "Idiomas", "skills": ["Español (avanzado)", "Inglés (nativo)", "Alemán (básico/en desarrollo)"] },
+      { "title": "Herramientas", "skills": ["Microsoft Office", "Google Workspace", "Canva"] }
+    ],
+    "otherToolsTitle": "Otras Herramientas",
+    "otherTools": ["[AÑADIR otra herramienta]"]
+  },
+  "gallery": {
+    "heading": "Galería",
+    "intro": "Una colección visual de los proyectos, comunidades y experiencias que han formado parte de mi servicio. Cada fotografía representa una historia de colaboración, aprendizaje y crecimiento compartido.",
+    "consentNote": "Nota: se obtiene consentimiento antes de publicar fotos identificables de estudiantes, menores de edad, miembros de la comunidad, familias anfitrionas o participantes de proyectos.",
+    "filterAll": "Todas",
+    "filterLabel": "Filtrar por proyecto",
+    "lightboxClose": "Cerrar",
+    "lightboxNext": "Siguiente",
+    "lightboxPrev": "Anterior",
+    "noImages": "[AÑADIR fotos a la galería]"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "placeholder": "[AÑADIR contenido]"
+  }
+}

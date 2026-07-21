@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">Replace with a portrait photo.</desc>
+  <rect width="800" height="600" fill="#eef1f0"/>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#c7d0cc" stroke-width="2"/>
+  <circle cx="400" cy="230" r="90" fill="#d3dad6"/>
+  <rect x="260" y="340" width="280" height="150" rx="16" fill="#d3dad6"/>
+  <text x="400" y="530" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5c6660" text-anchor="middle">[ADD portrait / AÑADIR retrato]</text>
+</svg>

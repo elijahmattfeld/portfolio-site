@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Photo placeholder</title>
+  <desc id="desc">Replace with a professional photo or Colombia project image.</desc>
+  <rect width="800" height="600" fill="#e7ebe9"/>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#c7d0cc" stroke-width="2"/>
+  <circle cx="400" cy="250" r="70" fill="#c7d0cc"/>
+  <rect x="290" y="340" width="220" height="110" rx="12" fill="#c7d0cc"/>
+  <text x="400" y="500" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#5c6660" text-anchor="middle">[ADD photo / AÑADIR foto]</text>
+</svg>

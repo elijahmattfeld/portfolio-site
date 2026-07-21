@@ -1,0 +1,435 @@
+[
+  {
+    "slug": "youth-entrepreneurship-workshops",
+    "title": {
+      "es": "Talleres de Emprendimiento Juvenil",
+      "en": "Youth Entrepreneurship Workshops"
+    },
+    "summary": {
+      "es": "Cofacilité una serie de talleres de emprendimiento para estudiantes de educación secundaria en diferentes instituciones educativas de Galapa.",
+      "en": "I co-facilitated a series of entrepreneurship workshops for secondary school students at different educational institutions in Galapa."
+    },
+    "category": "Youth Development",
+    "location": "Galapa, Atlántico, Colombia",
+    "date": "Octubre de 2025 – Junio de 2026",
+    "status": "completed",
+    "featured": true,
+    "coverImage": "assets/images/talleres-emprendimiento-juvenil.jpg",
+    "coverImageAlt": {
+      "es": "Elías cofacilitando un taller de emprendimiento con estudiantes de secundaria en Galapa",
+      "en": "Elías co-facilitating an entrepreneurship workshop with secondary school students in Galapa"
+    },
+    "role": {
+      "es": "Cofacilitador y docente de talleres de emprendimiento juvenil",
+      "en": "Co-facilitator and instructor for youth entrepreneurship workshops"
+    },
+    "partners": [
+      "Cultivarte Galapa",
+      "Institución Educativa Antonio Nariño",
+      "Institución Educativa María Auxiliadora",
+      "Institución Educativa Técnico Francisco de Paula Santander"
+    ],
+    "overview": {
+      "es": "Cofacilité una serie de talleres de emprendimiento para estudiantes de educación secundaria en diferentes instituciones educativas de Galapa. Cada ciclo estuvo compuesto por cuatro sesiones diseñadas para desarrollar habilidades emprendedoras mediante actividades prácticas, trabajo colaborativo y la aplicación de conceptos empresariales a problemas reales.",
+      "en": "I co-facilitated a series of entrepreneurship workshops for secondary school students at different educational institutions in Galapa. Each cycle consisted of four sessions designed to develop entrepreneurial skills through hands-on activities, collaborative work, and applying business concepts to real problems."
+    },
+    "activities": [
+      {
+        "es": "Cofacilitación de ciclos de cuatro sesiones de emprendimiento en instituciones educativas.",
+        "en": "Co-facilitated four-session entrepreneurship cycles at educational institutions."
+      },
+      {
+        "es": "Desarrollo de talleres sobre innovación y creatividad.",
+        "en": "Developed workshops on innovation and creativity."
+      },
+      {
+        "es": "Orientación en la creación y validación de ideas de negocio.",
+        "en": "Guided students in creating and validating business ideas."
+      },
+      {
+        "es": "Análisis de la demanda del mercado y necesidades del cliente.",
+        "en": "Analyzed market demand and customer needs."
+      },
+      {
+        "es": "Fortalecimiento de habilidades de networking y comunicación.",
+        "en": "Strengthened networking and communication skills."
+      },
+      {
+        "es": "Preparación y presentación de business pitches ante compañeros y docentes.",
+        "en": "Prepared and presented business pitches to peers and teachers."
+      }
+    ],
+    "skills": [
+      {
+        "es": "Educación en Emprendimiento",
+        "en": "Entrepreneurship Education"
+      },
+      {
+        "es": "Facilitación de Talleres",
+        "en": "Workshop Facilitation"
+      },
+      {
+        "es": "Desarrollo Juvenil",
+        "en": "Youth Development"
+      }
+    ],
+    "gallery": [],
+    "documents": [],
+    "relatedProjects": [],
+    "externalLink": ""
+  },
+  {
+    "slug": "business-marketing-resource-development",
+    "title": {
+      "es": "Desarrollo de Recursos de Negocios y Marketing",
+      "en": "Business and Marketing Resource Development"
+    },
+    "summary": {
+      "es": "Cofacilité una serie de talleres de emprendimiento sobre creación y formalización de empresas, marketing digital y marca personal.",
+      "en": "I co-facilitated a series of entrepreneurship workshops on business formation, digital marketing, and personal branding."
+    },
+    "category": "Business Development",
+    "location": "Barranquilla, Atlántico, Colombia",
+    "date": "6 de marzo – 27 de marzo de 2026",
+    "status": "completed",
+    "featured": false,
+    "coverImage": "assets/images/taller-emprendimiento-marketing.jpg",
+    "coverImageAlt": {
+      "es": "Elías facilitando un taller de emprendimiento sobre segmentación de mercado",
+      "en": "Elías facilitating an entrepreneurship workshop on market segmentation"
+    },
+    "role": {
+      "es": "Cofacilitador e instructor de talleres de emprendimiento, marketing digital y marca personal",
+      "en": "Co-facilitator and instructor for workshops on entrepreneurship, digital marketing, and personal branding"
+    },
+    "partners": [
+      "Iglesia Vertical"
+    ],
+    "overview": {
+      "es": "Cofacilité una serie de talleres de emprendimiento dirigida a emprendedores y personas interesadas en iniciar un negocio. Durante las sesiones impartí contenidos sobre creación y formalización de empresas, marketing digital y construcción de marca personal, brindando herramientas prácticas para fortalecer la presencia y el crecimiento de sus emprendimientos.",
+      "en": "I co-facilitated a series of entrepreneurship workshops for entrepreneurs and people interested in starting a business. During the sessions, I covered business formation and formalization, digital marketing, and personal branding, providing practical tools to strengthen the presence and growth of their ventures."
+    },
+    "activities": [
+      {
+        "es": "Convocatoria para la participación en los talleres.",
+        "en": "Outreach and recruitment for workshop participation."
+      },
+      {
+        "es": "Tres sábados seguidos, con un total de 6 sesiones dictadas.",
+        "en": "Three consecutive Saturdays, for a total of 6 sessions taught."
+      }
+    ],
+    "skills": [
+      {
+        "es": "Marketing",
+        "en": "Marketing"
+      },
+      {
+        "es": "Diseño Gráfico",
+        "en": "Graphic Design"
+      },
+      {
+        "es": "Desarrollo de Negocios",
+        "en": "Business Development"
+      }
+    ],
+    "gallery": [],
+    "documents": [],
+    "relatedProjects": [],
+    "externalLink": ""
+  },
+  {
+    "slug": "artisan-small-business-support",
+    "title": {
+      "es": "Apoyo a Artesanos y Pequeños Negocios",
+      "en": "Artisan and Small-Business Support"
+    },
+    "summary": {
+      "es": "[AÑADIR resumen breve del proyecto]",
+      "en": "[ADD short project summary]"
+    },
+    "category": "Entrepreneurship",
+    "location": "[ADD/AÑADIR: municipality or community]",
+    "date": "[ADD/AÑADIR: date or range]",
+    "status": "ongoing",
+    "featured": false,
+    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImageAlt": {
+      "es": "Imagen de marcador de posición para el apoyo a artesanos y pequeños negocios",
+      "en": "Placeholder image for artisan and small-business support"
+    },
+    "role": {
+      "es": "[AÑADIR mi rol]",
+      "en": "[ADD my role]"
+    },
+    "partners": [
+      "[ADD/AÑADIR: partner organization]"
+    ],
+    "overview": {
+      "es": "[AÑADIR resumen general del proyecto]",
+      "en": "[ADD general project overview]"
+    },
+    "activities": [
+      {
+        "es": "[AÑADIR actividad realizada]",
+        "en": "[ADD activity completed]"
+      }
+    ],
+    "skills": [
+      {
+        "es": "Alcance Comunitario",
+        "en": "Community Outreach"
+      },
+      {
+        "es": "Desarrollo de Negocios",
+        "en": "Business Development"
+      },
+      {
+        "es": "Desarrollo de Alianzas",
+        "en": "Partnership Development"
+      }
+    ],
+    "gallery": [],
+    "documents": [],
+    "relatedProjects": [],
+    "externalLink": ""
+  },
+  {
+    "slug": "construye-tus-suenos",
+    "title": {
+      "es": "Construye Tus Sueños: Formación en Emprendimiento y Empleabilidad",
+      "en": "Construye Tus Sueños: Entrepreneurship and Employability Education"
+    },
+    "summary": {
+      "es": "Colaboré con docentes e instituciones educativas para cofacilitar el currículo Construye Tus Sueños con estudiantes de grados décimo y undécimo.",
+      "en": "I collaborated with teachers and educational institutions to co-facilitate the Construye Tus Sueños curriculum with 10th- and 11th-grade students."
+    },
+    "category": "Education",
+    "location": "Galapa, Atlántico, Colombia",
+    "date": "Enero de 2026 – Junio de 2026",
+    "status": "completed",
+    "featured": true,
+    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImageAlt": {
+      "es": "Imagen de marcador de posición para Construye Tus Sueños",
+      "en": "Placeholder image for Construye Tus Sueños"
+    },
+    "role": {
+      "es": "Cofacilitador, planificador de lecciones y adaptador de recursos educativos",
+      "en": "Co-facilitator, lesson planner, and educational-resource adapter"
+    },
+    "partners": [
+      "Cuerpo de Paz Colombia",
+      "UNICA – Institución Universitaria Colombo Americana",
+      "Instituciones educativas locales"
+    ],
+    "overview": {
+      "es": "Construye Tus Sueños es un currículo desarrollado por el Cuerpo de Paz en colaboración con UNICA – Institución Universitaria Colombo Americana, creado específicamente para voluntarios de Desarrollo Económico Comunitario en Colombia. Se enseña a estudiantes de grados décimo y undécimo y está diseñado para fortalecer habilidades de emprendimiento, empleabilidad, educación financiera y socioemocionales.",
+      "en": "Construye Tus Sueños is a curriculum developed by Peace Corps in collaboration with UNICA – Institución Universitaria Colombo Americana, created specifically for Community Economic Development volunteers in Colombia. It is taught to 10th- and 11th-grade students and is designed to strengthen entrepreneurship, employability, financial-literacy, and socioemotional skills."
+    },
+    "activities": [
+      {
+        "es": "Cofacilité sesiones de Construye Tus Sueños con estudiantes de décimo y undécimo.",
+        "en": "Co-facilitated Construye Tus Sueños sessions with 10th- and 11th-grade students."
+      },
+      {
+        "es": "Adapté ejemplos y desarrollé ejercicios participativos.",
+        "en": "Adapted examples and developed participatory exercises."
+      },
+      {
+        "es": "Apoyé la planificación de lecciones junto con docentes.",
+        "en": "Supported lesson planning alongside teachers."
+      }
+    ],
+    "skills": [
+      {
+        "es": "Empleabilidad y Habilidades Socioemocionales",
+        "en": "Employability and Socioemotional Skills"
+      },
+      {
+        "es": "Facilitación de Talleres",
+        "en": "Workshop Facilitation"
+      },
+      {
+        "es": "Educación en Emprendimiento",
+        "en": "Entrepreneurship Education"
+      },
+      {
+        "es": "Alfabetización Financiera",
+        "en": "Financial Literacy"
+      },
+      {
+        "es": "Desarrollo Juvenil",
+        "en": "Youth Development"
+      }
+    ],
+    "gallery": [],
+    "documents": [],
+    "relatedProjects": [],
+    "externalLink": ""
+  },
+  {
+    "slug": "entrepreneurship-clubs",
+    "title": {
+      "es": "Clubes de Emprendimiento",
+      "en": "Entrepreneurship Clubs"
+    },
+    "summary": {
+      "es": "[AÑADIR resumen breve del proyecto]",
+      "en": "[ADD short project summary]"
+    },
+    "category": "Entrepreneurship",
+    "location": "[ADD/AÑADIR: municipality or community]",
+    "date": "[ADD/AÑADIR: date or range]",
+    "status": "planned",
+    "featured": false,
+    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImageAlt": {
+      "es": "Imagen de marcador de posición para los clubes de emprendimiento",
+      "en": "Placeholder image for the entrepreneurship clubs"
+    },
+    "role": {
+      "es": "[AÑADIR mi rol]",
+      "en": "[ADD my role]"
+    },
+    "partners": [
+      "[ADD/AÑADIR: partner organization]"
+    ],
+    "overview": {
+      "es": "[AÑADIR resumen general del proyecto]",
+      "en": "[ADD general project overview]"
+    },
+    "activities": [
+      {
+        "es": "[AÑADIR actividad realizada]",
+        "en": "[ADD activity completed]"
+      }
+    ],
+    "skills": [
+      {
+        "es": "Educación en Emprendimiento",
+        "en": "Entrepreneurship Education"
+      },
+      {
+        "es": "Desarrollo Juvenil",
+        "en": "Youth Development"
+      },
+      {
+        "es": "Facilitación de Talleres",
+        "en": "Workshop Facilitation"
+      }
+    ],
+    "gallery": [],
+    "documents": [],
+    "relatedProjects": [],
+    "externalLink": ""
+  },
+  {
+    "slug": "tourism-promotion-resources",
+    "title": {
+      "es": "Recursos de Promoción Turística",
+      "en": "Tourism Promotion Resources"
+    },
+    "summary": {
+      "es": "[AÑADIR resumen breve del proyecto]",
+      "en": "[ADD short project summary]"
+    },
+    "category": "Tourism",
+    "location": "[ADD/AÑADIR: municipality or community]",
+    "date": "[ADD/AÑADIR: date or range]",
+    "status": "planned",
+    "featured": false,
+    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImageAlt": {
+      "es": "Imagen de marcador de posición para los recursos de promoción turística",
+      "en": "Placeholder image for the tourism promotion resources"
+    },
+    "role": {
+      "es": "[AÑADIR mi rol]",
+      "en": "[ADD my role]"
+    },
+    "partners": [
+      "[ADD/AÑADIR: partner organization]"
+    ],
+    "overview": {
+      "es": "[AÑADIR resumen general del proyecto]",
+      "en": "[ADD general project overview]"
+    },
+    "activities": [
+      {
+        "es": "[AÑADIR actividad realizada]",
+        "en": "[ADD activity completed]"
+      }
+    ],
+    "skills": [
+      {
+        "es": "Turismo y Desarrollo Económico Local",
+        "en": "Tourism and Local Economic Development"
+      },
+      {
+        "es": "Marketing",
+        "en": "Marketing"
+      },
+      {
+        "es": "Diseño Gráfico",
+        "en": "Graphic Design"
+      }
+    ],
+    "gallery": [],
+    "documents": [],
+    "relatedProjects": [],
+    "externalLink": ""
+  },
+  {
+    "slug": "graphic-design-educational-materials",
+    "title": {
+      "es": "Diseño Gráfico y Materiales Educativos",
+      "en": "Graphic Design and Educational Materials"
+    },
+    "summary": {
+      "es": "[AÑADIR resumen breve del proyecto]",
+      "en": "[ADD short project summary]"
+    },
+    "category": "Graphic Design",
+    "location": "[ADD/AÑADIR: municipality or community]",
+    "date": "[ADD/AÑADIR: date or range]",
+    "status": "planned",
+    "featured": false,
+    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImageAlt": {
+      "es": "Imagen de marcador de posición para el diseño gráfico y materiales educativos",
+      "en": "Placeholder image for the graphic design and educational materials"
+    },
+    "role": {
+      "es": "[AÑADIR mi rol]",
+      "en": "[ADD my role]"
+    },
+    "partners": [
+      "[ADD/AÑADIR: partner organization]"
+    ],
+    "overview": {
+      "es": "[AÑADIR resumen general del proyecto]",
+      "en": "[ADD general project overview]"
+    },
+    "activities": [
+      {
+        "es": "[AÑADIR actividad realizada]",
+        "en": "[ADD activity completed]"
+      }
+    ],
+    "skills": [
+      {
+        "es": "Diseño Gráfico",
+        "en": "Graphic Design"
+      },
+      {
+        "es": "Facilitación de Talleres",
+        "en": "Workshop Facilitation"
+      }
+    ],
+    "gallery": [],
+    "documents": [],
+    "relatedProjects": [],
+    "externalLink": ""
+  }
+]

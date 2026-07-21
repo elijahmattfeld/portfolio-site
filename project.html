@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-i18n="meta.project.title">Proyecto | Elías Mattfeld Campos</title>
+<meta name="description" data-i18n-attr="content:meta.project.description" content="Detalles de un proyecto comunitario o profesional." />
+<meta property="og:title" data-i18n-attr="content:meta.project.title" content="Proyecto" />
+<meta property="og:description" data-i18n-attr="content:meta.project.description" content="Detalles de un proyecto comunitario o profesional." />
+<meta property="og:type" content="article" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body id="top">
+<a class="skip-link" href="#main-content">Saltar al contenido principal / Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="site-title">Elías Mattfeld Campos</a>
+    <div class="nav-controls">
+      <button class="lang-toggle" type="button">EN</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú / Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="main-nav" id="main-nav" aria-label="Principal">
+    <div class="container">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="about.html" data-i18n="nav.about">Sobre Mí</a></li>
+        <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+        <li><a href="ced-role.html" data-i18n="nav.cedRole">Mi Rol de CED</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+        <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+  <section>
+    <div class="container">
+      <div id="project-detail"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-tagline" data-i18n="footer.tagline">El verdadero desarrollo ocurre cuando las comunidades cuentan con las herramientas necesarias para construir su propio futuro.</p>
+    <ul class="footer-links">
+      <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+      <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+    </ul>
+    <p data-i18n="footer.rights">Portafolio personal de Elías Mattfeld Campos.</p>
+    <a class="back-to-top" href="#top" data-i18n="footer.backToTop">Volver arriba</a>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/projects.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    window.ProjectsModule.renderDetail("project-detail");
+  });
+</script>
+</body>
+</html>

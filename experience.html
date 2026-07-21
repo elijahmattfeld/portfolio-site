@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-i18n="meta.experience.title">Experiencia y Habilidades | Elías Mattfeld Campos</title>
+<meta name="description" data-i18n-attr="content:meta.experience.description" content="Mi trayectoria profesional, educativa y de servicio, junto con mis habilidades." />
+<meta property="og:title" data-i18n-attr="content:meta.experience.title" content="Experiencia y Habilidades" />
+<meta property="og:description" data-i18n-attr="content:meta.experience.description" content="Mi trayectoria profesional, educativa y de servicio." />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body id="top">
+<a class="skip-link" href="#main-content">Saltar al contenido principal / Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="site-title">Elías Mattfeld Campos</a>
+    <div class="nav-controls">
+      <button class="lang-toggle" type="button">EN</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú / Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="main-nav" id="main-nav" aria-label="Principal">
+    <div class="container">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="about.html" data-i18n="nav.about">Sobre Mí</a></li>
+        <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+        <li><a href="ced-role.html" data-i18n="nav.cedRole">Mi Rol de CED</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+        <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+  <section>
+    <div class="container">
+      <h1 data-i18n="experience.heading">Experiencia y Habilidades</h1>
+      <p data-i18n="experience.intro">Mi trayectoria profesional, educativa y de servicio.</p>
+      <ul id="experience-areas"></ul>
+      <p data-i18n="experience.closing">Estas experiencias me han permitido desarrollar habilidades de liderazgo, comunicación, resolución de problemas y gestión de proyectos.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <h2 data-i18n="experience.timelineTitle">Trayectoria Profesional</h2>
+      <div id="experience-list" class="card-grid cols-2"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="experience.skillsHeading">Habilidades</h2>
+        <p data-i18n="experience.skillsIntro">Áreas de habilidad desarrolladas a través del servicio, la educación y la experiencia profesional.</p>
+      </div>
+      <div id="skill-groups"></div>
+      <div class="skill-group">
+        <h3 data-i18n="experience.otherToolsTitle">Otras Herramientas</h3>
+        <div class="skill-badges" id="other-tools"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-tagline" data-i18n="footer.tagline">El verdadero desarrollo ocurre cuando las comunidades cuentan con las herramientas necesarias para construir su propio futuro.</p>
+    <ul class="footer-links">
+      <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+      <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+    </ul>
+    <p data-i18n="footer.rights">Portafolio personal de Elías Mattfeld Campos.</p>
+    <a class="back-to-top" href="#top" data-i18n="footer.backToTop">Volver arriba</a>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  function localize(field, lang) {
+    if (field && typeof field === "object") return field[lang] || field.es || field.en || "";
+    return field || "";
+  }
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.textContent = str || "";
+    return div.innerHTML;
+  }
+
+  let experienceData = null;
+  async function loadExperience() {
+    if (experienceData) return experienceData;
+    const res = await fetch("data/experience.json", { cache: "no-cache" });
+    experienceData = await res.json();
+    return experienceData;
+  }
+
+  async function renderExperience(dict) {
+    const lang = window.i18n.getLang();
+    const entries = await loadExperience();
+    const list = document.getElementById("experience-list");
+    if (list) {
+      list.innerHTML = entries
+        .map((e) => {
+          const responsibilities = (e.responsibilities || []).map((r) => `<li>${escapeHtml(localize(r, lang))}</li>`).join("");
+          const accomplishments = (e.accomplishments || []).map((a) => `<li>${escapeHtml(localize(a, lang))}</li>`).join("");
+          const skills = (e.skills || []).map((s) => `<span class="skill-badge">${escapeHtml(localize(s, lang))}</span>`).join("");
+          return `
+            <article class="card">
+              <div class="card-body">
+                <span class="badge">${escapeHtml(e.type)}</span>
+                <h3>${escapeHtml(localize(e.role, lang))}</h3>
+                <p class="card-meta"><span>${escapeHtml(e.organization)}</span><span>${escapeHtml(e.location)}</span><span>${escapeHtml(e.dates)}</span></p>
+                <p>${escapeHtml(localize(e.summary, lang))}</p>
+                ${responsibilities ? `<h4>${dict.experience.responsibilitiesTitle}</h4><ul>${responsibilities}</ul>` : ""}
+                ${accomplishments ? `<h4>${dict.experience.accomplishmentsTitle}</h4><ul>${accomplishments}</ul>` : ""}
+                ${skills ? `<h4>${dict.experience.skillsUsedTitle}</h4><div class="skill-badges">${skills}</div>` : ""}
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+    }
+  }
+
+  function renderSkills(dict) {
+    const container = document.getElementById("skill-groups");
+    if (container && dict.experience.skillGroups) {
+      container.innerHTML = dict.experience.skillGroups
+        .map(
+          (g) => `
+          <div class="skill-group">
+            <h3>${g.title}</h3>
+            <div class="skill-badges">${g.skills.map((s) => `<span class="skill-badge">${s}</span>`).join("")}</div>
+          </div>
+        `
+        )
+        .join("");
+    }
+    const otherTools = document.getElementById("other-tools");
+    if (otherTools && dict.experience.otherTools) {
+      otherTools.innerHTML = dict.experience.otherTools.map((t) => `<span class="skill-badge">${t}</span>`).join("");
+    }
+  }
+
+  function renderExperienceAreas(dict) {
+    const areas = document.getElementById("experience-areas");
+    if (areas && dict.experience.areas) {
+      areas.innerHTML = dict.experience.areas.map((item) => `<li>${item}</li>`).join("");
+    }
+  }
+
+  document.addEventListener("i18n:rendered", (e) => {
+    renderExperience(e.detail.dict);
+    renderSkills(e.detail.dict);
+    renderExperienceAreas(e.detail.dict);
+  });
+</script>
+</body>
+</html>

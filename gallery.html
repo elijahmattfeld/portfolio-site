@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-i18n="meta.gallery.title">Galería | Elías Mattfeld Campos</title>
+<meta name="description" data-i18n-attr="content:meta.gallery.description" content="Fotos de talleres, proyectos comunitarios y actividades de servicio." />
+<meta property="og:title" data-i18n-attr="content:meta.gallery.title" content="Galería" />
+<meta property="og:description" data-i18n-attr="content:meta.gallery.description" content="Fotos de talleres, proyectos comunitarios y actividades de servicio." />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body id="top">
+<!--
+  Content note: obtain consent before posting identifiable photos of
+  students, minors, community members, host families, or project
+  participants. Add entries to data/gallery.json only after consent
+  has been confirmed.
+-->
+<a class="skip-link" href="#main-content">Saltar al contenido principal / Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="site-title">Elías Mattfeld Campos</a>
+    <div class="nav-controls">
+      <button class="lang-toggle" type="button">EN</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú / Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="main-nav" id="main-nav" aria-label="Principal">
+    <div class="container">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="about.html" data-i18n="nav.about">Sobre Mí</a></li>
+        <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+        <li><a href="ced-role.html" data-i18n="nav.cedRole">Mi Rol de CED</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+        <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+  <section>
+    <div class="container">
+      <h1 data-i18n="gallery.heading">Galería</h1>
+      <p data-i18n="gallery.intro">Fotos de talleres, actividades de proyectos, materiales educativos, comunidades y eventos.</p>
+      <p class="text-muted" data-i18n="gallery.consentNote" style="font-size: 0.85rem;">Nota: se obtiene consentimiento antes de publicar fotos identificables.</p>
+
+      <div class="filter-bar">
+        <div class="filter-field">
+          <label for="gallery-filter" data-i18n="gallery.filterLabel">Filtrar por proyecto</label>
+          <select id="gallery-filter"></select>
+        </div>
+      </div>
+
+      <div id="gallery-empty" class="empty-state" hidden data-i18n="gallery.noImages">[AÑADIR fotos a la galería]</div>
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-tagline" data-i18n="footer.tagline">El verdadero desarrollo ocurre cuando las comunidades cuentan con las herramientas necesarias para construir su propio futuro.</p>
+    <ul class="footer-links">
+      <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+      <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+    </ul>
+    <p data-i18n="footer.rights">Portafolio personal de Elías Mattfeld Campos.</p>
+    <a class="back-to-top" href="#top" data-i18n="footer.backToTop">Volver arriba</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes">
+  <div class="lightbox-content">
+    <img src="" alt="" />
+    <p class="lightbox-caption"></p>
+    <div class="lightbox-controls">
+      <button type="button" class="lightbox-prev" data-i18n="gallery.lightboxPrev">Anterior</button>
+      <button type="button" class="lightbox-close" data-i18n="gallery.lightboxClose">Cerrar</button>
+      <button type="button" class="lightbox-next" data-i18n="gallery.lightboxNext">Siguiente</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/gallery.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    window.GalleryModule.renderGallery("gallery-grid");
+    window.GalleryModule.setupLightboxControls();
+  });
+</script>
+</body>
+</html>

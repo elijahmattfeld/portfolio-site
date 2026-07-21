@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-i18n="meta.peaceCorps.title">Qué es el Cuerpo de Paz | Elías Mattfeld Campos</title>
+<meta name="description" data-i18n-attr="content:meta.peaceCorps.description" content="Una explicación en lenguaje sencillo sobre el Cuerpo de Paz." />
+<meta property="og:title" data-i18n-attr="content:meta.peaceCorps.title" content="Qué es el Cuerpo de Paz" />
+<meta property="og:description" data-i18n-attr="content:meta.peaceCorps.description" content="Una explicación en lenguaje sencillo sobre el Cuerpo de Paz." />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body id="top">
+<a class="skip-link" href="#main-content">Saltar al contenido principal / Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="site-title">Elías Mattfeld Campos</a>
+    <div class="nav-controls">
+      <button class="lang-toggle" type="button">EN</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú / Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="main-nav" id="main-nav" aria-label="Principal">
+    <div class="container">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="about.html" data-i18n="nav.about">Sobre Mí</a></li>
+        <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+        <li><a href="ced-role.html" data-i18n="nav.cedRole">Mi Rol de CED</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+        <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+  <section>
+    <div class="container">
+      <h1 data-i18n="peaceCorps.heading">Qué es el Cuerpo de Paz</h1>
+      <div class="disclaimer" data-i18n="peaceCorps.disclaimer" style="margin-bottom: var(--space-5);">Este es un sitio web personal.</div>
+      <p data-i18n="peaceCorps.intro">El Cuerpo de Paz es una agencia del gobierno de los Estados Unidos.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <h2 data-i18n="peaceCorps.whatItIsTitle">Qué es</h2>
+      <p data-i18n="peaceCorps.whatItIsText">El Cuerpo de Paz combina servicio, intercambio cultural y colaboración comunitaria.</p>
+      <ul id="pc-projects"></ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 data-i18n="peaceCorps.howItWorksTitle">Cómo Funciona</h2>
+      <p data-i18n="peaceCorps.howItWorksText">Los proyectos del Cuerpo de Paz se desarrollan de manera colaborativa.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <h2 data-i18n="peaceCorps.goalsTitle">Los Tres Objetivos del Cuerpo de Paz</h2>
+      <div id="pc-goals" class="card-grid cols-3"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 data-i18n="peaceCorps.exchangeTitle">La Importancia del Intercambio Cultural</h2>
+      <p data-i18n="peaceCorps.exchangeText">Construir relaciones genuinas y de confianza es tan importante como el trabajo técnico.</p>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <h2 data-i18n="peaceCorps.practiceTitle">Cómo Se Ve el Servicio del Cuerpo de Paz en la Práctica</h2>
+      <ol class="step-list" id="pc-practice"></ol>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <p class="stats-note" data-i18n="peaceCorps.statsNote">[AÑADIR: estadísticas oficiales con cita.]</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-tagline" data-i18n="footer.tagline">El verdadero desarrollo ocurre cuando las comunidades cuentan con las herramientas necesarias para construir su propio futuro.</p>
+    <ul class="footer-links">
+      <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+      <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+    </ul>
+    <p data-i18n="footer.rights">Portafolio personal de Elías Mattfeld Campos.</p>
+    <a class="back-to-top" href="#top" data-i18n="footer.backToTop">Volver arriba</a>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  function renderPeaceCorps(dict) {
+    const goals = document.getElementById("pc-goals");
+    if (goals && dict.peaceCorps.goals) {
+      goals.innerHTML = dict.peaceCorps.goals
+        .map((g) => `<div class="icon-card"><h3>${g.title}</h3><p>${g.text}</p></div>`)
+        .join("");
+    }
+    const practice = document.getElementById("pc-practice");
+    if (practice && dict.peaceCorps.practiceSteps) {
+      practice.innerHTML = dict.peaceCorps.practiceSteps
+        .map((s) => `<li class="step-item"><span class="step-number" aria-hidden="true"></span><div><h3>${s.title}</h3><p>${s.text}</p></div></li>`)
+        .join("");
+    }
+    const projects = document.getElementById("pc-projects");
+    if (projects && dict.peaceCorps.projects) {
+      projects.innerHTML = dict.peaceCorps.projects.map((item) => `<li>${item}</li>`).join("");
+    }
+  }
+  document.addEventListener("i18n:rendered", (e) => renderPeaceCorps(e.detail.dict));
+</script>
+</body>
+</html>

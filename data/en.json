@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "siteName": "Elías Mattfeld Campos",
+    "home": {
+      "title": "Elías Mattfeld Campos | Peace Corps Volunteer",
+      "description": "Professional portfolio of Elías Mattfeld Campos, Community Economic Development Peace Corps Volunteer in Colombia."
+    },
+    "about": {
+      "title": "About Me | Elías Mattfeld Campos",
+      "description": "Learn about my educational, professional, and international background."
+    },
+    "peaceCorps": {
+      "title": "What Is Peace Corps | Elías Mattfeld Campos",
+      "description": "A plain-language explanation of Peace Corps and its mission."
+    },
+    "cedRole": {
+      "title": "My CED Role | Elías Mattfeld Campos",
+      "description": "How I work as a Community Economic Development Volunteer in Colombia."
+    },
+    "projects": {
+      "title": "Projects | Elías Mattfeld Campos",
+      "description": "Explore the community and professional projects I've collaborated on."
+    },
+    "project": {
+      "title": "Project | Elías Mattfeld Campos",
+      "description": "Details of a community or professional project."
+    },
+    "experience": {
+      "title": "Experience and Skills | Elías Mattfeld Campos",
+      "description": "My professional, educational, and service background, along with my skills."
+    },
+    "gallery": {
+      "title": "Gallery | Elías Mattfeld Campos",
+      "description": "Photos from workshops, community projects, and service activities."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "peaceCorps": "What Is Peace Corps",
+    "cedRole": "My CED Role",
+    "projects": "Projects",
+    "experience": "Experience & Skills",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "menu": "Menu",
+    "langToggle": "ES"
+  },
+  "footer": {
+    "tagline": "[TRANSLATE: matches es.footer.tagline]",
+    "disclaimer": "This is a personal website. The views expressed here are my own and do not necessarily reflect the views of the United States Government or the Peace Corps.",
+    "rights": "Personal portfolio of Elías Mattfeld Campos.",
+    "backToTop": "Back to top"
+  },
+  "home": {
+    "headline": "Peace Corps Volunteer | Community Economic Development | Business Management | Entrepreneurship | Education",
+    "intro": "[TRANSLATE: matches es.home.intro]",
+    "shortIntro": "[TRANSLATE: matches es.home.shortIntro]",
+    "photoAlt": "Professional portrait of Elías Mattfeld Campos",
+    "ctaProjects": "Explore My Projects",
+    "ctaAbout": "About My Work",
+    "resumeLink": "View / Download Résumé",
+    "resumeIntro": "[TRANSLATE: matches es.home.resumeIntro]",
+    "roleOverviewTitle": "My Peace Corps Role",
+    "roleOverviewText": "I serve as a Community Economic Development (CED) Volunteer in Colombia, collaborating with local partners on business education, financial literacy, and local economic development.",
+    "roleOverviewLink": "Learn more about my CED role",
+    "featuredTitle": "Featured Projects",
+    "featuredSubtitle": "A sample of projects I've collaborated on with community partners.",
+    "featuredViewAll": "View all projects",
+    "backgroundTitle": "Professional Background",
+    "backgroundText": "[ADD: brief teaser of educational and professional experience before and during service.]",
+    "backgroundLink": "View full experience",
+    "whatIDoTitle": "My Service in Colombia",
+    "whatIDoItems": [
+      { "title": "Financial Literacy", "text": "Sessions and workshops on budgeting, saving, and basic personal and household financial management." },
+      { "title": "Entrepreneurship Training", "text": "Workshops on business planning, marketing, and management with local entrepreneurs." },
+      { "title": "Socioemotional Skills", "text": "Developing soft and employability skills with students and youth." },
+      { "title": "Business Strengthening", "text": "Supporting small businesses and artisans with management tools and product development." },
+      { "title": "Community Tourism", "text": "Collaborating on community tourism and sustainable local economy initiatives." },
+      { "title": "Educational Material Design", "text": "Co-creating materials, curricula, and resources adapted to the local context." }
+    ],
+    "statsTitle": "Impact by the Numbers",
+    "stats": [
+      { "label": "Workshops facilitated", "value": "[ADD: number of workshops facilitated]" },
+      { "label": "Community partners", "value": "[ADD: number of partner organizations]" },
+      { "label": "Participants reached", "value": "[ADD: number of participants]" },
+      { "label": "Months of service", "value": "[ADD: months of active service]" }
+    ],
+    "statsNote": "These figures will be updated as projects are documented.",
+    "contactTitle": "Contact",
+    "contactText": "[TRANSLATE: matches es.home.contactText]",
+    "contactCta": "Contact Me"
+  },
+  "about": {
+    "heading": "About Me",
+    "intro": "[TRANSLATE: matches es.about.intro]",
+    "portraitAlt": "Portrait of Elías Mattfeld Campos",
+    "sections": [
+      { "title": "Personal Introduction", "text": "[TRANSLATE: matches es.about.sections[0]]" },
+      { "title": "Professional Interests", "text": "[TRANSLATE: matches es.about.sections[1]]" },
+      { "title": "International Background", "text": "[TRANSLATE: matches es.about.sections[2]]" },
+      { "title": "Business Management Education", "text": "[TRANSLATE: matches es.about.sections[3]]" },
+      { "title": "Motivation for CED Work", "text": "[TRANSLATE: matches es.about.sections[4]]" },
+      { "title": "Experience Living and Studying Abroad", "text": "[TRANSLATE: matches es.about.sections[5]]" },
+      { "title": "Personal Values and Approach to Partnership", "text": "[TRANSLATE: matches es.about.sections[6]]" }
+    ],
+    "timelineTitle": "Timeline",
+    "timeline": [
+      { "date": "[ADD date]", "title": "[ADD educational, international, professional, or service milestone]", "text": "[ADD description]" }
+    ]
+  },
+  "peaceCorps": {
+    "heading": "What Is Peace Corps Colombia",
+    "disclaimer": "This is a personal website. The views expressed here are my own and do not necessarily reflect the views of the United States Government or the Peace Corps.",
+    "intro": "Peace Corps Colombia is an independent agency of the United States Government that works in partnership with Colombian communities and institutions to strengthen local capacities and promote sustainable development through the exchange of knowledge.",
+    "whatItIsTitle": "Projects in Colombia",
+    "whatItIsText": "Peace Corps Colombia currently runs two main projects:",
+    "projects": ["English Teaching (TEFL)", "Community Economic Development (CED)"],
+    "howItWorksTitle": "How It Works",
+    "howItWorksText": "Volunteers live in and integrate into their communities for approximately two years, working alongside local organizations, educational institutions, and municipal governments to support community-led initiatives.",
+    "goalsTitle": "The Three Goals of Peace Corps",
+    "goals": [
+      { "title": "Goal 1", "text": "Help the people of interested countries meet their need for trained workers." },
+      { "title": "Goal 2", "text": "Help promote a better understanding of Americans among the people served." },
+      { "title": "Goal 3", "text": "Help promote a better understanding of other peoples among Americans." }
+    ],
+    "exchangeTitle": "The Importance of Cultural Exchange",
+    "exchangeText": "Building genuine, trusting relationships is as important as the technical work of any project. Cultural exchange flows in both directions: volunteers learn as much as they contribute.",
+    "practiceTitle": "What Peace Corps Service Looks Like in Practice",
+    "practiceSteps": [
+      { "title": "Initial Training", "text": "Volunteers receive intensive training in language, culture, safety, and technical skills before beginning service." },
+      { "title": "Community Integration", "text": "Volunteers move to their host community and spend time building relationships and understanding local context." },
+      { "title": "Collaborative Assessment", "text": "Together with local partners, volunteers identify community needs and opportunities." },
+      { "title": "Project Work", "text": "Volunteers co-facilitate workshops, support local initiatives, and contribute to jointly defined projects." },
+      { "title": "Reflection and Close of Service", "text": "Volunteers document lessons learned, help ensure project sustainability, and make a responsible transition at the end of service." }
+    ],
+    "statsNote": "[ADD: official Peace Corps statistics with citation, when available.]"
+  },
+  "cedRole": {
+    "heading": "My Community Economic Development (CED) Role",
+    "intro": "The Community Economic Development (CED) Project works to strengthen the capacities of people, organizations, and institutions to contribute to local, sustainable economic development in Colombia.",
+    "objectivesTitle": "Program Objectives",
+    "objectives": [
+      "Promote the personal, economic, and business development of youth, entrepreneurs, and community organizations.",
+      "Strengthen capacities for creating, managing, and growing small businesses.",
+      "Foster financial literacy and the responsible use of economic resources."
+    ],
+    "whoWeWorkWithTitle": "Who I Work With",
+    "whoWeWorkWith": ["Ministry of National Education", "SENA", "Municipal governments", "Departmental governments", "Educational institutions", "Universities", "Foundations", "Social organizations", "Community associations"],
+    "whoWeWorkWithClosing": "The goal isn't to create dependency, but to build capacities that let communities keep growing on their own.",
+    "responsibilitiesTitle": "My Role as a CED Volunteer",
+    "responsibilitiesText": "As a Peace Corps Community Economic Development Volunteer, I collaborate with educational institutions, community organizations, and local entities to strengthen entrepreneurship, employability, and economic-development skills. My work involves accompanying local partners in developing sustainable projects, sharing knowledge, and working collaboratively with the community.",
+    "collaborativeNatureTitle": "The Collaborative Nature of the Role",
+    "collaborativeNatureText": "All CED work is carried out in collaboration with local partners. Projects are co-designed and co-facilitated; outcomes reflect a shared effort between volunteers and communities.",
+    "institutionsTitle": "Work in Educational Institutions",
+    "institutionsIntro": "In the classroom, I collaborate with teachers through a co-teaching model to design and implement activities aimed at developing entrepreneurial and socioemotional skills in students. Initiatives developed include:",
+    "institutionsList": ["Entrepreneurship and financial-literacy curricula (such as Construye Tus Sueños)", "Cross-curricular projects", "Interest-based clubs", "Youth leadership clubs", "Local tourism-strengthening activities", "Educational resources related to entrepreneurship and economic development"],
+    "communityWorkTitle": "Work with the Community",
+    "communityWorkIntro": "Beyond work in educational institutions, I collaborate with local organizations and partners to strengthen community capacities through initiatives such as:",
+    "communityWorkList": ["Entrepreneurship workshops", "Financial literacy", "Small-business management", "Personal finance", "Strengthening community organizations", "Support for entrepreneurs and small-business owners", "Development of sustainable economic projects"],
+    "communityWorkClosing": "These activities are carried out together with partners such as SENA, universities, municipal governments, community organizations, and other local institutions, responding to the needs and priorities of each community.",
+    "myServiceTitle": "My Service in Colombia",
+    "myServiceIntro": "[TRANSLATE: matches es.cedRole.myServiceIntro]",
+    "myServiceAreas": ["Financial literacy", "Entrepreneurship training", "Socioemotional skills development", "Business strengthening", "Community tourism", "Educational material design", "Event organization", "Student training", "Support for local entrepreneurship"],
+    "myServiceClosing": "[TRANSLATE: matches es.cedRole.myServiceClosing]"
+  },
+  "projects": {
+    "heading": "Projects",
+    "intro": "Each project on this site reflects a need identified by the community and a solution developed together with local stakeholders.",
+    "searchLabel": "Search projects",
+    "searchPlaceholder": "Search by title or keyword...",
+    "filterCategory": "Category",
+    "filterLocation": "Location",
+    "filterStatus": "Status",
+    "filterAll": "All",
+    "clearFilters": "Clear filters",
+    "noResults": "No projects found matching these criteria.",
+    "featuredBadge": "Featured",
+    "viewProject": "View project",
+    "roleLabel": "My role",
+    "statusOptions": {
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "planned": "Planned"
+    }
+  },
+  "project": {
+    "backLink": "Back to Projects",
+    "dateLabel": "Date",
+    "overviewTitle": "Overview",
+    "roleTitle": "My Role",
+    "partnersTitle": "Partner Organizations",
+    "activitiesTitle": "Activities Completed",
+    "skillsTitle": "Skills Demonstrated",
+    "documentsTitle": "Related Documents",
+    "relatedTitle": "Related Projects",
+    "externalLinkTitle": "External Link",
+    "galleryTitle": "Project Gallery",
+    "notFound": "Project not found.",
+    "download": "Download"
+  },
+  "experience": {
+    "heading": "Experience and Skills",
+    "intro": "My professional experience combines the private sector, non-profit organizations, and international development. Throughout my career I've worked in areas such as:",
+    "areas": ["Sales", "Customer service", "Business management", "Staff training", "Team leadership", "Community development", "Education", "Entrepreneurship", "Cross-cultural relations"],
+    "closing": "These experiences have helped me develop leadership, communication, problem-solving, and project-management skills across different cultural contexts.",
+    "timelineTitle": "Professional Timeline",
+    "responsibilitiesTitle": "Responsibilities",
+    "accomplishmentsTitle": "Accomplishments",
+    "skillsUsedTitle": "Skills Used",
+    "skillsHeading": "Skills",
+    "skillsIntro": "Skill areas developed through service, education, and professional experience.",
+    "skillGroups": [
+      { "title": "Leadership & Professional Skills", "skills": ["Leadership", "Strategic planning", "Problem solving", "Teamwork", "Adaptability", "Business analysis"] },
+      { "title": "Community Economic Development", "skills": ["Community needs assessment", "Collaborative project development", "Organizational strengthening"] },
+      { "title": "Project Management", "skills": ["Project planning", "Monitoring and evaluation", "Partner coordination"] },
+      { "title": "Workshop Facilitation", "skills": ["Curriculum design", "Participatory facilitation", "Content adaptation"] },
+      { "title": "Entrepreneurship Education", "skills": ["Business planning", "Business models", "Entrepreneur coaching"] },
+      { "title": "Financial Literacy", "skills": ["Personal budgeting", "Saving", "Basic financial education"] },
+      { "title": "Community Outreach", "skills": ["Relationship building", "Stakeholder mapping", "Community communication"] },
+      { "title": "Partnership Development", "skills": ["Institutional relationship management", "Collaborative negotiation"] },
+      { "title": "Research and Needs Assessment", "skills": ["Data collection", "Qualitative analysis", "Participatory assessment"] },
+      { "title": "Public Speaking", "skills": ["Public presentations", "Adult training"] },
+      { "title": "Cross-Cultural Communication", "skills": ["Cultural adaptation", "Working in diverse contexts"] },
+      { "title": "Business Development", "skills": ["Growth strategy", "Local market analysis"] },
+      { "title": "Marketing", "skills": ["Basic digital marketing", "Branding for small businesses"] },
+      { "title": "Graphic Design", "skills": ["Educational materials", "Basic visual identity"] },
+      { "title": "Languages", "skills": ["Spanish (advanced)", "English (native)", "German (basic/developing)"] },
+      { "title": "Tools", "skills": ["Microsoft Office", "Google Workspace", "Canva"] }
+    ],
+    "otherToolsTitle": "Other Tools",
+    "otherTools": ["[ADD other tool]"]
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "intro": "A visual collection of the projects, communities, and experiences that have been part of my service. Every photo represents a story of collaboration, learning, and shared growth.",
+    "consentNote": "Note: consent is obtained before posting identifiable photos of students, minors, community members, host families, or project participants.",
+    "filterAll": "All",
+    "filterLabel": "Filter by project",
+    "lightboxClose": "Close",
+    "lightboxNext": "Next",
+    "lightboxPrev": "Previous",
+    "noImages": "[ADD photos to the gallery]"
+  },
+  "common": {
+    "loading": "Loading...",
+    "placeholder": "[ADD content]"
+  }
+}

@@ -1,0 +1,269 @@
+[
+  {
+    "id": "peace-corps-service",
+    "type": "Peace Corps Service",
+    "organization": "U.S. Peace Corps",
+    "role": {
+      "es": "Voluntario de Desarrollo Económico Comunitario (CED)",
+      "en": "Community Economic Development (CED) Volunteer"
+    },
+    "location": "Colombia",
+    "dates": "Septiembre de 2025 – Presente",
+    "summary": {
+      "es": "[AÑADIR resumen del servicio]",
+      "en": "[ADD service summary]"
+    },
+    "responsibilities": [
+      {
+        "es": "[AÑADIR responsabilidad]",
+        "en": "[ADD responsibility]"
+      }
+    ],
+    "accomplishments": [
+      {
+        "es": "[AÑADIR logro]",
+        "en": "[ADD accomplishment]"
+      }
+    ],
+    "skills": [
+      {
+        "es": "Desarrollo Económico Comunitario",
+        "en": "Community Economic Development"
+      },
+      {
+        "es": "Facilitación de Talleres",
+        "en": "Workshop Facilitation"
+      },
+      {
+        "es": "Comunicación Intercultural",
+        "en": "Cross-Cultural Communication"
+      }
+    ]
+  },
+  {
+    "id": "previous-work-experience",
+    "type": "Work Experience",
+    "organization": "[ADD/AÑADIR: organization]",
+    "role": {
+      "es": "[AÑADIR puesto]",
+      "en": "[ADD role]"
+    },
+    "location": "[ADD/AÑADIR: location]",
+    "dates": "[ADD/AÑADIR: dates]",
+    "summary": {
+      "es": "[AÑADIR resumen del puesto]",
+      "en": "[ADD role summary]"
+    },
+    "responsibilities": [
+      {
+        "es": "[AÑADIR responsabilidad]",
+        "en": "[ADD responsibility]"
+      }
+    ],
+    "accomplishments": [
+      {
+        "es": "[AÑADIR logro]",
+        "en": "[ADD accomplishment]"
+      }
+    ],
+    "skills": [
+      "[ADD/AÑADIR: skill]"
+    ]
+  },
+  {
+    "id": "philantree",
+    "type": "Entrepreneurship",
+    "organization": "Philantree",
+    "role": {
+      "es": "Fundador y Líder de Proyecto",
+      "en": "Founder and Project Lead"
+    },
+    "location": "California State University San Marcos, California, EE. UU.",
+    "dates": "Noviembre de 2024 – Presente",
+    "summary": {
+      "es": "Philantree es una plataforma de impacto social diseñada para conectar organizaciones sin fines de lucro que necesitan voluntarios con estudiantes y jóvenes que buscan oportunidades de servicio significativas, experiencia profesional y horas de voluntariado verificadas. El concepto combina elementos de LinkedIn, Yelp y una red social de voluntariado.",
+      "en": "Philantree is a social-impact platform designed to connect nonprofit organizations that need volunteers with students and young adults looking for meaningful service opportunities, professional experience, and verified volunteer hours. The concept combines elements of LinkedIn, Yelp, and a social platform for volunteering."
+    },
+    "responsibilities": [
+      {
+        "es": "Desarrollé el concepto de negocio original, la propuesta de valor, las historias de usuario, el plan de investigación y la estrategia inicial de producto.",
+        "en": "Developed the original business concept, value proposition, user stories, research plan, and early product strategy."
+      },
+      {
+        "es": "Realicé y preparé investigación con organizaciones sin fines de lucro, estudiantes y posibles socios institucionales.",
+        "en": "Conducted and prepared stakeholder research involving nonprofit organizations, students, and potential institutional partners."
+      }
+    ],
+    "accomplishments": [
+      {
+        "es": "Ganador de la competencia CSUSM Quick Pitch.",
+        "en": "Winner of the CSUSM Quick Pitch competition."
+      },
+      {
+        "es": "Seleccionado como proyecto de Senior Experience, apoyado por estudiantes de la Facultad de Administración de Empresas.",
+        "en": "Selected as a Senior Experience project, supported by students in the College of Business Administration."
+      }
+    ],
+    "skills": [
+      {
+        "es": "Emprendimiento",
+        "en": "Entrepreneurship"
+      },
+      {
+        "es": "Desarrollo de Negocios",
+        "en": "Business Development"
+      },
+      {
+        "es": "Investigación y Evaluación de Necesidades",
+        "en": "Research and Needs Assessment"
+      },
+      {
+        "es": "Liderazgo",
+        "en": "Leadership"
+      },
+      {
+        "es": "Planificación Estratégica",
+        "en": "Strategic Planning"
+      }
+    ]
+  },
+  {
+    "id": "education",
+    "type": "Education",
+    "organization": "California State University San Marcos",
+    "role": {
+      "es": "Administración y Gestión de Empresas con énfasis en Negocios Internacionales",
+      "en": "Business Administration and Management, emphasis in International Business"
+    },
+    "location": "San Marcos, California, EE. UU.",
+    "dates": "[ADD/AÑADIR: dates]",
+    "summary": {
+      "es": "[AÑADIR resumen académico]",
+      "en": "[ADD academic summary]"
+    },
+    "responsibilities": [],
+    "accomplishments": [
+      {
+        "es": "[AÑADIR logro académico]",
+        "en": "[ADD academic accomplishment]"
+      }
+    ],
+    "skills": [
+      {
+        "es": "Análisis Empresarial",
+        "en": "Business Analysis"
+      },
+      {
+        "es": "Planificación Estratégica",
+        "en": "Strategic Planning"
+      }
+    ]
+  },
+  {
+    "id": "international-experience",
+    "type": "International Experience",
+    "organization": "[ADD/AÑADIR: program/institution]",
+    "role": {
+      "es": "Programas académicos y profesionales internacionales",
+      "en": "International academic and professional programs"
+    },
+    "location": "México, Alemania, Austria e Italia",
+    "dates": "[ADD/AÑADIR: dates]",
+    "summary": {
+      "es": "Experiencias académicas y profesionales internacionales que ampliaron mi comprensión de distintos modelos económicos, organizaciones sociales y formas de desarrollo comunitario.",
+      "en": "[TRANSLATE: matches es.summary]"
+    },
+    "responsibilities": [],
+    "accomplishments": [
+      {
+        "es": "[AÑADIR logro]",
+        "en": "[ADD accomplishment]"
+      }
+    ],
+    "skills": [
+      {
+        "es": "Comunicación Intercultural",
+        "en": "Cross-Cultural Communication"
+      },
+      "[ADD/AÑADIR: skill]"
+    ]
+  },
+  {
+    "id": "volunteer-experience",
+    "type": "Volunteer Experience",
+    "organization": "[ADD/AÑADIR: volunteer organization]",
+    "role": {
+      "es": "[AÑADIR rol de voluntariado]",
+      "en": "[ADD volunteer role]"
+    },
+    "location": "[ADD/AÑADIR: location]",
+    "dates": "[ADD/AÑADIR: dates]",
+    "summary": {
+      "es": "[AÑADIR resumen del voluntariado]",
+      "en": "[ADD volunteer summary]"
+    },
+    "responsibilities": [
+      {
+        "es": "[AÑADIR responsabilidad]",
+        "en": "[ADD responsibility]"
+      }
+    ],
+    "accomplishments": [],
+    "skills": [
+      {
+        "es": "Alcance Comunitario",
+        "en": "Community Outreach"
+      },
+      "[ADD/AÑADIR: skill]"
+    ]
+  },
+  {
+    "id": "awards-recognition",
+    "type": "Awards & Recognition",
+    "organization": "California State University San Marcos",
+    "role": {
+      "es": "Ganador, Competencia CSUSM Quick Pitch (Philantree)",
+      "en": "Winner, CSUSM Quick Pitch Competition (Philantree)"
+    },
+    "location": "San Marcos, California, EE. UU.",
+    "dates": "[ADD/AÑADIR: date]",
+    "summary": {
+      "es": "Reconocimiento por el concepto de negocio Philantree en la competencia Quick Pitch de CSUSM.",
+      "en": "Recognition for the Philantree business concept at the CSUSM Quick Pitch competition."
+    },
+    "responsibilities": [],
+    "accomplishments": [],
+    "skills": []
+  },
+  {
+    "id": "site-transition-santander",
+    "type": "Site Transition",
+    "organization": "U.S. Peace Corps",
+    "role": {
+      "es": "Transición de sitio: Galapa, Atlántico a Vélez, Santander",
+      "en": "Site Transition: Galapa, Atlántico to Vélez, Santander"
+    },
+    "location": "Vélez, Santander, Colombia",
+    "dates": "Julio de 2026",
+    "summary": {
+      "es": "Después de iniciar mi servicio en Galapa, Atlántico, fui reasignado por el Cuerpo de Paz a Vélez, Santander. La transición representó un cambio significativo de contexto regional, cultural e institucional. Adapté mi enfoque de trabajo a una nueva comunidad, comencé a establecer relaciones con aliados locales e inicié la identificación de oportunidades de colaboración relacionadas con emprendimiento, educación financiera y desarrollo económico comunitario.",
+      "en": "After beginning my service in Galapa, Atlántico, I was reassigned by Peace Corps to Vélez, Santander. The transition involved adapting to a different regional, cultural, and institutional context. I began developing relationships with new local partners and identifying opportunities related to entrepreneurship, financial literacy, and community economic development."
+    },
+    "responsibilities": [],
+    "accomplishments": [],
+    "skills": [
+      {
+        "es": "Adaptabilidad",
+        "en": "Adaptability"
+      },
+      {
+        "es": "Comunicación Intercultural",
+        "en": "Cross-Cultural Communication"
+      },
+      {
+        "es": "Desarrollo Económico Comunitario",
+        "en": "Community Economic Development"
+      }
+    ]
+  }
+]

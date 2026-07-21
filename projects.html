@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-i18n="meta.projects.title">Proyectos | Elías Mattfeld Campos</title>
+<meta name="description" data-i18n-attr="content:meta.projects.description" content="Explora los proyectos comunitarios y profesionales." />
+<meta property="og:title" data-i18n-attr="content:meta.projects.title" content="Proyectos" />
+<meta property="og:description" data-i18n-attr="content:meta.projects.description" content="Explora los proyectos comunitarios y profesionales." />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body id="top">
+<a class="skip-link" href="#main-content">Saltar al contenido principal / Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="site-title">Elías Mattfeld Campos</a>
+    <div class="nav-controls">
+      <button class="lang-toggle" type="button">EN</button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú / Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="main-nav" id="main-nav" aria-label="Principal">
+    <div class="container">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="about.html" data-i18n="nav.about">Sobre Mí</a></li>
+        <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+        <li><a href="ced-role.html" data-i18n="nav.cedRole">Mi Rol de CED</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+        <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+  <section>
+    <div class="container">
+      <h1 data-i18n="projects.heading">Proyectos</h1>
+      <p data-i18n="projects.intro">Una muestra de los proyectos comunitarios y profesionales en los que he colaborado.</p>
+
+      <form class="filter-bar" role="search" onsubmit="return false;">
+        <div class="filter-field">
+          <label for="project-search" data-i18n="projects.searchLabel">Buscar proyectos</label>
+          <input type="search" id="project-search" data-i18n-attr="placeholder:projects.searchPlaceholder" placeholder="Buscar por título o palabra clave..." />
+        </div>
+        <div class="filter-row">
+          <div class="filter-field">
+            <label for="filter-category" data-i18n="projects.filterCategory">Categoría</label>
+            <select id="filter-category"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-location" data-i18n="projects.filterLocation">Ubicación</label>
+            <select id="filter-location"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filter-status" data-i18n="projects.filterStatus">Estado</label>
+            <select id="filter-status"></select>
+          </div>
+        </div>
+        <div class="filter-actions">
+          <button type="button" id="clear-filters" class="link-button" data-i18n="projects.clearFilters">Limpiar filtros</button>
+        </div>
+      </form>
+
+      <div id="projects-empty" class="empty-state" hidden data-i18n="projects.noResults">No se encontraron proyectos con estos criterios.</div>
+      <div id="projects-list" class="card-grid cols-3"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-tagline" data-i18n="footer.tagline">El verdadero desarrollo ocurre cuando las comunidades cuentan con las herramientas necesarias para construir su propio futuro.</p>
+    <ul class="footer-links">
+      <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
+      <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
+    </ul>
+    <p data-i18n="footer.rights">Portafolio personal de Elías Mattfeld Campos.</p>
+    <a class="back-to-top" href="#top" data-i18n="footer.backToTop">Volver arriba</a>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/projects.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    window.ProjectsModule.renderList("projects-list");
+  });
+</script>
+</body>
+</html>

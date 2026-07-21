@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder</title>
+  <desc id="desc">Replace with a project photo.</desc>
+  <rect width="800" height="500" fill="#eef1f0"/>
+  <rect x="1" y="1" width="798" height="498" fill="none" stroke="#c7d0cc" stroke-width="2"/>
+  <rect x="80" y="120" width="640" height="260" rx="10" fill="#d3dad6"/>
+  <circle cx="220" cy="230" r="34" fill="#eef1f0"/>
+  <path d="M120 350 L300 230 L420 320 L560 200 L680 350 Z" fill="#eef1f0"/>
+  <text x="400" y="430" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#5c6660" text-anchor="middle">[ADD project photo / AÑADIR foto del proyecto]</text>
+</svg>
