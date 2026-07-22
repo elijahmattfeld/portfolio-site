@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "src": "assets/images/gallery-01.jpg",
+    "project": "tourism-promotion-resources",
+    "caption": { "es": "Festival de la Máscara de Bejuco en Galapa, Atlántico", "en": "Máscara de Bejuco festival in Galapa, Atlántico" },
+    "alt": { "es": "Escenario y multitud durante el festival de la Máscara de Bejuco en Galapa", "en": "Stage and crowd during the Máscara de Bejuco festival in Galapa" }
+  },
+  {
+    "src": "assets/images/gallery-02.jpg",
+    "caption": { "es": "Espacio de artesanías locales, en alianza con el SENA", "en": "Local artisan display space, in partnership with SENA" },
+    "alt": { "es": "Interior de un domo con artesanías locales y el logo del SENA", "en": "Interior of a dome displaying local crafts and the SENA logo" }
+  },
+  {
+    "src": "assets/images/gallery-03.jpg",
+    "project": "tourism-promotion-resources",
+    "caption": { "es": "Máscaras de Bejuco y señalización turística de Galapa", "en": "Bejuco masks and Galapa tourism signage" },
+    "alt": { "es": "Máscaras artesanales y carteles conmemorativos \"Galapa 2025\" de noche", "en": "Artisan masks and commemorative \"Galapa 2025\" signage at night" }
+  },
+  {
+    "src": "assets/images/gallery-04.jpg",
+    "caption": { "es": "Estudiantes pintando murales al aire libre", "en": "Students painting murals outdoors" },
+    "alt": { "es": "Dos estudiantes pintando cuadros coloridos en el patio de una institución educativa", "en": "Two students painting colorful canvases in a school courtyard" }
+  },
+  {
+    "src": "assets/images/gallery-05.jpg",
+    "caption": { "es": "Evento cultural con estudiantes de una institución educativa de Galapa", "en": "Cultural event with students from a Galapa educational institution" },
+    "alt": { "es": "Gran grupo de estudiantes reunido para un evento cultural bajo techo", "en": "Large group of students gathered for a cultural event under a covered court" }
+  },
+  {
+    "src": "assets/images/gallery-06.jpg",
+    "project": "tourism-promotion-resources",
+    "caption": { "es": "Señalización del Museo Arqueológico de Galapa (MUGA)", "en": "Signage for the Galapa Archaeological Museum (MUGA)" },
+    "alt": { "es": "Aviso informativo de la Casa de la Cultura y el Museo Arqueológico de Galapa", "en": "Informational sign for the Casa de la Cultura and Galapa Archaeological Museum" }
+  },
+  {
+    "src": "assets/images/gallery-07.jpg",
+    "project": "business-marketing-resource-development",
+    "caption": { "es": "Certificación de Cuerpo de Paz Colombia junto a colegas en Barranquilla", "en": "Peace Corps Colombia certification with colleagues in Barranquilla" },
+    "alt": { "es": "Elías junto a tres colegas sosteniendo certificados de Cuerpo de Paz Colombia", "en": "Elías with three colleagues holding Peace Corps Colombia certificates" }
+  }
+]
