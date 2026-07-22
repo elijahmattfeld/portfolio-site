@@ -141,52 +141,97 @@
   {
     "slug": "artisan-small-business-support",
     "title": {
-      "es": "Apoyo a Artesanos y Pequeños Negocios",
-      "en": "Artisan and Small-Business Support"
+      "es": "Asesoramiento a Artesanos",
+      "en": "Artisan Advising"
     },
     "summary": {
-      "es": "[AÑADIR resumen breve del proyecto]",
-      "en": "[ADD short project summary]"
+      "es": "Colaboré con artesanos, estudiantes y aliados institucionales para fortalecer las capacidades de promoción y comercialización de productos artesanales representativos de Galapa.",
+      "en": "I collaborated with artisans, students, and institutional partners to strengthen the promotion and marketing of artisanal products representative of Galapa."
     },
     "category": "Entrepreneurship",
-    "location": "[ADD/AÑADIR: municipality or community]",
-    "date": "[ADD/AÑADIR: date or range]",
-    "status": "ongoing",
+    "location": "Galapa, Atlántico, Colombia",
+    "date": "Octubre de 2025 – Noviembre de 2025",
+    "status": "completed",
     "featured": false,
-    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImage": "assets/images/artisan-work.jpg",
     "coverImageAlt": {
-      "es": "Imagen de marcador de posición para el apoyo a artesanos y pequeños negocios",
-      "en": "Placeholder image for artisan and small-business support"
+      "es": "Exhibición de artesanías tradicionales de Galapa",
+      "en": "Display of traditional Galapa artisan crafts"
     },
     "role": {
-      "es": "[AÑADIR mi rol]",
-      "en": "[ADD my role]"
+      "es": "Diseñé y facilité talleres de marketing y marca personal para estudiantes artesanos, preparándolos para presentar y promocionar sus emprendimientos en una feria regional.",
+      "en": "I designed and facilitated marketing and personal-branding workshops for student artisans, preparing them to present and promote their ventures at a regional fair."
     },
     "partners": [
-      "[ADD/AÑADIR: partner organization]"
+      "Alcaldía de Galapa",
+      "Institución Educativa María Auxiliadora de Galapa"
     ],
     "overview": {
-      "es": "[AÑADIR resumen general del proyecto]",
-      "en": "[ADD general project overview]"
+      "es": "Colaboré con artesanos, estudiantes y aliados institucionales para fortalecer las habilidades de promoción y comercialización de las artesanías tradicionales de Galapa. A través de talleres de marketing, marca personal y comunicación, preparé a los participantes para representar sus emprendimientos y exhibir productos como las canastas de bejuco y las máscaras de carnaval en una feria regional de emprendimiento en Barranquilla.",
+      "en": "I collaborated with artisans, students, and institutional partners to strengthen the promotion and marketing skills for Galapa's traditional crafts. Through workshops on marketing, personal branding, and communication, I prepared participants to represent their ventures and showcase products such as bejuco baskets and carnival masks at a regional entrepreneurship fair in Barranquilla."
     },
     "activities": [
       {
-        "es": "[AÑADIR actividad realizada]",
-        "en": "[ADD activity completed]"
+        "es": "Diseñé y facilité talleres de marketing dirigidos a estudiantes artesanos.",
+        "en": "Designed and facilitated marketing workshops for student artisans."
+      },
+      {
+        "es": "Impartí sesiones sobre marca personal y estrategias para promocionar emprendimientos.",
+        "en": "Led sessions on personal branding and strategies for promoting ventures."
+      },
+      {
+        "es": "Asesoré a los participantes en la comunicación de la propuesta de valor de sus productos.",
+        "en": "Advised participants on communicating their products' value proposition."
+      },
+      {
+        "es": "Brindé recomendaciones para la presentación profesional de artesanías en espacios comerciales.",
+        "en": "Provided recommendations for professionally presenting crafts in commercial spaces."
+      },
+      {
+        "es": "Preparé a los estudiantes para participar en una feria regional de emprendimiento en Barranquilla.",
+        "en": "Prepared students to participate in a regional entrepreneurship fair in Barranquilla."
       }
     ],
     "skills": [
       {
-        "es": "Alcance Comunitario",
-        "en": "Community Outreach"
+        "es": "Capacitación y facilitación",
+        "en": "Training and Facilitation"
       },
       {
-        "es": "Desarrollo de Negocios",
-        "en": "Business Development"
+        "es": "Marketing y comunicación",
+        "en": "Marketing and Communication"
       },
       {
-        "es": "Desarrollo de Alianzas",
-        "en": "Partnership Development"
+        "es": "Desarrollo de marca personal",
+        "en": "Personal Branding"
+      },
+      {
+        "es": "Emprendimiento",
+        "en": "Entrepreneurship"
+      },
+      {
+        "es": "Desarrollo de pequeños negocios",
+        "en": "Small Business Development"
+      },
+      {
+        "es": "Presentaciones y comunicación pública",
+        "en": "Presentations and Public Speaking"
+      },
+      {
+        "es": "Diseño de talleres",
+        "en": "Workshop Design"
+      },
+      {
+        "es": "Colaboración interinstitucional",
+        "en": "Interinstitutional Collaboration"
+      },
+      {
+        "es": "Gestión de proyectos",
+        "en": "Project Management"
+      },
+      {
+        "es": "Competencia intercultural",
+        "en": "Cross-Cultural Competence"
       }
     ],
     "gallery": [],
