@@ -314,6 +314,7 @@ section {
   color: var(--color-text-muted);
 }
 .card-body p { margin-bottom: var(--space-2); flex: 1; }
+.card-body .card-meta { flex: none; }
 
 .badge {
   display: inline-block;
