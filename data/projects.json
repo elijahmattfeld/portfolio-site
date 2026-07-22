@@ -254,10 +254,10 @@
     "date": "Enero de 2026 – Junio de 2026",
     "status": "completed",
     "featured": true,
-    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImage": "assets/images/expoemprende.jpg",
     "coverImageAlt": {
-      "es": "Imagen de marcador de posición para Construye Tus Sueños",
-      "en": "Placeholder image for Construye Tus Sueños"
+      "es": "Mesa de exhibición de emprendimientos estudiantiles con pulseras y productos artesanales de ArTiva",
+      "en": "Student entrepreneurship display table with bracelets and handmade ArTiva products"
     },
     "role": {
       "es": "Cofacilitador, planificador de lecciones y adaptador de recursos educativos",
