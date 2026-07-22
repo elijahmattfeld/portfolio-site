@@ -14,10 +14,10 @@
     "date": "Octubre de 2025 – Junio de 2026",
     "status": "completed",
     "featured": true,
-    "coverImage": "assets/images/talleres-emprendimiento-juvenil.jpg",
+    "coverImage": "assets/images/placeholder-project.svg",
     "coverImageAlt": {
-      "es": "Elías cofacilitando un taller de emprendimiento con estudiantes de secundaria en Galapa",
-      "en": "Elías co-facilitating an entrepreneurship workshop with secondary school students in Galapa"
+      "es": "Imagen de marcador de posición para los talleres de emprendimiento juvenil",
+      "en": "Placeholder image for the youth entrepreneurship workshops"
     },
     "role": {
       "es": "Cofacilitador y docente de talleres de emprendimiento juvenil",
@@ -197,8 +197,8 @@
   {
     "slug": "construye-tus-suenos",
     "title": {
-      "es": "Construye Tus Sueños: Formación en Emprendimiento y Empleabilidad",
-      "en": "Construye Tus Sueños: Entrepreneurship and Employability Education"
+      "es": "Construye Tus Sueños: Formación en Emprendimiento",
+      "en": "Construye Tus Sueños: Entrepreneurship Education"
     },
     "summary": {
       "es": "Colaboré con docentes e instituciones educativas para cofacilitar el currículo Construye Tus Sueños con estudiantes de grados décimo y undécimo.",
@@ -209,19 +209,17 @@
     "date": "Enero de 2026 – Junio de 2026",
     "status": "completed",
     "featured": true,
-    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImage": "assets/images/construye-tus-suenos.jpg",
     "coverImageAlt": {
-      "es": "Imagen de marcador de posición para Construye Tus Sueños",
-      "en": "Placeholder image for Construye Tus Sueños"
+      "es": "Sesión de planificación del currículo Construye Tus Sueños",
+      "en": "Planning session for the Construye Tus Sueños curriculum"
     },
     "role": {
       "es": "Cofacilitador, planificador de lecciones y adaptador de recursos educativos",
       "en": "Co-facilitator, lesson planner, and educational-resource adapter"
     },
     "partners": [
-      "Cuerpo de Paz Colombia",
-      "UNICA – Institución Universitaria Colombo Americana",
-      "Instituciones educativas locales"
+      "Institución Educativa Técnica Francisco de Paula Santander de Galapa"
     ],
     "overview": {
       "es": "Construye Tus Sueños es un currículo desarrollado por el Cuerpo de Paz en colaboración con UNICA – Institución Universitaria Colombo Americana, creado específicamente para voluntarios de Desarrollo Económico Comunitario en Colombia. Se enseña a estudiantes de grados décimo y undécimo y está diseñado para fortalecer habilidades de emprendimiento, empleabilidad, educación financiera y socioemocionales.",
@@ -269,10 +267,10 @@
     "externalLink": ""
   },
   {
-    "slug": "entrepreneurship-clubs",
+    "slug": "employability-club",
     "title": {
-      "es": "Clubes de Emprendimiento",
-      "en": "Entrepreneurship Clubs"
+      "es": "Club de Empleabilidad",
+      "en": "Employability Club"
     },
     "summary": {
       "es": "[AÑADIR resumen breve del proyecto]",
@@ -283,10 +281,10 @@
     "date": "[ADD/AÑADIR: date or range]",
     "status": "planned",
     "featured": false,
-    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImage": "assets/images/talleres-emprendimiento-juvenil.jpg",
     "coverImageAlt": {
-      "es": "Imagen de marcador de posición para los clubes de emprendimiento",
-      "en": "Placeholder image for the entrepreneurship clubs"
+      "es": "Elías cofacilitando una sesión del Club de Empleabilidad con estudiantes de secundaria en Galapa",
+      "en": "Elías co-facilitating an Employability Club session with secondary school students in Galapa"
     },
     "role": {
       "es": "[AÑADIR mi rol]",
