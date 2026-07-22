@@ -1,7 +1,10 @@
 [
   {
     "id": "peace-corps-service",
-    "type": "Peace Corps Service",
+    "type": {
+      "es": "Servicio en el Cuerpo de Paz",
+      "en": "Peace Corps Service"
+    },
     "organization": "U.S. Peace Corps",
     "role": {
       "es": "Voluntario de Desarrollo Económico Comunitario (CED)",
@@ -126,7 +129,10 @@
   },
   {
     "id": "previous-work-experience",
-    "type": "Work Experience",
+    "type": {
+      "es": "Experiencia Laboral",
+      "en": "Work Experience"
+    },
     "organization": "Denny Pest Control",
     "role": {
       "es": "Asesor de Ventas y Técnico en Control de Plagas",
@@ -255,7 +261,10 @@
   },
   {
     "id": "philantree",
-    "type": "Entrepreneurship",
+    "type": {
+      "es": "Emprendimiento",
+      "en": "Entrepreneurship"
+    },
     "organization": "Philantree",
     "role": {
       "es": "Fundador y Líder de Proyecto",
@@ -264,8 +273,8 @@
     "location": "California State University San Marcos, California, EE. UU.",
     "dates": "Noviembre de 2024 – Presente",
     "summary": {
-      "es": "Philantree es una plataforma de impacto social diseñada para conectar organizaciones sin fines de lucro que necesitan voluntarios con estudiantes y jóvenes que buscan oportunidades de servicio significativas, experiencia profesional y horas de voluntariado verificadas. El concepto combina elementos de LinkedIn, Yelp y una red social de voluntariado.",
-      "en": "Philantree is a social-impact platform designed to connect nonprofit organizations that need volunteers with students and young adults looking for meaningful service opportunities, professional experience, and verified volunteer hours. The concept combines elements of LinkedIn, Yelp, and a social platform for volunteering."
+      "es": "Philantree es una plataforma de impacto social diseñada para conectar organizaciones sin fines de lucro que necesitan voluntarios con estudiantes y jóvenes que buscan oportunidades de servicio significativas, experiencia profesional y horas de voluntariado verificadas. El concepto combina elementos de LinkedIn, Yelp y una red social de voluntariado. Gané el primer lugar en la competencia CSUSM Quick Pitch con este proyecto, reconocido por su propuesta de valor, innovación, impacto social y potencial de crecimiento.",
+      "en": "Philantree is a social-impact platform designed to connect nonprofit organizations that need volunteers with students and young adults looking for meaningful service opportunities, professional experience, and verified volunteer hours. The concept combines elements of LinkedIn, Yelp, and a social platform for volunteering. I won first place in the CSUSM Quick Pitch competition with this project, recognized for its value proposition, innovation, social impact, and growth potential."
     },
     "responsibilities": [
       {
@@ -279,12 +288,36 @@
     ],
     "accomplishments": [
       {
-        "es": "Ganador de la competencia CSUSM Quick Pitch.",
-        "en": "Winner of the CSUSM Quick Pitch competition."
-      },
-      {
         "es": "Seleccionado como proyecto de Senior Experience, apoyado por estudiantes de la Facultad de Administración de Empresas.",
         "en": "Selected as a Senior Experience project, supported by students in the College of Business Administration."
+      },
+      {
+        "es": "Gané el primer lugar entre los proyectos de emprendimiento presentados ante un panel de docentes y profesionales del sector empresarial.",
+        "en": "Won first place among the entrepreneurship projects presented before a panel of faculty and business professionals."
+      },
+      {
+        "es": "Desarrollé y presenté un modelo de negocio enfocado en la innovación social y el fortalecimiento del voluntariado comunitario.",
+        "en": "Developed and presented a business model focused on social innovation and strengthening community volunteerism."
+      },
+      {
+        "es": "Diseñé una propuesta de valor orientada a resolver las necesidades de organizaciones sin ánimo de lucro, estudiantes y voluntarios.",
+        "en": "Designed a value proposition aimed at addressing the needs of nonprofit organizations, students, and volunteers."
+      },
+      {
+        "es": "Desarrollé el concepto de una plataforma digital con funciones de búsqueda de oportunidades, mensajería, seguimiento y verificación de horas de voluntariado.",
+        "en": "Developed the concept for a digital platform with features for opportunity search, messaging, tracking, and verification of volunteer hours."
+      },
+      {
+        "es": "Validé el concepto mediante investigación de usuarios, entrevistas con organizaciones y análisis de mercado.",
+        "en": "Validated the concept through user research, interviews with organizations, and market analysis."
+      },
+      {
+        "es": "Presenté el proyecto mediante un discurso empresarial conciso y persuasivo ante una audiencia profesional.",
+        "en": "Presented the project through a concise, persuasive business pitch before a professional audience."
+      },
+      {
+        "es": "Fortalecí la visibilidad de Philantree como una iniciativa con potencial de implementación en instituciones educativas y organizaciones comunitarias.",
+        "en": "Strengthened Philantree's visibility as an initiative with potential for implementation in educational institutions and community organizations."
       }
     ],
     "skills": [
@@ -307,12 +340,63 @@
       {
         "es": "Planificación Estratégica",
         "en": "Strategic Planning"
+      },
+      {
+        "es": "Emprendimiento e innovación",
+        "en": "Entrepreneurship and innovation"
+      },
+      {
+        "es": "Desarrollo de modelos de negocio",
+        "en": "Business model development"
+      },
+      {
+        "es": "Diseño de propuestas de valor",
+        "en": "Value proposition design"
+      },
+      {
+        "es": "Investigación de mercados",
+        "en": "Market research"
+      },
+      {
+        "es": "Validación de ideas de negocio",
+        "en": "Business idea validation"
+      },
+      {
+        "es": "Comunicación persuasiva",
+        "en": "Persuasive communication"
+      },
+      {
+        "es": "Presentación ejecutiva",
+        "en": "Executive presentation"
+      },
+      {
+        "es": "Pensamiento estratégico",
+        "en": "Strategic thinking"
+      },
+      {
+        "es": "Resolución de problemas",
+        "en": "Problem-solving"
+      },
+      {
+        "es": "Innovación social",
+        "en": "Social innovation"
+      },
+      {
+        "es": "Análisis empresarial",
+        "en": "Business analysis"
+      },
+      {
+        "es": "Gestión de proyectos",
+        "en": "Project management"
       }
     ]
   },
   {
     "id": "education",
-    "type": "Education",
+    "type": {
+      "es": "Educación",
+      "en": "Education"
+    },
     "organization": "California State University San Marcos",
     "role": {
       "es": "Administración y Gestión de Empresas con énfasis en Negocios Internacionales",
@@ -400,7 +484,10 @@
   },
   {
     "id": "international-experience",
-    "type": "International Experience",
+    "type": {
+      "es": "Experiencia Internacional",
+      "en": "International Experience"
+    },
     "organization": "California State University San Marcos",
     "role": {
       "es": "Programa Académico Internacional de Negocios",
@@ -488,7 +575,10 @@
   },
   {
     "id": "volunteer-experience",
-    "type": "Volunteer Experience",
+    "type": {
+      "es": "Experiencia de Voluntariado",
+      "en": "Volunteer Experience"
+    },
     "organization": "El Pozo de Vida",
     "role": {
       "es": "Voluntario de Desarrollo Comunitario",
@@ -612,137 +702,6 @@
       {
         "es": "Diseño de materiales educativos",
         "en": "Educational materials design"
-      }
-    ]
-  },
-  {
-    "id": "awards-recognition",
-    "type": "Awards & Recognition",
-    "organization": "California State University San Marcos",
-    "role": {
-      "es": "Ganador, Competencia CSUSM Quick Pitch (Philantree)",
-      "en": "Winner, CSUSM Quick Pitch Competition (Philantree)"
-    },
-    "location": "San Marcos, California, EE. UU.",
-    "dates": "Abril de 2025",
-    "summary": {
-      "es": "Obtuve el primer lugar en la competencia CSUSM Quick Pitch con Philantree, un proyecto de emprendimiento social diseñado para conectar organizaciones sin ánimo de lucro que necesitan voluntarios con estudiantes y jóvenes que buscan oportunidades de servicio y experiencia profesional. El concepto fue reconocido por su propuesta de valor, innovación, impacto social y potencial de crecimiento.",
-      "en": "I won first place in the CSUSM Quick Pitch competition with Philantree, a social entrepreneurship project designed to connect nonprofit organizations that need volunteers with students and young people seeking service opportunities and professional experience. The concept was recognized for its value proposition, innovation, social impact, and growth potential."
-    },
-    "responsibilities": [],
-    "accomplishments": [
-      {
-        "es": "Gané el primer lugar entre los proyectos de emprendimiento presentados ante un panel de docentes y profesionales del sector empresarial.",
-        "en": "Won first place among the entrepreneurship projects presented before a panel of faculty and business professionals."
-      },
-      {
-        "es": "Desarrollé y presenté un modelo de negocio enfocado en la innovación social y el fortalecimiento del voluntariado comunitario.",
-        "en": "Developed and presented a business model focused on social innovation and strengthening community volunteerism."
-      },
-      {
-        "es": "Diseñé una propuesta de valor orientada a resolver las necesidades de organizaciones sin ánimo de lucro, estudiantes y voluntarios.",
-        "en": "Designed a value proposition aimed at addressing the needs of nonprofit organizations, students, and volunteers."
-      },
-      {
-        "es": "Desarrollé el concepto de una plataforma digital con funciones de búsqueda de oportunidades, mensajería, seguimiento y verificación de horas de voluntariado.",
-        "en": "Developed the concept for a digital platform with features for opportunity search, messaging, tracking, and verification of volunteer hours."
-      },
-      {
-        "es": "Validé el concepto mediante investigación de usuarios, entrevistas con organizaciones y análisis de mercado.",
-        "en": "Validated the concept through user research, interviews with organizations, and market analysis."
-      },
-      {
-        "es": "Presenté el proyecto mediante un discurso empresarial conciso y persuasivo ante una audiencia profesional.",
-        "en": "Presented the project through a concise, persuasive business pitch before a professional audience."
-      },
-      {
-        "es": "Fortalecí la visibilidad de Philantree como una iniciativa con potencial de implementación en instituciones educativas y organizaciones comunitarias.",
-        "en": "Strengthened Philantree's visibility as an initiative with potential for implementation in educational institutions and community organizations."
-      }
-    ],
-    "skills": [
-      {
-        "es": "Emprendimiento e innovación",
-        "en": "Entrepreneurship and innovation"
-      },
-      {
-        "es": "Desarrollo de modelos de negocio",
-        "en": "Business model development"
-      },
-      {
-        "es": "Diseño de propuestas de valor",
-        "en": "Value proposition design"
-      },
-      {
-        "es": "Investigación de mercados",
-        "en": "Market research"
-      },
-      {
-        "es": "Validación de ideas de negocio",
-        "en": "Business idea validation"
-      },
-      {
-        "es": "Comunicación persuasiva",
-        "en": "Persuasive communication"
-      },
-      {
-        "es": "Presentación ejecutiva",
-        "en": "Executive presentation"
-      },
-      {
-        "es": "Pensamiento estratégico",
-        "en": "Strategic thinking"
-      },
-      {
-        "es": "Resolución de problemas",
-        "en": "Problem-solving"
-      },
-      {
-        "es": "Liderazgo",
-        "en": "Leadership"
-      },
-      {
-        "es": "Innovación social",
-        "en": "Social innovation"
-      },
-      {
-        "es": "Análisis empresarial",
-        "en": "Business analysis"
-      },
-      {
-        "es": "Gestión de proyectos",
-        "en": "Project management"
-      }
-    ]
-  },
-  {
-    "id": "site-transition-santander",
-    "type": "Site Transition",
-    "organization": "U.S. Peace Corps",
-    "role": {
-      "es": "Transición de sitio: Galapa, Atlántico a Vélez, Santander",
-      "en": "Site Transition: Galapa, Atlántico to Vélez, Santander"
-    },
-    "location": "Vélez, Santander, Colombia",
-    "dates": "Julio de 2026",
-    "summary": {
-      "es": "Después de iniciar mi servicio en Galapa, Atlántico, fui reasignado por el Cuerpo de Paz a Vélez, Santander. La transición representó un cambio significativo de contexto regional, cultural e institucional. Adapté mi enfoque de trabajo a una nueva comunidad, comencé a establecer relaciones con aliados locales e inicié la identificación de oportunidades de colaboración relacionadas con emprendimiento, educación financiera y desarrollo económico comunitario.",
-      "en": "After beginning my service in Galapa, Atlántico, I was reassigned by Peace Corps to Vélez, Santander. The transition involved adapting to a different regional, cultural, and institutional context. I began developing relationships with new local partners and identifying opportunities related to entrepreneurship, financial literacy, and community economic development."
-    },
-    "responsibilities": [],
-    "accomplishments": [],
-    "skills": [
-      {
-        "es": "Adaptabilidad",
-        "en": "Adaptability"
-      },
-      {
-        "es": "Comunicación Intercultural",
-        "en": "Cross-Cultural Communication"
-      },
-      {
-        "es": "Desarrollo Económico Comunitario",
-        "en": "Community Economic Development"
       }
     ]
   }

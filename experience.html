@@ -117,7 +117,7 @@
           return `
             <article class="card">
               <div class="card-body">
-                <span class="badge">${escapeHtml(e.type)}</span>
+                <span class="badge">${escapeHtml(localize(e.type, lang))}</span>
                 <h3>${escapeHtml(localize(e.role, lang))}</h3>
                 <p class="card-meta"><span>${escapeHtml(e.organization)}</span><span>${escapeHtml(e.location)}</span><span>${escapeHtml(e.dates)}</span></p>
                 <p>${escapeHtml(localize(e.summary, lang))}</p>
