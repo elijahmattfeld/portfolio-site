@@ -357,17 +357,17 @@
   {
     "slug": "tourism-promotion-resources",
     "title": {
-      "es": "Recursos de Promoción Turística",
-      "en": "Tourism Promotion Resources"
+      "es": "Desarrollo de Recursos para la Promoción Turística",
+      "en": "Tourism Promotion Resource Development"
     },
     "summary": {
-      "es": "[AÑADIR resumen breve del proyecto]",
-      "en": "[ADD short project summary]"
+      "es": "Colaboré con estudiantes de la Universidad EAN para fortalecer la promoción turística del municipio de Galapa, actuando como enlace entre la comunidad y el equipo universitario.",
+      "en": "I collaborated with Universidad EAN students to strengthen tourism promotion for the municipality of Galapa, serving as a liaison between the community and the university team."
     },
     "category": "Tourism",
-    "location": "[ADD/AÑADIR: municipality or community]",
-    "date": "[ADD/AÑADIR: date or range]",
-    "status": "planned",
+    "location": "Galapa, Atlántico, Colombia",
+    "date": "Marzo de 2026 – Mayo de 2026",
+    "status": "completed",
     "featured": false,
     "coverImage": "assets/images/tourism-promotion.jpg",
     "coverImageAlt": {
@@ -375,34 +375,83 @@
       "en": "Elías at the Galapa, Atlántico landmark sign"
     },
     "role": {
-      "es": "[AÑADIR mi rol]",
-      "en": "[ADD my role]"
+      "es": "Enlace comunitario, análisis territorial, asesor del proyecto y colaborador en el desarrollo de recursos de promoción turística",
+      "en": "Community liaison, territorial analysis, project advisor, and collaborator in developing tourism promotion resources"
     },
     "partners": [
-      "[ADD/AÑADIR: partner organization]"
+      "Alcaldía de Galapa – Oficina de Turismo",
+      "Universidad EAN (Escuela de Administración de Negocios)"
     ],
     "overview": {
-      "es": "[AÑADIR resumen general del proyecto]",
-      "en": "[ADD general project overview]"
+      "es": "Durante más de dos meses trabajé en colaboración con cinco estudiantes de Administración de Empresas de la Universidad EAN para fortalecer la promoción turística del municipio de Galapa. Actué como enlace entre la comunidad y el equipo universitario, brindando asesoría sobre las necesidades del municipio y asegurando que los materiales desarrollados reflejaran de manera auténtica su patrimonio cultural, histórico y artesanal. Como resultado, se diseñaron recursos bilingües de promoción turística, incluyendo un sitio web, folletos y material informativo para impulsar el turismo local.",
+      "en": "For more than two months I worked in collaboration with five Business Administration students from Universidad EAN to strengthen tourism promotion for the municipality of Galapa. I acted as a liaison between the community and the university team, advising on the municipality's needs and ensuring the materials developed authentically reflected its cultural, historical, and artisanal heritage. As a result, bilingual tourism promotion resources were designed, including a website, brochures, and informational materials to boost local tourism."
     },
     "activities": [
       {
-        "es": "[AÑADIR actividad realizada]",
-        "en": "[ADD activity completed]"
+        "es": "Realicé un análisis de los principales atractivos turísticos, culturales e históricos del municipio para identificar oportunidades de promoción.",
+        "en": "Conducted an analysis of the municipality's main tourism, cultural, and historical attractions to identify promotional opportunities."
+      },
+      {
+        "es": "Asesoré al equipo de la Universidad EAN sobre los recursos turísticos y el contenido prioritario para representar la identidad de Galapa.",
+        "en": "Advised the Universidad EAN team on tourism assets and priority content to represent Galapa's identity."
+      },
+      {
+        "es": "Colaboré en el desarrollo de un sitio web bilingüe y materiales promocionales, incluyendo folletos e información turística.",
+        "en": "Collaborated on developing a bilingual website and promotional materials, including brochures and tourism information."
+      },
+      {
+        "es": "Participé en el mapeo de atractivos turísticos, talleres artesanales y sitios de interés cultural del municipio.",
+        "en": "Participated in mapping the municipality's tourism attractions, artisan workshops, and cultural heritage sites."
+      },
+      {
+        "es": "Revisé y validé el contenido de los materiales para asegurar su precisión y representación de la historia indígena Mokaná, las tradiciones locales y la oferta turística de Galapa.",
+        "en": "Reviewed and validated material content to ensure accuracy in representing Mokaná indigenous history, local traditions, and Galapa's tourism offerings."
+      },
+      {
+        "es": "Apoyé la preparación y presentación de los recursos turísticos ante actores institucionales y comunitarios.",
+        "en": "Supported the preparation and presentation of the tourism resources to institutional and community stakeholders."
       }
     ],
     "skills": [
       {
-        "es": "Turismo y Desarrollo Económico Local",
-        "en": "Tourism and Local Economic Development"
+        "es": "Desarrollo turístico sostenible",
+        "en": "Sustainable Tourism Development"
       },
       {
-        "es": "Marketing",
-        "en": "Marketing"
+        "es": "Promoción y mercadeo turístico",
+        "en": "Tourism Promotion and Marketing"
       },
       {
-        "es": "Diseño Gráfico",
-        "en": "Graphic Design"
+        "es": "Investigación y análisis comunitario",
+        "en": "Community Research and Analysis"
+      },
+      {
+        "es": "Gestión de proyectos comunitarios",
+        "en": "Community Project Management"
+      },
+      {
+        "es": "Comunicación intercultural",
+        "en": "Cross-Cultural Communication"
+      },
+      {
+        "es": "Elaboración de materiales promocionales",
+        "en": "Promotional Material Development"
+      },
+      {
+        "es": "Gestión de actores comunitarios",
+        "en": "Community Stakeholder Management"
+      },
+      {
+        "es": "Planeación estratégica",
+        "en": "Strategic Planning"
+      },
+      {
+        "es": "Redacción y revisión de contenidos",
+        "en": "Content Writing and Review"
+      },
+      {
+        "es": "Colaboración multidisciplinaria",
+        "en": "Multidisciplinary Collaboration"
       }
     ],
     "gallery": [],
