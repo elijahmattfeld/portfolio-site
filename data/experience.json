@@ -10,64 +10,247 @@
     "location": "Colombia",
     "dates": "Septiembre de 2025 – Presente",
     "summary": {
-      "es": "[AÑADIR resumen del servicio]",
-      "en": "[ADD service summary]"
+      "es": "Me desempeño como Voluntario de Desarrollo Económico Comunitario de Cuerpo de Paz Colombia, colaborando con instituciones educativas, entidades gubernamentales, universidades, emprendedores y organizaciones comunitarias para fortalecer el emprendimiento, la empleabilidad y el desarrollo económico local. Mediante procesos de capacitación, diseño de proyectos y colaboración interinstitucional, contribuyo al fortalecimiento de capacidades de jóvenes, emprendedores y comunidades.",
+      "en": "I serve as a Community Economic Development Volunteer with Peace Corps Colombia, collaborating with educational institutions, government agencies, universities, entrepreneurs, and community organizations to strengthen entrepreneurship, employability, and local economic development. Through training processes, project design, and inter-institutional collaboration, I contribute to building the capacity of youth, entrepreneurs, and communities."
     },
     "responsibilities": [
       {
-        "es": "[AÑADIR responsabilidad]",
-        "en": "[ADD responsibility]"
+        "es": "Cofacilitar programas de emprendimiento, educación financiera y habilidades socioemocionales en instituciones educativas públicas.",
+        "en": "Co-facilitate entrepreneurship, financial literacy, and socioemotional skills programs in public educational institutions."
+      },
+      {
+        "es": "Cofacilitar procesos de formación y fortalecimiento empresarial dirigidos a emprendedores y pequeños empresarios.",
+        "en": "Co-facilitate business training and strengthening processes for entrepreneurs and small business owners."
+      },
+      {
+        "es": "Diseñar e implementar proyectos comunitarios en colaboración con instituciones educativas, gobiernos locales, universidades y organizaciones comunitarias.",
+        "en": "Design and implement community projects in collaboration with educational institutions, local governments, universities, and community organizations."
+      },
+      {
+        "es": "Asesorar a contrapartes locales en el desarrollo de iniciativas relacionadas con emprendimiento, turismo, empleabilidad y desarrollo económico.",
+        "en": "Advise local counterparts on developing initiatives related to entrepreneurship, tourism, employability, and economic development."
+      },
+      {
+        "es": "Elaborar materiales educativos y recursos para talleres, capacitaciones y proyectos comunitarios.",
+        "en": "Develop educational materials and resources for workshops, trainings, and community projects."
+      },
+      {
+        "es": "Identificar necesidades, recursos y oportunidades mediante procesos de análisis y participación comunitaria.",
+        "en": "Identify needs, resources, and opportunities through community analysis and participatory processes."
+      },
+      {
+        "es": "Fortalecer alianzas entre actores comunitarios e institucionales para promover iniciativas sostenibles de desarrollo local.",
+        "en": "Strengthen partnerships between community and institutional actors to promote sustainable local development initiatives."
       }
     ],
     "accomplishments": [
       {
-        "es": "[AÑADIR logro]",
-        "en": "[ADD accomplishment]"
+        "es": "Cofacilité programas de emprendimiento, educación financiera y desarrollo personal para más de 80 estudiantes de grados noveno a undécimo en cuatro instituciones educativas públicas.",
+        "en": "Co-facilitated entrepreneurship, financial literacy, and personal development programs for more than 80 ninth- through eleventh-grade students across four public educational institutions."
+      },
+      {
+        "es": "Cofacilité una serie de talleres de emprendimiento y fortalecimiento empresarial para más de 40 emprendedores y personas interesadas en iniciar un negocio.",
+        "en": "Co-facilitated a series of entrepreneurship and business strengthening workshops for more than 40 entrepreneurs and aspiring business owners."
+      },
+      {
+        "es": "Colaboré con la Alcaldía de Galapa y la Universidad EAN en el desarrollo de recursos bilingües para la promoción turística del municipio.",
+        "en": "Collaborated with the Galapa Mayor's Office and Universidad EAN on developing bilingual resources for the municipality's tourism promotion."
+      },
+      {
+        "es": "Apoyé el análisis y mapeo de atractivos turísticos, la elaboración de materiales promocionales y la realización de presentaciones comunitarias.",
+        "en": "Supported the analysis and mapping of tourist attractions, the creation of promotional materials, and community presentations."
+      },
+      {
+        "es": "Cocreé un Club de Orientación Profesional y Empleabilidad, desarrollando su marco curricular y materiales pedagógicos.",
+        "en": "Co-created a Career Guidance and Employability Club, developing its curricular framework and teaching materials."
+      },
+      {
+        "es": "Fortalecí la articulación entre instituciones educativas, entidades gubernamentales, universidades y actores comunitarios para impulsar proyectos de desarrollo local.",
+        "en": "Strengthened coordination among educational institutions, government agencies, universities, and community actors to advance local development projects."
       }
     ],
     "skills": [
       {
-        "es": "Desarrollo Económico Comunitario",
-        "en": "Community Economic Development"
+        "es": "Desarrollo económico comunitario",
+        "en": "Community economic development"
       },
       {
-        "es": "Facilitación de Talleres",
-        "en": "Workshop Facilitation"
+        "es": "Facilitación de talleres",
+        "en": "Workshop facilitation"
       },
       {
-        "es": "Comunicación Intercultural",
-        "en": "Cross-Cultural Communication"
+        "es": "Comunicación intercultural",
+        "en": "Cross-cultural communication"
+      },
+      {
+        "es": "Gestión de proyectos comunitarios",
+        "en": "Community project management"
+      },
+      {
+        "es": "Emprendimiento y fortalecimiento empresarial",
+        "en": "Entrepreneurship and business strengthening"
+      },
+      {
+        "es": "Desarrollo curricular",
+        "en": "Curriculum development"
+      },
+      {
+        "es": "Diseño de materiales educativos",
+        "en": "Educational materials design"
+      },
+      {
+        "es": "Gestión de alianzas interinstitucionales",
+        "en": "Inter-institutional partnership management"
+      },
+      {
+        "es": "Desarrollo turístico sostenible",
+        "en": "Sustainable tourism development"
+      },
+      {
+        "es": "Educación financiera",
+        "en": "Financial literacy"
+      },
+      {
+        "es": "Liderazgo colaborativo",
+        "en": "Collaborative leadership"
+      },
+      {
+        "es": "Participación comunitaria",
+        "en": "Community participation"
+      },
+      {
+        "es": "Análisis de necesidades comunitarias",
+        "en": "Community needs analysis"
       }
     ]
   },
   {
     "id": "previous-work-experience",
     "type": "Work Experience",
-    "organization": "[ADD/AÑADIR: organization]",
+    "organization": "Denny Pest Control",
     "role": {
-      "es": "[AÑADIR puesto]",
-      "en": "[ADD role]"
+      "es": "Asesor de Ventas y Técnico en Control de Plagas",
+      "en": "Sales Advisor and Pest Control Technician"
     },
-    "location": "[ADD/AÑADIR: location]",
-    "dates": "[ADD/AÑADIR: dates]",
+    "location": "California, EE. UU.",
+    "dates": "Mayo de 2021 – Agosto de 2025",
     "summary": {
-      "es": "[AÑADIR resumen del puesto]",
-      "en": "[ADD role summary]"
+      "es": "Me desempeñé como asesor de ventas y técnico certificado en control de plagas, brindando soluciones a clientes residenciales y comerciales. Además de ejecutar servicios técnicos, asesoré a clientes sobre estrategias de prevención, administré rutas y suscripciones de servicio, contribuí al crecimiento de la cartera de clientes y apoyé la capacitación de nuevos colaboradores.",
+      "en": "I worked as a sales advisor and certified pest control technician, providing solutions for residential and commercial clients. In addition to performing technical services, I advised clients on prevention strategies, managed routes and service subscriptions, contributed to growing the client portfolio, and supported the training of new team members."
     },
     "responsibilities": [
       {
-        "es": "[AÑADIR responsabilidad]",
-        "en": "[ADD responsibility]"
+        "es": "Inspeccionar propiedades residenciales y comerciales para identificar riesgos, infestaciones y necesidades de tratamiento.",
+        "en": "Inspect residential and commercial properties to identify risks, infestations, and treatment needs."
+      },
+      {
+        "es": "Ejecutar tratamientos de control de plagas de acuerdo con protocolos técnicos, normativas de seguridad y requisitos ambientales.",
+        "en": "Perform pest control treatments in accordance with technical protocols, safety regulations, and environmental requirements."
+      },
+      {
+        "es": "Asesorar a clientes sobre medidas preventivas y planes de mantenimiento.",
+        "en": "Advise clients on preventive measures and maintenance plans."
+      },
+      {
+        "es": "Presentar y vender planes de servicio adaptados a las necesidades de cada cliente.",
+        "en": "Present and sell service plans tailored to each client's needs."
+      },
+      {
+        "es": "Gestionar rutas, citas, suscripciones y registros de los servicios realizados.",
+        "en": "Manage routes, appointments, subscriptions, and service records."
+      },
+      {
+        "es": "Brindar atención al cliente antes, durante y después de cada servicio.",
+        "en": "Provide customer service before, during, and after each service."
+      },
+      {
+        "es": "Apoyar la capacitación, supervisión e integración de nuevos técnicos.",
+        "en": "Support the training, supervision, and onboarding of new technicians."
+      },
+      {
+        "es": "Comunicarse en inglés y español con clientes para explicar tratamientos, recomendaciones y condiciones del servicio.",
+        "en": "Communicate in English and Spanish with clients to explain treatments, recommendations, and service terms."
       }
     ],
     "accomplishments": [
       {
-        "es": "[AÑADIR logro]",
-        "en": "[ADD accomplishment]"
+        "es": "Alcancé metas de ventas mediante la captación de nuevos clientes y la renovación de contratos y suscripciones de servicio.",
+        "en": "Met sales goals by acquiring new clients and renewing contracts and service subscriptions."
+      },
+      {
+        "es": "Capacité y supervisé a tres nuevos empleados durante su proceso de incorporación.",
+        "en": "Trained and supervised three new employees during their onboarding process."
+      },
+      {
+        "es": "Lideré equipos de trabajo y apoyé la coordinación de rutas y responsabilidades operativas.",
+        "en": "Led work teams and supported the coordination of routes and operational responsibilities."
+      },
+      {
+        "es": "Desarrollé relaciones de confianza con clientes residenciales y comerciales mediante un servicio profesional y personalizado.",
+        "en": "Built trusted relationships with residential and commercial clients through professional, personalized service."
+      },
+      {
+        "es": "Utilicé mis habilidades bilingües para atender a clientes hispanohablantes y facilitar la comunicación entre los clientes y la empresa.",
+        "en": "Used my bilingual skills to serve Spanish-speaking clients and facilitate communication between clients and the company."
+      },
+      {
+        "es": "Fortalecí mi capacidad para trabajar de manera autónoma, resolver problemas y administrar múltiples responsabilidades durante la jornada laboral.",
+        "en": "Strengthened my ability to work independently, solve problems, and manage multiple responsibilities during the workday."
       }
     ],
     "skills": [
-      "[ADD/AÑADIR: skill]"
+      {
+        "es": "Atención al cliente",
+        "en": "Customer service"
+      },
+      {
+        "es": "Ventas consultivas",
+        "en": "Consultative sales"
+      },
+      {
+        "es": "Comunicación bilingüe",
+        "en": "Bilingual communication"
+      },
+      {
+        "es": "Resolución de problemas",
+        "en": "Problem-solving"
+      },
+      {
+        "es": "Gestión del tiempo",
+        "en": "Time management"
+      },
+      {
+        "es": "Organización y planificación",
+        "en": "Organization and planning"
+      },
+      {
+        "es": "Capacitación y supervisión de personal",
+        "en": "Staff training and supervision"
+      },
+      {
+        "es": "Liderazgo de equipos",
+        "en": "Team leadership"
+      },
+      {
+        "es": "Trabajo autónomo",
+        "en": "Independent work"
+      },
+      {
+        "es": "Gestión de relaciones con clientes",
+        "en": "Client relationship management"
+      },
+      {
+        "es": "Coordinación de rutas",
+        "en": "Route coordination"
+      },
+      {
+        "es": "Cumplimiento de normas de seguridad",
+        "en": "Safety compliance"
+      },
+      {
+        "es": "Adaptabilidad",
+        "en": "Adaptability"
+      }
     ]
   },
   {
@@ -136,85 +319,300 @@
       "en": "Business Administration and Management, emphasis in International Business"
     },
     "location": "San Marcos, California, EE. UU.",
-    "dates": "[ADD/AÑADIR: dates]",
+    "dates": "Agosto de 2023 – Mayo de 2025",
     "summary": {
-      "es": "[AÑADIR resumen académico]",
-      "en": "[ADD academic summary]"
+      "es": "Obtuve el título de Licenciado en Administración de Empresas con énfasis en Negocios Internacionales, desarrollando competencias en estrategia empresarial, emprendimiento, mercadeo, finanzas, gestión de proyectos y operaciones internacionales. Complementé mi formación mediante experiencias académicas internacionales en Europa y México, así como a través del desarrollo de proyectos de emprendimiento social y colaboración con organizaciones comunitarias.",
+      "en": "I earned a Bachelor's degree in Business Administration with an emphasis in International Business, developing competencies in business strategy, entrepreneurship, marketing, finance, project management, and international operations. I complemented my education through international academic experiences in Europe and Mexico, as well as by developing social entrepreneurship projects and collaborating with community organizations."
     },
     "responsibilities": [],
     "accomplishments": [
       {
-        "es": "[AÑADIR logro académico]",
-        "en": "[ADD academic accomplishment]"
+        "es": "Formé parte de la Lista del Decano durante mis estudios en California State University San Marcos.",
+        "en": "Made the Dean's List during my studies at California State University San Marcos."
+      },
+      {
+        "es": "Gané el primer lugar en la competencia universitaria CSUSM Quick Pitch con el proyecto de emprendimiento social Philantree.",
+        "en": "Won first place in the CSUSM Quick Pitch university competition with the social entrepreneurship project Philantree."
+      },
+      {
+        "es": "Desarrollé y lideré Philantree como parte del programa Senior Experience, elaborando un plan de negocios y una propuesta de plataforma digital orientada al fortalecimiento del voluntariado.",
+        "en": "Developed and led Philantree as part of the Senior Experience program, producing a business plan and a digital platform proposal aimed at strengthening volunteerism."
+      },
+      {
+        "es": "Participé en un programa académico internacional en Alemania, Austria e Italia, donde analicé modelos empresariales y la influencia de la cultura en el emprendimiento.",
+        "en": "Participated in an international academic program in Germany, Austria, and Italy, analyzing business models and the influence of culture on entrepreneurship."
+      },
+      {
+        "es": "Fortalecí mi experiencia internacional mediante un semestre académico y de servicio comunitario en Ciudad de México.",
+        "en": "Strengthened my international experience through an academic and community service semester in Mexico City."
       }
     ],
     "skills": [
       {
-        "es": "Análisis Empresarial",
-        "en": "Business Analysis"
+        "es": "Análisis empresarial",
+        "en": "Business analysis"
       },
       {
-        "es": "Planificación Estratégica",
-        "en": "Strategic Planning"
+        "es": "Planificación estratégica",
+        "en": "Strategic planning"
+      },
+      {
+        "es": "Gestión de proyectos",
+        "en": "Project management"
+      },
+      {
+        "es": "Emprendimiento e innovación",
+        "en": "Entrepreneurship and innovation"
+      },
+      {
+        "es": "Desarrollo de modelos de negocio",
+        "en": "Business model development"
+      },
+      {
+        "es": "Investigación de mercados",
+        "en": "Market research"
+      },
+      {
+        "es": "Negocios internacionales",
+        "en": "International business"
+      },
+      {
+        "es": "Comunicación intercultural",
+        "en": "Cross-cultural communication"
+      },
+      {
+        "es": "Liderazgo y trabajo en equipo",
+        "en": "Leadership and teamwork"
+      },
+      {
+        "es": "Resolución de problemas",
+        "en": "Problem-solving"
+      },
+      {
+        "es": "Presentaciones profesionales",
+        "en": "Professional presentations"
+      },
+      {
+        "es": "Pensamiento estratégico",
+        "en": "Strategic thinking"
       }
     ]
   },
   {
     "id": "international-experience",
     "type": "International Experience",
-    "organization": "[ADD/AÑADIR: program/institution]",
+    "organization": "California State University San Marcos",
     "role": {
-      "es": "Programas académicos y profesionales internacionales",
-      "en": "International academic and professional programs"
+      "es": "Programa Académico Internacional de Negocios",
+      "en": "International Business Academic Program"
     },
-    "location": "México, Alemania, Austria e Italia",
-    "dates": "[ADD/AÑADIR: dates]",
+    "location": "Alemania, Austria e Italia",
+    "dates": "Marzo de 2025 – Junio de 2025",
     "summary": {
-      "es": "Experiencias académicas y profesionales internacionales que ampliaron mi comprensión de distintos modelos económicos, organizaciones sociales y formas de desarrollo comunitario.",
-      "en": "[TRANSLATE: matches es.summary]"
+      "es": "Participé en un programa académico internacional enfocado en negocios globales, emprendimiento y operaciones empresariales. Durante el programa visité empresas y organizaciones en Alemania, Austria e Italia para analizar cómo la cultura, el entorno económico y las prácticas organizacionales influyen en la gestión empresarial y en el desarrollo de iniciativas emprendedoras.",
+      "en": "I participated in an international academic program focused on global business, entrepreneurship, and business operations. During the program, I visited companies and organizations in Germany, Austria, and Italy to analyze how culture, the economic environment, and organizational practices influence business management and the development of entrepreneurial initiatives."
     },
     "responsibilities": [],
     "accomplishments": [
       {
-        "es": "[AÑADIR logro]",
-        "en": "[ADD accomplishment]"
+        "es": "Visité empresas y organizaciones de diferentes sectores para conocer sus modelos de negocio, estructuras organizacionales y prácticas operativas.",
+        "en": "Visited companies and organizations across different sectors to learn about their business models, organizational structures, and operating practices."
+      },
+      {
+        "es": "Analicé cómo las diferencias culturales influyen en el emprendimiento, el liderazgo, la comunicación, la innovación y la toma de decisiones empresariales.",
+        "en": "Analyzed how cultural differences influence entrepreneurship, leadership, communication, innovation, and business decision-making."
+      },
+      {
+        "es": "Elaboré un informe académico sobre la influencia de la cultura en el emprendimiento y en la creación y administración de empresas.",
+        "en": "Produced an academic report on the influence of culture on entrepreneurship and on starting and running businesses."
+      },
+      {
+        "es": "Comparé prácticas empresariales y entornos económicos de Alemania, Austria e Italia.",
+        "en": "Compared business practices and economic environments across Germany, Austria, and Italy."
+      },
+      {
+        "es": "Apliqué conceptos de negocios internacionales mediante observación directa, análisis comparativo y reflexión intercultural.",
+        "en": "Applied international business concepts through direct observation, comparative analysis, and intercultural reflection."
+      },
+      {
+        "es": "Fortalecí mi comprensión de las oportunidades y desafíos relacionados con la operación de empresas en contextos internacionales.",
+        "en": "Strengthened my understanding of the opportunities and challenges of operating businesses in international contexts."
       }
     ],
     "skills": [
       {
-        "es": "Comunicación Intercultural",
-        "en": "Cross-Cultural Communication"
+        "es": "Comunicación intercultural",
+        "en": "Cross-cultural communication"
       },
-      "[ADD/AÑADIR: skill]"
+      {
+        "es": "Análisis empresarial internacional",
+        "en": "International business analysis"
+      },
+      {
+        "es": "Investigación y redacción académica",
+        "en": "Academic research and writing"
+      },
+      {
+        "es": "Pensamiento crítico",
+        "en": "Critical thinking"
+      },
+      {
+        "es": "Análisis comparativo",
+        "en": "Comparative analysis"
+      },
+      {
+        "es": "Negocios internacionales",
+        "en": "International business"
+      },
+      {
+        "es": "Emprendimiento",
+        "en": "Entrepreneurship"
+      },
+      {
+        "es": "Observación organizacional",
+        "en": "Organizational observation"
+      },
+      {
+        "es": "Adaptabilidad cultural",
+        "en": "Cultural adaptability"
+      },
+      {
+        "es": "Presentaciones profesionales",
+        "en": "Professional presentations"
+      },
+      {
+        "es": "Análisis del impacto cultural en los negocios",
+        "en": "Analysis of cultural impact on business"
+      }
     ]
   },
   {
     "id": "volunteer-experience",
     "type": "Volunteer Experience",
-    "organization": "[ADD/AÑADIR: volunteer organization]",
+    "organization": "El Pozo de Vida",
     "role": {
-      "es": "[AÑADIR rol de voluntariado]",
-      "en": "[ADD volunteer role]"
+      "es": "Voluntario de Desarrollo Comunitario",
+      "en": "Community Development Volunteer"
     },
-    "location": "[ADD/AÑADIR: location]",
-    "dates": "[ADD/AÑADIR: dates]",
+    "location": "Ciudad de México, México",
+    "dates": "Enero de 2024 – Mayo de 2024",
     "summary": {
-      "es": "[AÑADIR resumen del voluntariado]",
-      "en": "[ADD volunteer summary]"
+      "es": "Participé como voluntario en El Pozo de Vida durante un programa académico internacional, apoyando iniciativas de desarrollo comunitario dirigidas a mujeres sobrevivientes de trata de personas, población migrante y otros grupos en situación de vulnerabilidad. Colaboré en actividades educativas, enseñanza del idioma inglés, acompañamiento comunitario y apoyo a iniciativas de emprendimiento y generación de ingresos.",
+      "en": "I volunteered with El Pozo de Vida during an international academic program, supporting community development initiatives for women survivors of human trafficking, migrant populations, and other vulnerable groups. I collaborated on educational activities, English language teaching, community accompaniment, and support for entrepreneurship and income-generation initiatives."
     },
     "responsibilities": [
       {
-        "es": "[AÑADIR responsabilidad]",
-        "en": "[ADD responsibility]"
+        "es": "Apoyar programas educativos y comunitarios dirigidos a mujeres, jóvenes y personas en situación de vulnerabilidad.",
+        "en": "Support educational and community programs for women, youth, and people in vulnerable situations."
+      },
+      {
+        "es": "Facilitar actividades de enseñanza del idioma inglés y desarrollo de habilidades personales.",
+        "en": "Facilitate English language teaching and personal skills development activities."
+      },
+      {
+        "es": "Colaborar con iniciativas de emprendimiento y fortalecimiento económico dirigidas a mujeres.",
+        "en": "Collaborate on entrepreneurship and economic strengthening initiatives for women."
+      },
+      {
+        "es": "Apoyar actividades orientadas a la inclusión social, el desarrollo personal y la integración comunitaria.",
+        "en": "Support activities focused on social inclusion, personal development, and community integration."
+      },
+      {
+        "es": "Preparar materiales y actividades educativas adaptadas a las necesidades de las participantes.",
+        "en": "Prepare educational materials and activities tailored to participants' needs."
+      },
+      {
+        "es": "Trabajar en coordinación con el personal de la organización y otros voluntarios.",
+        "en": "Work in coordination with organization staff and other volunteers."
+      },
+      {
+        "es": "Participar en procesos de aprendizaje intercultural relacionados con el desarrollo social y comunitario en México.",
+        "en": "Participate in intercultural learning processes related to social and community development in Mexico."
       }
     ],
-    "accomplishments": [],
+    "accomplishments": [
+      {
+        "es": "Contribuí al fortalecimiento de programas educativos y de desarrollo comunitario para poblaciones en situación de vulnerabilidad.",
+        "en": "Contributed to strengthening educational and community development programs for vulnerable populations."
+      },
+      {
+        "es": "Apoyé procesos de formación en inglés y habilidades para la vida dirigidos a mujeres y jóvenes.",
+        "en": "Supported English-language and life-skills training for women and youth."
+      },
+      {
+        "es": "Colaboré con iniciativas orientadas al emprendimiento femenino y a la generación de oportunidades económicas sostenibles.",
+        "en": "Collaborated on initiatives focused on women's entrepreneurship and sustainable income generation."
+      },
+      {
+        "es": "Fortalecí mi capacidad para adaptar actividades educativas a diferentes necesidades y contextos sociales.",
+        "en": "Strengthened my ability to adapt educational activities to different needs and social contexts."
+      },
+      {
+        "es": "Desarrollé una comprensión práctica de los desafíos relacionados con la trata de personas, la migración, la vulnerabilidad social y la inclusión.",
+        "en": "Developed a practical understanding of challenges related to human trafficking, migration, social vulnerability, and inclusion."
+      },
+      {
+        "es": "Fortalecí mis habilidades de comunicación intercultural mediante el trabajo directo con participantes y profesionales mexicanos.",
+        "en": "Strengthened my cross-cultural communication skills through direct work with Mexican participants and professionals."
+      }
+    ],
     "skills": [
       {
-        "es": "Alcance Comunitario",
-        "en": "Community Outreach"
+        "es": "Desarrollo comunitario",
+        "en": "Community development"
       },
-      "[ADD/AÑADIR: skill]"
+      {
+        "es": "Comunicación intercultural",
+        "en": "Cross-cultural communication"
+      },
+      {
+        "es": "Facilitación de actividades educativas",
+        "en": "Educational activity facilitation"
+      },
+      {
+        "es": "Enseñanza del idioma inglés",
+        "en": "English language teaching"
+      },
+      {
+        "es": "Apoyo al emprendimiento femenino",
+        "en": "Support for women's entrepreneurship"
+      },
+      {
+        "es": "Trabajo con poblaciones vulnerables",
+        "en": "Work with vulnerable populations"
+      },
+      {
+        "es": "Empatía y escucha activa",
+        "en": "Empathy and active listening"
+      },
+      {
+        "es": "Trabajo en equipo",
+        "en": "Teamwork"
+      },
+      {
+        "es": "Adaptabilidad",
+        "en": "Adaptability"
+      },
+      {
+        "es": "Inclusión social",
+        "en": "Social inclusion"
+      },
+      {
+        "es": "Resolución de problemas",
+        "en": "Problem-solving"
+      },
+      {
+        "es": "Liderazgo de servicio",
+        "en": "Servant leadership"
+      },
+      {
+        "es": "Colaboración comunitaria",
+        "en": "Community collaboration"
+      },
+      {
+        "es": "Diseño de materiales educativos",
+        "en": "Educational materials design"
+      }
     ]
   },
   {
@@ -226,14 +624,96 @@
       "en": "Winner, CSUSM Quick Pitch Competition (Philantree)"
     },
     "location": "San Marcos, California, EE. UU.",
-    "dates": "[ADD/AÑADIR: date]",
+    "dates": "Abril de 2025",
     "summary": {
-      "es": "Reconocimiento por el concepto de negocio Philantree en la competencia Quick Pitch de CSUSM.",
-      "en": "Recognition for the Philantree business concept at the CSUSM Quick Pitch competition."
+      "es": "Obtuve el primer lugar en la competencia CSUSM Quick Pitch con Philantree, un proyecto de emprendimiento social diseñado para conectar organizaciones sin ánimo de lucro que necesitan voluntarios con estudiantes y jóvenes que buscan oportunidades de servicio y experiencia profesional. El concepto fue reconocido por su propuesta de valor, innovación, impacto social y potencial de crecimiento.",
+      "en": "I won first place in the CSUSM Quick Pitch competition with Philantree, a social entrepreneurship project designed to connect nonprofit organizations that need volunteers with students and young people seeking service opportunities and professional experience. The concept was recognized for its value proposition, innovation, social impact, and growth potential."
     },
     "responsibilities": [],
-    "accomplishments": [],
-    "skills": []
+    "accomplishments": [
+      {
+        "es": "Gané el primer lugar entre los proyectos de emprendimiento presentados ante un panel de docentes y profesionales del sector empresarial.",
+        "en": "Won first place among the entrepreneurship projects presented before a panel of faculty and business professionals."
+      },
+      {
+        "es": "Desarrollé y presenté un modelo de negocio enfocado en la innovación social y el fortalecimiento del voluntariado comunitario.",
+        "en": "Developed and presented a business model focused on social innovation and strengthening community volunteerism."
+      },
+      {
+        "es": "Diseñé una propuesta de valor orientada a resolver las necesidades de organizaciones sin ánimo de lucro, estudiantes y voluntarios.",
+        "en": "Designed a value proposition aimed at addressing the needs of nonprofit organizations, students, and volunteers."
+      },
+      {
+        "es": "Desarrollé el concepto de una plataforma digital con funciones de búsqueda de oportunidades, mensajería, seguimiento y verificación de horas de voluntariado.",
+        "en": "Developed the concept for a digital platform with features for opportunity search, messaging, tracking, and verification of volunteer hours."
+      },
+      {
+        "es": "Validé el concepto mediante investigación de usuarios, entrevistas con organizaciones y análisis de mercado.",
+        "en": "Validated the concept through user research, interviews with organizations, and market analysis."
+      },
+      {
+        "es": "Presenté el proyecto mediante un discurso empresarial conciso y persuasivo ante una audiencia profesional.",
+        "en": "Presented the project through a concise, persuasive business pitch before a professional audience."
+      },
+      {
+        "es": "Fortalecí la visibilidad de Philantree como una iniciativa con potencial de implementación en instituciones educativas y organizaciones comunitarias.",
+        "en": "Strengthened Philantree's visibility as an initiative with potential for implementation in educational institutions and community organizations."
+      }
+    ],
+    "skills": [
+      {
+        "es": "Emprendimiento e innovación",
+        "en": "Entrepreneurship and innovation"
+      },
+      {
+        "es": "Desarrollo de modelos de negocio",
+        "en": "Business model development"
+      },
+      {
+        "es": "Diseño de propuestas de valor",
+        "en": "Value proposition design"
+      },
+      {
+        "es": "Investigación de mercados",
+        "en": "Market research"
+      },
+      {
+        "es": "Validación de ideas de negocio",
+        "en": "Business idea validation"
+      },
+      {
+        "es": "Comunicación persuasiva",
+        "en": "Persuasive communication"
+      },
+      {
+        "es": "Presentación ejecutiva",
+        "en": "Executive presentation"
+      },
+      {
+        "es": "Pensamiento estratégico",
+        "en": "Strategic thinking"
+      },
+      {
+        "es": "Resolución de problemas",
+        "en": "Problem-solving"
+      },
+      {
+        "es": "Liderazgo",
+        "en": "Leadership"
+      },
+      {
+        "es": "Innovación social",
+        "en": "Social innovation"
+      },
+      {
+        "es": "Análisis empresarial",
+        "en": "Business analysis"
+      },
+      {
+        "es": "Gestión de proyectos",
+        "en": "Project management"
+      }
+    ]
   },
   {
     "id": "site-transition-santander",
