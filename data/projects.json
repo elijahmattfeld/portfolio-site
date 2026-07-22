@@ -267,54 +267,86 @@
     "externalLink": ""
   },
   {
-    "slug": "employability-club",
+    "slug": "centro-interes-orientacion-profesional",
     "title": {
-      "es": "Club de Empleabilidad",
-      "en": "Employability Club"
+      "es": "Centro de Interés: Orientación Profesional y Empleabilidad",
+      "en": "Interest Center: Career Guidance and Employability"
     },
     "summary": {
-      "es": "[AÑADIR resumen breve del proyecto]",
-      "en": "[ADD short project summary]"
+      "es": "Cocreé un club de orientación profesional y empleabilidad para preparar a estudiantes de educación media en la transición hacia la educación superior y el mundo laboral.",
+      "en": "I co-created a career guidance and employability club to prepare secondary students for the transition to higher education and the workforce."
     },
-    "category": "Entrepreneurship",
-    "location": "[ADD/AÑADIR: municipality or community]",
-    "date": "[ADD/AÑADIR: date or range]",
-    "status": "planned",
+    "category": "Youth Development",
+    "location": "Galapa, Atlántico, Colombia",
+    "date": "Marzo de 2026 – Junio de 2026",
+    "status": "completed",
     "featured": false,
     "coverImage": "assets/images/construye-tus-suenos.jpg",
     "coverImageAlt": {
-      "es": "Sesión de planificación de actividades del Club de Empleabilidad",
-      "en": "Planning session for Club de Empleabilidad activities"
+      "es": "Sesión de planificación de actividades del Centro de Interés de Orientación Profesional y Empleabilidad",
+      "en": "Planning session for the Career Guidance and Employability Interest Center"
     },
     "role": {
-      "es": "[AÑADIR mi rol]",
-      "en": "[ADD my role]"
+      "es": "Co-coordinador del proyecto y diseñador de materiales pedagógicos",
+      "en": "Co-coordinator of the project and designer of educational materials"
     },
     "partners": [
-      "[ADD/AÑADIR: partner organization]"
+      "Institución Educativa Técnica Francisco de Paula Santander"
     ],
     "overview": {
-      "es": "[AÑADIR resumen general del proyecto]",
-      "en": "[ADD general project overview]"
+      "es": "Cocreé un club de orientación profesional y empleabilidad para preparar a estudiantes de educación media en la transición hacia la educación superior y el mundo laboral. El programa integró actividades de exploración vocacional, elaboración de hojas de vida, simulaciones de entrevistas laborales y el fortalecimiento de competencias socioemocionales necesarias para el desarrollo académico y profesional.",
+      "en": "I co-created a career guidance and employability club to prepare secondary students for the transition to higher education and the workforce. The program integrated vocational exploration activities, resume writing, mock job interviews, and the development of socioemotional skills needed for academic and professional growth."
     },
     "activities": [
       {
-        "es": "[AÑADIR actividad realizada]",
-        "en": "[ADD activity completed]"
+        "es": "Cocreé el marco curricular y los materiales didácticos del club junto con el docente de emprendimiento de la institución.",
+        "en": "Co-created the club's curricular framework and teaching materials alongside the institution's entrepreneurship teacher."
+      },
+      {
+        "es": "Diseñé actividades enfocadas en orientación vocacional, exploración de carreras universitarias y técnicas, empleabilidad y desarrollo profesional.",
+        "en": "Designed activities focused on vocational guidance, exploration of university and technical careers, employability, and professional development."
+      },
+      {
+        "es": "Elaboré recursos para la construcción de hojas de vida, preparación para entrevistas laborales y fortalecimiento de habilidades para la búsqueda de empleo.",
+        "en": "Developed resources for resume building, job interview preparation, and job-search skills."
+      },
+      {
+        "es": "Integré competencias socioemocionales en las actividades del club para fortalecer habilidades de comunicación, trabajo en equipo, liderazgo y resolución de problemas.",
+        "en": "Integrated socioemotional competencies into the club's activities to strengthen communication, teamwork, leadership, and problem-solving skills."
       }
     ],
     "skills": [
       {
-        "es": "Educación en Emprendimiento",
-        "en": "Entrepreneurship Education"
+        "es": "Diseño curricular",
+        "en": "Curriculum Design"
       },
       {
-        "es": "Desarrollo Juvenil",
-        "en": "Youth Development"
+        "es": "Orientación vocacional",
+        "en": "Vocational Guidance"
       },
       {
-        "es": "Facilitación de Talleres",
+        "es": "Empleabilidad y desarrollo profesional",
+        "en": "Employability and Professional Development"
+      },
+      {
+        "es": "Elaboración de materiales pedagógicos",
+        "en": "Educational Material Development"
+      },
+      {
+        "es": "Facilitación de talleres",
         "en": "Workshop Facilitation"
+      },
+      {
+        "es": "Desarrollo de competencias socioemocionales",
+        "en": "Socioemotional Skills Development"
+      },
+      {
+        "es": "Trabajo colaborativo",
+        "en": "Collaborative Work"
+      },
+      {
+        "es": "Gestión de proyectos educativos",
+        "en": "Educational Project Management"
       }
     ],
     "gallery": [],
