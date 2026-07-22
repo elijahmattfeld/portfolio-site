@@ -14,10 +14,10 @@
     "date": "Octubre de 2025 – Junio de 2026",
     "status": "completed",
     "featured": true,
-    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImage": "assets/images/talleres-emprendimiento-juvenil.jpg",
     "coverImageAlt": {
-      "es": "Imagen de marcador de posición para los talleres de emprendimiento juvenil",
-      "en": "Placeholder image for the youth entrepreneurship workshops"
+      "es": "Elías cofacilitando un taller de emprendimiento con estudiantes de secundaria en Galapa",
+      "en": "Elías co-facilitating an entrepreneurship workshop with secondary school students in Galapa"
     },
     "role": {
       "es": "Cofacilitador y docente de talleres de emprendimiento juvenil",
@@ -209,10 +209,10 @@
     "date": "Enero de 2026 – Junio de 2026",
     "status": "completed",
     "featured": true,
-    "coverImage": "assets/images/construye-tus-suenos.jpg",
+    "coverImage": "assets/images/placeholder-project.svg",
     "coverImageAlt": {
-      "es": "Sesión de planificación del currículo Construye Tus Sueños",
-      "en": "Planning session for the Construye Tus Sueños curriculum"
+      "es": "Imagen de marcador de posición para Construye Tus Sueños",
+      "en": "Placeholder image for Construye Tus Sueños"
     },
     "role": {
       "es": "Cofacilitador, planificador de lecciones y adaptador de recursos educativos",
@@ -281,10 +281,10 @@
     "date": "[ADD/AÑADIR: date or range]",
     "status": "planned",
     "featured": false,
-    "coverImage": "assets/images/talleres-emprendimiento-juvenil.jpg",
+    "coverImage": "assets/images/construye-tus-suenos.jpg",
     "coverImageAlt": {
-      "es": "Elías cofacilitando una sesión del Club de Empleabilidad con estudiantes de secundaria en Galapa",
-      "en": "Elías co-facilitating an Employability Club session with secondary school students in Galapa"
+      "es": "Sesión de planificación de actividades del Club de Empleabilidad",
+      "en": "Planning session for Club de Empleabilidad activities"
     },
     "role": {
       "es": "[AÑADIR mi rol]",
@@ -337,10 +337,10 @@
     "date": "[ADD/AÑADIR: date or range]",
     "status": "planned",
     "featured": false,
-    "coverImage": "assets/images/placeholder-project.svg",
+    "coverImage": "assets/images/tourism-promotion.jpg",
     "coverImageAlt": {
-      "es": "Imagen de marcador de posición para los recursos de promoción turística",
-      "en": "Placeholder image for the tourism promotion resources"
+      "es": "Elías en el letrero de Galapa, Atlántico",
+      "en": "Elías at the Galapa, Atlántico landmark sign"
     },
     "role": {
       "es": "[AÑADIR mi rol]",
@@ -371,58 +371,6 @@
       {
         "es": "Diseño Gráfico",
         "en": "Graphic Design"
-      }
-    ],
-    "gallery": [],
-    "documents": [],
-    "relatedProjects": [],
-    "externalLink": ""
-  },
-  {
-    "slug": "graphic-design-educational-materials",
-    "title": {
-      "es": "Diseño Gráfico y Materiales Educativos",
-      "en": "Graphic Design and Educational Materials"
-    },
-    "summary": {
-      "es": "[AÑADIR resumen breve del proyecto]",
-      "en": "[ADD short project summary]"
-    },
-    "category": "Graphic Design",
-    "location": "[ADD/AÑADIR: municipality or community]",
-    "date": "[ADD/AÑADIR: date or range]",
-    "status": "planned",
-    "featured": false,
-    "coverImage": "assets/images/placeholder-project.svg",
-    "coverImageAlt": {
-      "es": "Imagen de marcador de posición para el diseño gráfico y materiales educativos",
-      "en": "Placeholder image for the graphic design and educational materials"
-    },
-    "role": {
-      "es": "[AÑADIR mi rol]",
-      "en": "[ADD my role]"
-    },
-    "partners": [
-      "[ADD/AÑADIR: partner organization]"
-    ],
-    "overview": {
-      "es": "[AÑADIR resumen general del proyecto]",
-      "en": "[ADD general project overview]"
-    },
-    "activities": [
-      {
-        "es": "[AÑADIR actividad realizada]",
-        "en": "[ADD activity completed]"
-      }
-    ],
-    "skills": [
-      {
-        "es": "Diseño Gráfico",
-        "en": "Graphic Design"
-      },
-      {
-        "es": "Facilitación de Talleres",
-        "en": "Workshop Facilitation"
       }
     ],
     "gallery": [],
