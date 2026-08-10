@@ -95,19 +95,15 @@
     "heading": "About Me",
     "intro": "[TRANSLATE: matches es.about.intro]",
     "portraitAlt": "Portrait of Elías Mattfeld Campos",
-    "sections": [
-      { "title": "Personal Introduction", "text": "[TRANSLATE: matches es.about.sections[0]]" },
-      { "title": "Professional Interests", "text": "[TRANSLATE: matches es.about.sections[1]]" },
-      { "title": "International Background", "text": "[TRANSLATE: matches es.about.sections[2]]" },
-      { "title": "Business Management Education", "text": "[TRANSLATE: matches es.about.sections[3]]" },
-      { "title": "Motivation for CED Work", "text": "[TRANSLATE: matches es.about.sections[4]]" },
-      { "title": "Experience Living and Studying Abroad", "text": "[TRANSLATE: matches es.about.sections[5]]" },
-      { "title": "Personal Values and Approach to Partnership", "text": "[TRANSLATE: matches es.about.sections[6]]" }
+    "bio": [
+      "[TRANSLATE: matches es.about.bio[0]]",
+      "[TRANSLATE: matches es.about.bio[1]]"
     ],
-    "timelineTitle": "Timeline",
-    "timeline": [
-      { "date": "[ADD date]", "title": "[ADD educational, international, professional, or service milestone]", "text": "[ADD description]" }
-    ]
+    "interestsTitle": "Things I Like",
+    "interests": ["Traveling", "Hiking", "Guitar", "Photography", "Writing"],
+    "substackTitle": "My Substack",
+    "substackText": "[TRANSLATE: matches es.about.substackText]",
+    "substackLinkLabel": "Read on Substack"
   },
   "peaceCorps": {
     "heading": "What Is Peace Corps",

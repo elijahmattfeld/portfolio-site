@@ -51,14 +51,22 @@
 
   <section class="section-alt">
     <div class="container">
-      <div id="about-sections"></div>
+      <div id="about-bio"></div>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <h2 data-i18n="about.timelineTitle">Trayectoria</h2>
-      <ol class="timeline" id="about-timeline"></ol>
+      <h2 data-i18n="about.interestsTitle">Lo Que Me Gusta</h2>
+      <div class="skill-badges" id="about-interests"></div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <h2 data-i18n="about.substackTitle">Mi Substack</h2>
+      <p id="about-substack-text"></p>
+      <a class="btn btn-secondary" href="https://elimattcamp.substack.com/" target="_blank" rel="noopener noreferrer" data-i18n="about.substackLinkLabel">Leer en Substack</a>
     </div>
   </section>
 </main>
@@ -80,17 +88,19 @@
 <script src="assets/js/main.js"></script>
 <script>
   function renderAbout(dict) {
-    const sections = document.getElementById("about-sections");
-    if (sections && dict.about.sections) {
-      sections.innerHTML = dict.about.sections
-        .map((s) => `<div class="project-section"><h2>${s.title}</h2><p>${s.text}</p></div>`)
+    const bio = document.getElementById("about-bio");
+    if (bio && dict.about.bio) {
+      bio.innerHTML = dict.about.bio.map((p) => `<p>${p}</p>`).join("");
+    }
+    const interests = document.getElementById("about-interests");
+    if (interests && dict.about.interests) {
+      interests.innerHTML = dict.about.interests
+        .map((i) => `<span class="skill-badge">${i}</span>`)
         .join("");
     }
-    const timeline = document.getElementById("about-timeline");
-    if (timeline && dict.about.timeline) {
-      timeline.innerHTML = dict.about.timeline
-        .map((t) => `<li><div class="timeline-date">${t.date}</div><h3>${t.title}</h3><p>${t.text}</p></li>`)
-        .join("");
+    const substackText = document.getElementById("about-substack-text");
+    if (substackText && dict.about.substackText) {
+      substackText.textContent = dict.about.substackText;
     }
   }
   document.addEventListener("i18n:rendered", (e) => renderAbout(e.detail.dict));

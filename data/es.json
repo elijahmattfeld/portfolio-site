@@ -95,19 +95,15 @@
     "heading": "Sobre Mí",
     "intro": "Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, y actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.",
     "portraitAlt": "Retrato de Elías Mattfeld Campos",
-    "sections": [
-      { "title": "Introducción Personal", "text": "Desde joven he vivido en distintos países y he desarrollado una profunda pasión por el intercambio cultural, el desarrollo internacional y el emprendimiento social." },
-      { "title": "Intereses Profesionales", "text": "Mi objetivo profesional es construir soluciones que generen impacto social sostenible mediante la innovación, la educación y el desarrollo empresarial." },
-      { "title": "Trayectoria Internacional", "text": "Antes de unirme al Cuerpo de Paz participé en programas académicos y profesionales en México y Europa, donde tuve la oportunidad de conocer distintos modelos económicos, organizaciones sociales y formas de desarrollo comunitario." },
-      { "title": "Educación en Administración de Negocios", "text": "Soy graduado en Administración y Gestión de Empresas (Bachelor of Science in Business Administration and Management) con énfasis en Negocios Internacionales por California State University San Marcos." },
-      { "title": "Motivación para el Trabajo de CED", "text": "Actualmente sirvo como voluntario del Cuerpo de Paz Colombia en el sector de Desarrollo Económico Comunitario (CED), colaborando con instituciones educativas, gobiernos municipales y organizaciones locales para fortalecer el emprendimiento y la educación financiera." },
-      { "title": "Experiencia Viviendo y Estudiando en el Extranjero", "text": "He tenido la oportunidad de vivir y estudiar en México, Alemania, Austria e Italia, experiencias que ampliaron mi comprensión de distintas culturas, economías y modelos de desarrollo." },
-      { "title": "Valores Personales y Enfoque de Colaboración", "text": "Creo que el desarrollo sostenible ocurre cuando las comunidades cuentan con las herramientas, conocimientos y oportunidades necesarias para liderar su propio crecimiento. Mi trabajo se ha enfocado en fortalecer esas capacidades mediante la educación, el emprendimiento y la colaboración comunitaria." }
+    "bio": [
+      "Desde joven he vivido en distintos países y he desarrollado una profunda pasión por el intercambio cultural y el desarrollo internacional. Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, donde complementé mi formación con programas académicos en México, Alemania, Austria e Italia.",
+      "Actualmente sirvo como voluntario de Desarrollo Económico Comunitario (CED) del Cuerpo de Paz en Colombia, colaborando con instituciones educativas, gobiernos locales y organizaciones comunitarias para fortalecer el emprendimiento y la educación financiera. Creo que el desarrollo sostenible ocurre cuando las comunidades cuentan con las herramientas, conocimientos y oportunidades necesarias para liderar su propio crecimiento, y mi trabajo se ha enfocado en fortalecer esas capacidades mediante la educación, el emprendimiento y la colaboración comunitaria."
     ],
-    "timelineTitle": "Trayectoria",
-    "timeline": [
-      { "date": "[AÑADIR fecha]", "title": "[AÑADIR hito educativo, internacional, profesional o de servicio]", "text": "[AÑADIR descripción]" }
-    ]
+    "interestsTitle": "Lo Que Me Gusta",
+    "interests": ["Viajar", "Senderismo", "Guitarra", "Fotografía", "Escritura"],
+    "substackTitle": "Mi Substack",
+    "substackText": "Además de este portafolio, llevo un Substack donde escribo sobre mi experiencia sirviendo en el Cuerpo de Paz en Colombia: reflexiones, aprendizajes e historias de mi día a día en el campo.",
+    "substackLinkLabel": "Leer en Substack"
   },
   "peaceCorps": {
     "heading": "Qué es el Cuerpo de Paz",
