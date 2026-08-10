@@ -103,7 +103,8 @@
     "interests": ["Traveling", "Hiking", "Guitar", "Photography", "Writing"],
     "substackTitle": "My Substack",
     "substackText": "[TRANSLATE: matches es.about.substackText]",
-    "substackLinkLabel": "Read on Substack"
+    "substackLinkLabel": "Read on Substack",
+    "substackTranslatedLabel": "View in Spanish (auto-translated)"
   },
   "peaceCorps": {
     "heading": "What Is Peace Corps",

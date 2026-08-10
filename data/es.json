@@ -103,7 +103,8 @@
     "interests": ["Viajar", "Senderismo", "Guitarra", "Fotografía", "Escritura"],
     "substackTitle": "Mi Substack",
     "substackText": "Además de este portafolio, llevo un Substack donde escribo sobre mi experiencia sirviendo en el Cuerpo de Paz en Colombia: reflexiones, aprendizajes e historias de mi día a día en el campo.",
-    "substackLinkLabel": "Leer en Substack"
+    "substackLinkLabel": "Leer en Substack",
+    "substackTranslatedLabel": "Ver en español (traducción automática)"
   },
   "peaceCorps": {
     "heading": "Qué es el Cuerpo de Paz",
