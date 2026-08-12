@@ -58,7 +58,7 @@
   <section>
     <div class="container">
       <h2 data-i18n="about.interestsTitle">Lo Que Me Gusta</h2>
-      <div class="skill-badges" id="about-interests"></div>
+      <p id="about-interests"></p>
     </div>
   </section>
 
@@ -96,10 +96,8 @@
       bio.innerHTML = dict.about.bio.map((p) => `<p>${p}</p>`).join("");
     }
     const interests = document.getElementById("about-interests");
-    if (interests && dict.about.interests) {
-      interests.innerHTML = dict.about.interests
-        .map((i) => `<span class="skill-badge">${i}</span>`)
-        .join("");
+    if (interests && dict.about.interestsText) {
+      interests.textContent = dict.about.interestsText;
     }
     const substackText = document.getElementById("about-substack-text");
     if (substackText && dict.about.substackText) {

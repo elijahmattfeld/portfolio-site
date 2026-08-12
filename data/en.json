@@ -100,7 +100,7 @@
       "[TRANSLATE: matches es.about.bio[1]]"
     ],
     "interestsTitle": "Things I Like",
-    "interests": ["Traveling", "Hiking", "Guitar", "Photography", "Writing"],
+    "interestsText": "[TRANSLATE: matches es.about.interestsText]",
     "substackTitle": "My Substack",
     "substackText": "[TRANSLATE: matches es.about.substackText]",
     "substackLinkLabel": "Read on Substack",
