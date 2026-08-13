@@ -79,14 +79,6 @@
       { "title": "Turismo Comunitario", "text": "Colaboración en iniciativas de turismo comunitario y economía local sostenible." },
       { "title": "Diseño de Material Educativo", "text": "Creación conjunta de materiales, currículos y recursos adaptados al contexto local." }
     ],
-    "statsTitle": "Impacto en Números",
-    "stats": [
-      { "label": "Talleres facilitados", "value": "[AÑADIR: número de talleres facilitados]" },
-      { "label": "Socios comunitarios", "value": "[AÑADIR: número de organizaciones socias]" },
-      { "label": "Participantes alcanzados", "value": "[AÑADIR: número de participantes]" },
-      { "label": "Meses de servicio", "value": "[AÑADIR: meses de servicio activo]" }
-    ],
-    "statsNote": "Estas cifras se actualizarán a medida que se documenten los proyectos.",
     "contactTitle": "Contacto",
     "contactText": "Siempre estoy abierto a conversar sobre desarrollo internacional, emprendimiento, educación, liderazgo y oportunidades profesionales. Si desea conocer más sobre mi trabajo o colaborar en futuros proyectos, no dude en ponerse en contacto.",
     "contactCta": "Contáctame"

@@ -109,16 +109,6 @@
     </div>
   </section>
 
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="home.statsTitle">Impacto en Números</h2>
-      </div>
-      <div id="home-stats" class="stats-grid"></div>
-      <p class="stats-note" data-i18n="home.statsNote">Estas cifras se actualizarán a medida que se documenten los proyectos.</p>
-    </div>
-  </section>
-
   <section>
     <div class="container">
       <div class="section-header">
@@ -153,12 +143,6 @@
     if (whatIDo && dict.home.whatIDoItems) {
       whatIDo.innerHTML = dict.home.whatIDoItems
         .map((item) => `<div class="icon-card"><h3>${item.title}</h3><p>${item.text}</p></div>`)
-        .join("");
-    }
-    const stats = document.getElementById("home-stats");
-    if (stats && dict.home.stats) {
-      stats.innerHTML = dict.home.stats
-        .map((s) => `<div class="stat"><span class="stat-value">${s.value}</span><span class="stat-label">${s.label}</span></div>`)
         .join("");
     }
   }

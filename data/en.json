@@ -79,14 +79,6 @@
       { "title": "Community Tourism", "text": "Collaborating on community tourism and sustainable local economy initiatives." },
       { "title": "Educational Material Design", "text": "Co-creating materials, curricula, and resources adapted to the local context." }
     ],
-    "statsTitle": "Impact by the Numbers",
-    "stats": [
-      { "label": "Workshops facilitated", "value": "[ADD: number of workshops facilitated]" },
-      { "label": "Community partners", "value": "[ADD: number of partner organizations]" },
-      { "label": "Participants reached", "value": "[ADD: number of participants]" },
-      { "label": "Months of service", "value": "[ADD: months of active service]" }
-    ],
-    "statsNote": "These figures will be updated as projects are documented.",
     "contactTitle": "Contact",
     "contactText": "[TRANSLATE: matches es.home.contactText]",
     "contactCta": "Contact Me"
