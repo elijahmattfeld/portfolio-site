@@ -203,30 +203,17 @@
     "closing": "These experiences have helped me develop leadership, communication, problem-solving, and project-management skills across different cultural contexts.",
     "timelineTitle": "Professional Timeline",
     "responsibilitiesTitle": "Responsibilities",
-    "accomplishmentsTitle": "Accomplishments",
-    "skillsUsedTitle": "Skills Used",
     "skillsHeading": "Skills",
     "skillsIntro": "Skill areas developed through service, education, and professional experience.",
     "skillGroups": [
-      { "title": "Leadership & Professional Skills", "skills": ["Leadership", "Strategic planning", "Problem solving", "Teamwork", "Adaptability", "Business analysis"] },
       { "title": "Community Economic Development", "skills": ["Community needs assessment", "Collaborative project development", "Organizational strengthening"] },
-      { "title": "Project Management", "skills": ["Project planning", "Monitoring and evaluation", "Partner coordination"] },
       { "title": "Workshop Facilitation", "skills": ["Curriculum design", "Participatory facilitation", "Content adaptation"] },
       { "title": "Entrepreneurship Education", "skills": ["Business planning", "Business models", "Entrepreneur coaching"] },
       { "title": "Financial Literacy", "skills": ["Personal budgeting", "Saving", "Basic financial education"] },
-      { "title": "Community Outreach", "skills": ["Relationship building", "Stakeholder mapping", "Community communication"] },
-      { "title": "Partnership Development", "skills": ["Institutional relationship management", "Collaborative negotiation"] },
-      { "title": "Research and Needs Assessment", "skills": ["Data collection", "Qualitative analysis", "Participatory assessment"] },
-      { "title": "Public Speaking", "skills": ["Public presentations", "Adult training"] },
-      { "title": "Cross-Cultural Communication", "skills": ["Cultural adaptation", "Working in diverse contexts"] },
-      { "title": "Business Development", "skills": ["Growth strategy", "Local market analysis"] },
-      { "title": "Marketing", "skills": ["Basic digital marketing", "Branding for small businesses"] },
-      { "title": "Graphic Design", "skills": ["Educational materials", "Basic visual identity"] },
-      { "title": "Languages", "skills": ["Spanish (advanced)", "English (native)", "German (basic/developing)"] },
-      { "title": "Tools", "skills": ["Microsoft Office", "Google Workspace", "Canva"] }
-    ],
-    "otherToolsTitle": "Other Tools",
-    "otherTools": ["[ADD other tool]"]
+      { "title": "Project Management", "skills": ["Project planning", "Monitoring and evaluation", "Partner coordination"] },
+      { "title": "Community Outreach & Partnerships", "skills": ["Relationship building", "Stakeholder mapping", "Institutional partnership management"] },
+      { "title": "Cross-Cultural Communication", "skills": ["Cultural adaptation", "Working in diverse contexts"] }
+    ]
   },
   "gallery": {
     "heading": "Gallery",

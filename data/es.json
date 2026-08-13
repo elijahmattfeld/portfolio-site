@@ -203,30 +203,17 @@
     "closing": "Estas experiencias me han permitido desarrollar habilidades de liderazgo, comunicación, resolución de problemas y gestión de proyectos en distintos contextos culturales.",
     "timelineTitle": "Trayectoria Profesional",
     "responsibilitiesTitle": "Responsabilidades",
-    "accomplishmentsTitle": "Logros",
-    "skillsUsedTitle": "Habilidades Aplicadas",
     "skillsHeading": "Habilidades",
     "skillsIntro": "Áreas de habilidad desarrolladas a través del servicio, la educación y la experiencia profesional.",
     "skillGroups": [
-      { "title": "Liderazgo y Habilidades Profesionales", "skills": ["Liderazgo", "Planificación estratégica", "Resolución de problemas", "Trabajo en equipo", "Adaptabilidad", "Análisis empresarial"] },
       { "title": "Desarrollo Económico Comunitario", "skills": ["Diagnóstico de necesidades comunitarias", "Desarrollo de proyectos colaborativos", "Fortalecimiento organizacional"] },
-      { "title": "Gestión de Proyectos", "skills": ["Planificación de proyectos", "Monitoreo y evaluación", "Coordinación con socios"] },
       { "title": "Facilitación de Talleres", "skills": ["Diseño curricular", "Facilitación participativa", "Adaptación de contenido"] },
       { "title": "Educación Empresarial", "skills": ["Planificación de negocios", "Modelos de negocio", "Asesoría a emprendedores"] },
       { "title": "Alfabetización Financiera", "skills": ["Presupuesto personal", "Ahorro", "Educación financiera básica"] },
-      { "title": "Alcance Comunitario", "skills": ["Construcción de relaciones", "Mapeo de actores", "Comunicación comunitaria"] },
-      { "title": "Desarrollo de Alianzas", "skills": ["Gestión de relaciones institucionales", "Negociación colaborativa"] },
-      { "title": "Investigación y Evaluación de Necesidades", "skills": ["Recolección de datos", "Análisis cualitativo", "Diagnóstico participativo"] },
-      { "title": "Oratoria", "skills": ["Presentaciones públicas", "Capacitación de adultos"] },
-      { "title": "Comunicación Intercultural", "skills": ["Adaptación cultural", "Trabajo en contextos diversos"] },
-      { "title": "Desarrollo de Negocios", "skills": ["Estrategia de crecimiento", "Análisis de mercado local"] },
-      { "title": "Marketing", "skills": ["Marketing digital básico", "Branding para pequeños negocios"] },
-      { "title": "Diseño Gráfico", "skills": ["Materiales educativos", "Identidad visual básica"] },
-      { "title": "Idiomas", "skills": ["Español (avanzado)", "Inglés (nativo)", "Alemán (básico/en desarrollo)"] },
-      { "title": "Herramientas", "skills": ["Microsoft Office", "Google Workspace", "Canva"] }
-    ],
-    "otherToolsTitle": "Otras Herramientas",
-    "otherTools": ["[AÑADIR otra herramienta]"]
+      { "title": "Gestión de Proyectos", "skills": ["Planificación de proyectos", "Monitoreo y evaluación", "Coordinación con socios"] },
+      { "title": "Alcance Comunitario y Alianzas", "skills": ["Construcción de relaciones", "Mapeo de actores", "Gestión de alianzas institucionales"] },
+      { "title": "Comunicación Intercultural", "skills": ["Adaptación cultural", "Trabajo en contextos diversos"] }
+    ]
   },
   "gallery": {
     "heading": "Galería",
