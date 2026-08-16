@@ -120,7 +120,7 @@
       { "title": "Project Work", "text": "Volunteers co-facilitate workshops, support local initiatives, and contribute to jointly defined projects." },
       { "title": "Reflection and Close of Service", "text": "Volunteers document lessons learned, help ensure project sustainability, and make a responsible transition at the end of service." }
     ],
-    "statsNote": "[ADD: official Peace Corps statistics with citation, when available.]"
+    "statsNote": "Peace Corps works across six sectors: agriculture, community economic development, education, environment, health, and youth in development. 79% of its volunteers serve in rural areas. (Source: Congressional Research Service, The Peace Corps, 2025)."
   },
   "cedRole": {
     "heading": "My Community Economic Development (CED) Role",
@@ -213,10 +213,9 @@
     "lightboxClose": "Close",
     "lightboxNext": "Next",
     "lightboxPrev": "Previous",
-    "noImages": "[ADD photos to the gallery]"
+    "noImages": "No photos in this category yet."
   },
   "common": {
-    "loading": "Loading...",
-    "placeholder": "[ADD content]"
+    "loading": "Loading..."
   }
 }

@@ -120,7 +120,7 @@
       { "title": "Trabajo de Proyecto", "text": "Los voluntarios co-facilitan talleres, apoyan iniciativas locales y contribuyen a proyectos definidos conjuntamente." },
       { "title": "Reflexión y Cierre", "text": "Los voluntarios documentan aprendizajes, aseguran la sostenibilidad de los proyectos y realizan una transición responsable al finalizar el servicio." }
     ],
-    "statsNote": "[AÑADIR: estadísticas oficiales del Cuerpo de Paz con cita, cuando estén disponibles.]"
+    "statsNote": "El Cuerpo de Paz trabaja en seis sectores: agricultura, desarrollo económico comunitario, educación, medio ambiente, salud y juventud en desarrollo. El 79% de sus voluntarios sirve en zonas rurales. (Fuente: Congressional Research Service, The Peace Corps, 2025)."
   },
   "cedRole": {
     "heading": "Mi Rol de Desarrollo Económico Comunitario (CED)",
@@ -213,10 +213,9 @@
     "lightboxClose": "Cerrar",
     "lightboxNext": "Siguiente",
     "lightboxPrev": "Anterior",
-    "noImages": "[AÑADIR fotos a la galería]"
+    "noImages": "Aún no hay fotos en esta categoría."
   },
   "common": {
-    "loading": "Cargando...",
-    "placeholder": "[AÑADIR contenido]"
+    "loading": "Cargando..."
   }
 }
