@@ -32,6 +32,10 @@
     "gallery": {
       "title": "Galería | Elías Mattfeld Campos",
       "description": "Fotos de talleres, proyectos comunitarios y actividades de servicio."
+    },
+    "resources": {
+      "title": "Recursos | Elías Mattfeld Campos",
+      "description": "Recursos gratuitos de educación financiera, empleabilidad y emprendimiento para la comunidad."
     }
   },
   "nav": {
@@ -41,6 +45,7 @@
     "cedRole": "Mi Rol de CED",
     "projects": "Proyectos",
     "experience": "Experiencia y Habilidades",
+    "resources": "Recursos",
     "gallery": "Galería",
     "contact": "Contacto",
     "menu": "Menú",
@@ -213,6 +218,14 @@
     "lightboxNext": "Siguiente",
     "lightboxPrev": "Anterior",
     "noImages": "Aún no hay fotos en esta categoría."
+  },
+  "resources": {
+    "heading": "Recursos",
+    "intro": "Esta página reúne herramientas y enlaces gratuitos sobre educación financiera, empleabilidad y emprendimiento, pensados para ser útiles a la comunidad, no solo para hablar de mi trabajo.",
+    "linksLabel": "Ir al recurso",
+    "budgetToolTitle": "Herramienta de Presupuesto (Próximamente)",
+    "budgetToolText": "Estoy desarrollando una aplicación sencilla para que estudiantes y emprendedores puedan crear y llevar su propio presupuesto personal. Mientras tanto, recomiendo las apps gratuitas listadas arriba.",
+    "budgetToolStatus": "En desarrollo"
   },
   "common": {
     "loading": "Cargando..."

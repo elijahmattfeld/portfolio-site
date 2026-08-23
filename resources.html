@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title data-i18n="meta.experience.title">Experiencia y Habilidades | Elías Mattfeld Campos</title>
-<meta name="description" data-i18n-attr="content:meta.experience.description" content="Mi trayectoria profesional, educativa y de servicio, junto con mis habilidades." />
-<meta property="og:title" data-i18n-attr="content:meta.experience.title" content="Experiencia y Habilidades" />
-<meta property="og:description" data-i18n-attr="content:meta.experience.description" content="Mi trayectoria profesional, educativa y de servicio." />
+<title data-i18n="meta.resources.title">Recursos | Elías Mattfeld Campos</title>
+<meta name="description" data-i18n-attr="content:meta.resources.description" content="Recursos gratuitos de educación financiera, empleabilidad y emprendimiento para la comunidad." />
+<meta property="og:title" data-i18n-attr="content:meta.resources.title" content="Recursos | Elías Mattfeld Campos" />
+<meta property="og:description" data-i18n-attr="content:meta.resources.description" content="Recursos gratuitos de educación financiera, empleabilidad y emprendimiento para la comunidad." />
 <meta property="og:type" content="website" />
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
@@ -42,27 +42,26 @@
 <main id="main-content">
   <section>
     <div class="container">
-      <h1 data-i18n="experience.heading">Experiencia y Habilidades</h1>
-      <p data-i18n="experience.intro">Mi trayectoria profesional, educativa y de servicio.</p>
-      <ul id="experience-areas"></ul>
-      <p data-i18n="experience.closing">Estas experiencias me han permitido desarrollar habilidades de liderazgo, comunicación, resolución de problemas y gestión de proyectos.</p>
+      <h1 data-i18n="resources.heading">Recursos</h1>
+      <p data-i18n="resources.intro">Esta página reúne herramientas y enlaces gratuitos sobre educación financiera, empleabilidad y emprendimiento, pensados para ser útiles a la comunidad, no solo para hablar de mi trabajo.</p>
     </div>
   </section>
 
   <section class="section-alt">
     <div class="container">
-      <h2 data-i18n="experience.timelineTitle">Trayectoria Profesional</h2>
-      <div id="experience-list" class="card-grid cols-2"></div>
+      <div id="resources-list" class="card-grid cols-2"></div>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="experience.skillsHeading">Habilidades</h2>
-        <p data-i18n="experience.skillsIntro">Áreas de habilidad desarrolladas a través del servicio, la educación y la experiencia profesional.</p>
-      </div>
-      <div id="skill-groups"></div>
+      <article class="card">
+        <div class="card-body">
+          <span class="badge" data-i18n="resources.budgetToolStatus">En desarrollo</span>
+          <h2 data-i18n="resources.budgetToolTitle">Herramienta de Presupuesto (Próximamente)</h2>
+          <p data-i18n="resources.budgetToolText">Estoy desarrollando una aplicación sencilla para que estudiantes y emprendedores puedan crear y llevar su propio presupuesto personal. Mientras tanto, recomiendo las apps gratuitas listadas arriba.</p>
+        </div>
+      </article>
     </div>
   </section>
 </main>
@@ -94,30 +93,37 @@
     return div.innerHTML;
   }
 
-  let experienceData = null;
-  async function loadExperience() {
-    if (experienceData) return experienceData;
-    const res = await fetch("data/experience.json", { cache: "no-cache" });
-    experienceData = await res.json();
-    return experienceData;
+  let resourcesData = null;
+  async function loadResources() {
+    if (resourcesData) return resourcesData;
+    const res = await fetch("data/resources.json", { cache: "no-cache" });
+    resourcesData = await res.json();
+    return resourcesData;
   }
 
-  async function renderExperience(dict) {
+  async function renderResources(dict) {
     const lang = window.i18n.getLang();
-    const entries = await loadExperience();
-    const list = document.getElementById("experience-list");
+    const categories = await loadResources();
+    const list = document.getElementById("resources-list");
     if (list) {
-      list.innerHTML = entries
-        .map((e) => {
-          const responsibilities = (e.responsibilities || []).map((r) => `<li>${escapeHtml(localize(r, lang))}</li>`).join("");
+      list.innerHTML = categories
+        .map((cat) => {
+          const links = (cat.links || [])
+            .map(
+              (l) => `
+                <li>
+                  <a href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(localize(l.label, lang))}</a>
+                  <p class="text-muted" style="font-size: 0.85rem; margin: 0;">${escapeHtml(localize(l.note, lang))}</p>
+                </li>
+              `
+            )
+            .join("");
           return `
             <article class="card">
               <div class="card-body">
-                <span class="badge">${escapeHtml(localize(e.type, lang))}</span>
-                <h3>${escapeHtml(localize(e.role, lang))}</h3>
-                <p class="card-meta"><span>${escapeHtml(e.organization)}</span><span>${escapeHtml(e.location)}</span><span>${escapeHtml(e.dates)}</span></p>
-                <p>${escapeHtml(localize(e.summary, lang))}</p>
-                ${responsibilities ? `<h4>${dict.experience.responsibilitiesTitle}</h4><ul>${responsibilities}</ul>` : ""}
+                <h2>${escapeHtml(localize(cat.title, lang))}</h2>
+                <p>${escapeHtml(localize(cat.description, lang))}</p>
+                <ul class="resource-links">${links}</ul>
               </div>
             </article>
           `;
@@ -126,34 +132,7 @@
     }
   }
 
-  function renderSkills(dict) {
-    const container = document.getElementById("skill-groups");
-    if (container && dict.experience.skillGroups) {
-      container.innerHTML = dict.experience.skillGroups
-        .map(
-          (g) => `
-          <div class="skill-group">
-            <h3>${g.title}</h3>
-            <div class="skill-badges">${g.skills.map((s) => `<span class="skill-badge">${s}</span>`).join("")}</div>
-          </div>
-        `
-        )
-        .join("");
-    }
-  }
-
-  function renderExperienceAreas(dict) {
-    const areas = document.getElementById("experience-areas");
-    if (areas && dict.experience.areas) {
-      areas.innerHTML = dict.experience.areas.map((item) => `<li>${item}</li>`).join("");
-    }
-  }
-
-  document.addEventListener("i18n:rendered", (e) => {
-    renderExperience(e.detail.dict);
-    renderSkills(e.detail.dict);
-    renderExperienceAreas(e.detail.dict);
-  });
+  document.addEventListener("i18n:rendered", (e) => renderResources(e.detail.dict));
 </script>
 </body>
 </html>

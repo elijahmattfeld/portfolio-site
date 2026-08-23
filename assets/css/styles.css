@@ -657,6 +657,17 @@ section {
 }
 .gallery-item figcaption { display: none; }
 
+/* =========================
+   Resource links
+   ========================= */
+.resource-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+.resource-links li { list-style: none; }
+
 .lightbox {
   position: fixed;
   inset: 0;

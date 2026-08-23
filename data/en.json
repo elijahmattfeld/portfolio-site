@@ -32,6 +32,10 @@
     "gallery": {
       "title": "Gallery | Elías Mattfeld Campos",
       "description": "Photos from workshops, community projects, and service activities."
+    },
+    "resources": {
+      "title": "Resources | Elías Mattfeld Campos",
+      "description": "Free financial-literacy, employability, and entrepreneurship resources for the community."
     }
   },
   "nav": {
@@ -41,6 +45,7 @@
     "cedRole": "My CED Role",
     "projects": "Projects",
     "experience": "Experience & Skills",
+    "resources": "Resources",
     "gallery": "Gallery",
     "contact": "Contact",
     "menu": "Menu",
@@ -351,6 +356,14 @@
     "lightboxNext": "Next",
     "lightboxPrev": "Previous",
     "noImages": "No photos in this category yet."
+  },
+  "resources": {
+    "heading": "Resources",
+    "intro": "This page brings together free tools and links on financial literacy, employability, and entrepreneurship — meant to be useful to the community, not just to talk about my own work.",
+    "linksLabel": "Go to resource",
+    "budgetToolTitle": "Budgeting Tool (Coming Soon)",
+    "budgetToolText": "I'm building a simple app so students and entrepreneurs can create and track their own personal budget. In the meantime, I recommend the free apps listed above.",
+    "budgetToolStatus": "In development"
   },
   "common": {
     "loading": "Loading..."

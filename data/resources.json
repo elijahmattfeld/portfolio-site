@@ -1,0 +1,90 @@
+[
+  {
+    "id": "financial-literacy",
+    "title": { "es": "Educación Financiera", "en": "Financial Literacy" },
+    "description": {
+      "es": "Recursos gratuitos para aprender a manejar tu dinero: presupuesto, ahorro, crédito y protección financiera.",
+      "en": "Free resources for learning to manage your money: budgeting, saving, credit, and financial protection."
+    },
+    "links": [
+      {
+        "label": { "es": "Banrep Educa (Banco de la República)", "en": "Banrep Educa (Banco de la República)" },
+        "url": "https://www.banrep.gov.co/es/tags/finanzas-personales",
+        "note": {
+          "es": "Artículos, calculadoras y simuladores gratuitos del banco central de Colombia sobre presupuesto, ahorro e inversión.",
+          "en": "Free articles, calculators, and simulators from Colombia's central bank covering budgeting, saving, and investing."
+        }
+      },
+      {
+        "label": { "es": "Educación Financiera Bancolombia", "en": "Bancolombia Financial Education" },
+        "url": "https://www.bancolombia.com/educacion-financiera",
+        "note": {
+          "es": "Guías gratuitas y de acceso público sobre ahorro, crédito y manejo del dinero.",
+          "en": "Free, publicly accessible guides on saving, credit, and money management."
+        }
+      }
+    ]
+  },
+  {
+    "id": "resume-writing",
+    "title": { "es": "Cómo Hacer una Hoja de Vida", "en": "How to Write a Résumé" },
+    "description": {
+      "es": "Herramientas oficiales y gratuitas para crear tu hoja de vida y buscar empleo en Colombia.",
+      "en": "Official, free tools for building your résumé and searching for jobs in Colombia."
+    },
+    "links": [
+      {
+        "label": { "es": "Agencia Pública de Empleo (APE - SENA)", "en": "Public Employment Agency (APE - SENA)" },
+        "url": "https://ape.sena.edu.co/spe-web/spe/registro",
+        "note": {
+          "es": "Plataforma oficial y gratuita del SENA para registrar tu hoja de vida y acceder a vacantes en todo el país.",
+          "en": "SENA's official, free platform for registering your résumé and accessing job openings nationwide."
+        }
+      }
+    ]
+  },
+  {
+    "id": "fondo-emprender",
+    "title": { "es": "Fondo Emprender", "en": "Fondo Emprender" },
+    "description": {
+      "es": "Financiación no reembolsable del SENA para poner en marcha o fortalecer un proyecto productivo.",
+      "en": "Non-repayable SENA funding to launch or strengthen a business project."
+    },
+    "links": [
+      {
+        "label": { "es": "Sitio oficial de Fondo Emprender", "en": "Official Fondo Emprender site" },
+        "url": "https://www.fondoemprender.com",
+        "note": {
+          "es": "Consulta las convocatorias abiertas y los requisitos. Para aplicar, contacta un Centro de Desarrollo Empresarial (SBDC) del SENA, quienes te acompañan durante la Ruta Emprendedora.",
+          "en": "Check open calls for applications and requirements. To apply, contact a SENA Business Development Center (SBDC), which guides you through the Ruta Emprendedora process."
+        }
+      }
+    ]
+  },
+  {
+    "id": "budgeting-apps",
+    "title": { "es": "Apps Gratuitas para Presupuesto Personal", "en": "Free Personal Budgeting Apps" },
+    "description": {
+      "es": "Mientras desarrollo mi propia herramienta de presupuesto (ver abajo), estas aplicaciones gratuitas son buenas opciones para empezar.",
+      "en": "While I build my own budgeting tool (see below), these free apps are solid options to get started."
+    },
+    "links": [
+      {
+        "label": { "es": "Monefy", "en": "Monefy" },
+        "url": "https://monefy.me/",
+        "note": {
+          "es": "Registro manual de gastos e ingresos, sin necesidad de conectar tu cuenta bancaria. Versión gratuita disponible.",
+          "en": "Manual expense and income tracking, no bank account connection required. Free version available."
+        }
+      },
+      {
+        "label": { "es": "Goodbudget", "en": "Goodbudget" },
+        "url": "https://goodbudget.com/",
+        "note": {
+          "es": "Presupuesto por 'sobres' (envelope budgeting). Plan gratuito disponible, funciona en el celular y la computadora.",
+          "en": "Envelope-style budgeting. Free plan available, works on both phone and computer."
+        }
+      }
+    ]
+  }
+]
