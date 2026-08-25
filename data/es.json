@@ -71,20 +71,11 @@
     "featuredTitle": "Proyectos Destacados",
     "featuredSubtitle": "Una muestra de los proyectos en los que he colaborado con socios comunitarios.",
     "featuredViewAll": "Ver todos los proyectos",
-    "whatIDoTitle": "Mi Servicio en Colombia",
-    "whatIDoItems": [
-      { "title": "Educación Financiera", "text": "Sesiones y talleres sobre presupuesto, ahorro y manejo básico de finanzas personales y familiares." },
-      { "title": "Formación en Emprendimiento", "text": "Talleres de planificación de negocios, marketing y gestión con emprendedores locales." },
-      { "title": "Habilidades Socioemocionales", "text": "Desarrollo de habilidades blandas y de empleabilidad con estudiantes y jóvenes." },
-      { "title": "Fortalecimiento Empresarial", "text": "Apoyo a pequeños negocios y artesanos con herramientas de gestión y desarrollo de productos." },
-      { "title": "Turismo Comunitario", "text": "Colaboración en iniciativas de turismo comunitario y economía local sostenible." },
-      { "title": "Diseño de Material Educativo", "text": "Creación conjunta de materiales, currículos y recursos adaptados al contexto local." }
-    ],
     "scheduleTitle": "Mi Horario Semanal",
     "scheduleIntro": "Así pueden encontrarme durante la semana si desean una asesoría o participar en un taller.",
     "schedule": [
       {
-        "days": "Lunes y Jueves",
+        "days": "Lunes",
         "activity": "Integración de Emprendimiento en el Aula",
         "location": "Colegio Isabel Valbuena Cifuentes",
         "hours": "7:00 a.m. – 12:00 p.m."
@@ -102,15 +93,18 @@
         "hours": "9:00 a.m. – 12:00 p.m. y 2:00 p.m. – 5:00 p.m."
       },
       {
+        "days": "Jueves",
+        "activity": "Integración de Emprendimiento en el Aula",
+        "location": "Colegio Isabel Valbuena Cifuentes",
+        "hours": "7:00 a.m. – 12:00 p.m."
+      },
+      {
         "days": "Viernes",
         "activity": "Asesorías 1 a 1 a Emprendedores de la Comunidad",
         "location": "",
         "hours": "9:00 a.m. – 12:00 p.m. y 2:00 p.m. – 5:00 p.m."
       }
-    ],
-    "contactTitle": "Contacto",
-    "contactText": "Siempre estoy abierto a conversar sobre desarrollo internacional, emprendimiento, educación, liderazgo y oportunidades profesionales. Si desea conocer más sobre mi trabajo o colaborar en futuros proyectos, no dude en ponerse en contacto.",
-    "contactCta": "Contáctame"
+    ]
   },
   "about": {
     "heading": "Sobre Mí",

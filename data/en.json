@@ -71,64 +71,40 @@
     "featuredTitle": "Featured Projects",
     "featuredSubtitle": "A sample of projects I've collaborated on with community partners.",
     "featuredViewAll": "View all projects",
-    "whatIDoTitle": "My Service in Colombia",
-    "whatIDoItems": [
-      {
-        "title": "Financial Literacy",
-        "text": "Sessions and workshops on budgeting, saving, and basic personal and household financial management."
-      },
-      {
-        "title": "Entrepreneurship Training",
-        "text": "Workshops on business planning, marketing, and management with local entrepreneurs."
-      },
-      {
-        "title": "Socioemotional Skills",
-        "text": "Developing soft and employability skills with students and youth."
-      },
-      {
-        "title": "Business Strengthening",
-        "text": "Supporting small businesses and artisans with management tools and product development."
-      },
-      {
-        "title": "Community Tourism",
-        "text": "Collaborating on community tourism and sustainable local economy initiatives."
-      },
-      {
-        "title": "Educational Material Design",
-        "text": "Co-creating materials, curricula, and resources adapted to the local context."
-      }
-    ],
     "scheduleTitle": "My Weekly Schedule",
     "scheduleIntro": "Here's where to find me during the week if you'd like an advising session or want to join a workshop.",
     "schedule": [
       {
-        "days": "Mondays & Thursdays",
+        "days": "Monday",
         "activity": "Entrepreneurship Integration in the Classroom",
         "location": "Colegio Isabel Valbuena Cifuentes",
         "hours": "7:00 a.m. – 12:00 p.m."
       },
       {
-        "days": "Tuesdays",
+        "days": "Tuesday",
         "activity": "1-on-1 Entrepreneurship Advising with Aprendices",
         "location": "SENA – Centro de Gestión Agroempresarial",
         "hours": "9:00 a.m. – 12:00 p.m. and 2:00 p.m. – 5:00 p.m."
       },
       {
-        "days": "Wednesdays",
+        "days": "Wednesday",
         "activity": "Employability Workshops in the Classroom",
         "location": "SENA – Centro de Gestión Agroempresarial",
         "hours": "9:00 a.m. – 12:00 p.m. and 2:00 p.m. – 5:00 p.m."
       },
       {
-        "days": "Fridays",
+        "days": "Thursday",
+        "activity": "Entrepreneurship Integration in the Classroom",
+        "location": "Colegio Isabel Valbuena Cifuentes",
+        "hours": "7:00 a.m. – 12:00 p.m."
+      },
+      {
+        "days": "Friday",
         "activity": "1-on-1 Advising for Community Entrepreneurs",
         "location": "",
         "hours": "9:00 a.m. – 12:00 p.m. and 2:00 p.m. – 5:00 p.m."
       }
-    ],
-    "contactTitle": "Contact",
-    "contactText": "I'm always open to conversations about international development, entrepreneurship, education, leadership, and professional opportunities. If you'd like to learn more about my work or collaborate on future projects, feel free to get in touch.",
-    "contactCta": "Contact Me"
+    ]
   },
   "about": {
     "heading": "About Me",

@@ -77,6 +77,18 @@ Este sitio reúne los proyectos, experiencias y aprendizajes desarrollados duran
   <section>
     <div class="container">
       <div class="section-header">
+        <h2 data-i18n="home.scheduleTitle">Mi Horario Semanal</h2>
+        <p data-i18n="home.scheduleIntro">Así pueden encontrarme durante la semana si desean una asesoría o participar en un taller.</p>
+      </div>
+      <article class="card">
+        <div class="card-body schedule-box" id="home-schedule"></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-header">
         <h2 data-i18n="home.featuredTitle">Proyectos Destacados</h2>
         <p data-i18n="home.featuredSubtitle">Una muestra de los proyectos en los que he colaborado.</p>
       </div>
@@ -84,35 +96,6 @@ Este sitio reúne los proyectos, experiencias y aprendizajes desarrollados duran
       <p style="margin-top: var(--space-5);">
         <a class="btn btn-secondary" href="projects.html" data-i18n="home.featuredViewAll">Ver todos los proyectos</a>
       </p>
-    </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="home.whatIDoTitle">Qué Hago</h2>
-      </div>
-      <div id="what-i-do" class="card-grid cols-2"></div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="home.scheduleTitle">Mi Horario Semanal</h2>
-        <p data-i18n="home.scheduleIntro">Así pueden encontrarme durante la semana si desean una asesoría o participar en un taller.</p>
-      </div>
-      <div id="home-schedule" class="card-grid cols-2"></div>
-    </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="home.contactTitle">Conectemos</h2>
-        <p data-i18n="home.contactText">Estoy abierto a conversar sobre colaboraciones y oportunidades.</p>
-      </div>
-      <a class="btn btn-primary" href="mailto:elijahmattfeld@icloud.com" data-i18n="home.contactCta">Contáctame</a>
     </div>
   </section>
 
@@ -137,25 +120,19 @@ Este sitio reúne los proyectos, experiencias y aprendizajes desarrollados duran
 <script src="assets/js/projects.js"></script>
 <script>
   function renderHomeLists(dict) {
-    const whatIDo = document.getElementById("what-i-do");
-    if (whatIDo && dict.home.whatIDoItems) {
-      whatIDo.innerHTML = dict.home.whatIDoItems
-        .map((item) => `<div class="icon-card"><h3>${item.title}</h3><p>${item.text}</p></div>`)
-        .join("");
-    }
     const schedule = document.getElementById("home-schedule");
     if (schedule && dict.home.schedule) {
       schedule.innerHTML = dict.home.schedule
         .map(
           (s) => `
-            <article class="card">
-              <div class="card-body">
-                <span class="badge">${s.days}</span>
+            <div class="schedule-row">
+              <span class="badge">${s.days}</span>
+              <div>
                 <h3>${s.activity}</h3>
                 ${s.location ? `<p class="text-muted" style="margin-bottom: 0;">${s.location}</p>` : ""}
                 <p style="margin-bottom: 0;"><strong>${s.hours}</strong></p>
               </div>
-            </article>
+            </div>
           `
         )
         .join("");
