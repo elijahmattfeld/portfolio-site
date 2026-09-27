@@ -31,7 +31,6 @@
         <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
         <li><a href="ced-role.html" data-i18n="nav.cedRole">Mi Rol de CED</a></li>
         <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
-        <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
         <li><a href="resources.html" data-i18n="nav.resources">Recursos</a></li>
         <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
       </ul>
@@ -45,6 +44,7 @@
       <div>
         <h1 data-i18n="about.heading">Sobre Mí</h1>
         <p data-i18n="about.intro">Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, y actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.</p>
+        <p data-i18n="about.roleIntro">Trabajo como profe de emprendimiento y asesor de negocios pequeños, colaborando con instituciones educativas, gobiernos locales y organizaciones comunitarias para fortalecer el emprendimiento y la educación financiera.</p>
       </div>
       <img class="hero-photo" src="assets/images/graduation.jpg" data-i18n-attr="alt:about.portraitAlt" alt="Retrato de Elías Mattfeld Campos" loading="lazy" />
     </div>
@@ -73,6 +73,23 @@
       </div>
     </div>
   </section>
+
+  <section>
+    <div class="container">
+      <h2 data-i18n="experience.timelineTitle">Trayectoria Profesional</h2>
+      <div id="experience-list" class="card-grid cols-2"></div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="experience.skillsHeading">Habilidades</h2>
+        <p data-i18n="experience.skillsIntro">Áreas de habilidad desarrolladas a través del servicio, la educación y la experiencia profesional.</p>
+      </div>
+      <div id="skill-groups"></div>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
@@ -81,7 +98,6 @@
     <ul class="footer-links">
       <li><a href="peace-corps.html" data-i18n="nav.peaceCorps">Qué es el Cuerpo de Paz</a></li>
       <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
-      <li><a href="experience.html" data-i18n="nav.experience">Experiencia y Habilidades</a></li>
       <li><a href="resources.html" data-i18n="nav.resources">Recursos</a></li>
     </ul>
     <p data-i18n="footer.rights">Portafolio personal de Elías Mattfeld Campos.</p>
@@ -92,6 +108,16 @@
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
+  function localize(field, lang) {
+    if (field && typeof field === "object") return field[lang] || field.es || field.en || "";
+    return field || "";
+  }
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.textContent = str || "";
+    return div.innerHTML;
+  }
+
   function renderAbout(dict) {
     const bio = document.getElementById("about-bio");
     if (bio && dict.about.bio) {
@@ -106,7 +132,60 @@
       substackText.textContent = dict.about.substackText;
     }
   }
-  document.addEventListener("i18n:rendered", (e) => renderAbout(e.detail.dict));
+
+  let experienceData = null;
+  async function loadExperience() {
+    if (experienceData) return experienceData;
+    const res = await fetch("data/experience.json", { cache: "no-cache" });
+    experienceData = await res.json();
+    return experienceData;
+  }
+
+  async function renderExperience(dict) {
+    const lang = window.i18n.getLang();
+    const entries = await loadExperience();
+    const list = document.getElementById("experience-list");
+    if (list) {
+      list.innerHTML = entries
+        .map((e) => {
+          const responsibilities = (e.responsibilities || []).map((r) => `<li>${escapeHtml(localize(r, lang))}</li>`).join("");
+          return `
+            <article class="card">
+              <div class="card-body">
+                <span class="badge">${escapeHtml(localize(e.type, lang))}</span>
+                <h3>${escapeHtml(localize(e.role, lang))}</h3>
+                <p class="card-meta"><span>${escapeHtml(e.organization)}</span><span>${escapeHtml(e.location)}</span><span>${escapeHtml(e.dates)}</span></p>
+                <p>${escapeHtml(localize(e.summary, lang))}</p>
+                ${responsibilities ? `<h4>${dict.experience.responsibilitiesTitle}</h4><ul>${responsibilities}</ul>` : ""}
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+    }
+  }
+
+  function renderSkills(dict) {
+    const container = document.getElementById("skill-groups");
+    if (container && dict.experience.skillGroups) {
+      container.innerHTML = dict.experience.skillGroups
+        .map(
+          (g) => `
+          <div class="skill-group">
+            <h3>${g.title}</h3>
+            <div class="skill-badges">${g.skills.map((s) => `<span class="skill-badge">${s}</span>`).join("")}</div>
+          </div>
+        `
+        )
+        .join("");
+    }
+  }
+
+  document.addEventListener("i18n:rendered", (e) => {
+    renderAbout(e.detail.dict);
+    renderExperience(e.detail.dict);
+    renderSkills(e.detail.dict);
+  });
 </script>
 </body>
 </html>

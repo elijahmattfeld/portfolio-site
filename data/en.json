@@ -25,10 +25,6 @@
       "title": "Project | Elías Mattfeld Campos",
       "description": "Details of a community or professional project."
     },
-    "experience": {
-      "title": "Experience and Skills | Elías Mattfeld Campos",
-      "description": "My professional, educational, and service background, along with my skills."
-    },
     "gallery": {
       "title": "Gallery | Elías Mattfeld Campos",
       "description": "Photos from workshops, community projects, and service activities."
@@ -44,7 +40,6 @@
     "peaceCorps": "What Is Peace Corps",
     "cedRole": "My CED Role",
     "projects": "Projects",
-    "experience": "Experience & Skills",
     "resources": "Resources",
     "gallery": "Gallery",
     "contact": "Contact",
@@ -109,10 +104,10 @@
   "about": {
     "heading": "About Me",
     "intro": "I graduated with a degree in Business Administration and Management, with an emphasis in International Business, from California State University San Marcos, and I currently serve as a Peace Corps Volunteer in Colombia.",
+    "roleIntro": "I work as an entrepreneurship teacher and small business advisor, collaborating with educational institutions, local governments, and community organizations to strengthen entrepreneurship and financial literacy.",
     "portraitAlt": "Portrait of Elías Mattfeld Campos",
     "bio": [
-      "I'm 24 years old and from San Diego, California, though I was born and raised in Mexico. I serve in Peace Corps Colombia as an entrepreneurship teacher and small business advisor.",
-      "I collaborate with educational institutions, local governments, and community organizations to strengthen entrepreneurship and financial literacy."
+      "I'm from San Diego, California, though I was born and raised in Mexico. During college I studied in several countries, including Mexico, Germany, Austria, and Italy."
     ],
     "interestsTitle": "Things I Like",
     "interestsText": "Outside of work, I enjoy traveling, hiking, playing guitar, taking photos, and writing.",
@@ -294,14 +289,6 @@
     "skillsIntro": "Skill areas developed through service, education, and professional experience.",
     "skillGroups": [
       {
-        "title": "Community Economic Development",
-        "skills": [
-          "Community needs assessment",
-          "Collaborative project development",
-          "Organizational strengthening"
-        ]
-      },
-      {
         "title": "Workshop Facilitation",
         "skills": [
           "Curriculum design",
@@ -331,14 +318,6 @@
           "Project planning",
           "Monitoring and evaluation",
           "Partner coordination"
-        ]
-      },
-      {
-        "title": "Community Outreach & Partnerships",
-        "skills": [
-          "Relationship building",
-          "Stakeholder mapping",
-          "Institutional partnership management"
         ]
       },
       {

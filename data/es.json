@@ -25,10 +25,6 @@
       "title": "Proyecto | Elías Mattfeld Campos",
       "description": "Detalles de un proyecto comunitario o profesional."
     },
-    "experience": {
-      "title": "Experiencia y Habilidades | Elías Mattfeld Campos",
-      "description": "Mi trayectoria profesional, educativa y de servicio, junto con mis habilidades."
-    },
     "gallery": {
       "title": "Galería | Elías Mattfeld Campos",
       "description": "Fotos de talleres, proyectos comunitarios y actividades de servicio."
@@ -44,7 +40,6 @@
     "peaceCorps": "Qué es el Cuerpo de Paz",
     "cedRole": "Mi Rol de CED",
     "projects": "Proyectos",
-    "experience": "Experiencia y Habilidades",
     "resources": "Recursos",
     "gallery": "Galería",
     "contact": "Contacto",
@@ -109,10 +104,10 @@
   "about": {
     "heading": "Sobre Mí",
     "intro": "Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, y actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.",
+    "roleIntro": "Trabajo como profe de emprendimiento y asesor de negocios pequeños, colaborando con instituciones educativas, gobiernos locales y organizaciones comunitarias para fortalecer el emprendimiento y la educación financiera.",
     "portraitAlt": "Retrato de Elías Mattfeld Campos",
     "bio": [
-      "Tengo 24 años y soy de San Diego, California, aunque nací y crecí en México. Sirvo en el Cuerpo de Paz Colombia como profe de emprendimiento y asesor de negocios pequeños.",
-      "Colaboro con instituciones educativas, gobiernos locales y organizaciones comunitarias para fortalecer el emprendimiento y la educación financiera."
+      "Soy de San Diego, California, aunque nací y crecí en México. Durante la universidad estudié en varios países, incluyendo México, Alemania, Austria e Italia."
     ],
     "interestsTitle": "Lo Que Me Gusta",
     "interestsText": "Fuera del trabajo, me gusta viajar, hacer senderismo, tocar guitarra, tomar fotografías y escribir.",
@@ -221,12 +216,10 @@
     "skillsHeading": "Habilidades",
     "skillsIntro": "Áreas de habilidad desarrolladas a través del servicio, la educación y la experiencia profesional.",
     "skillGroups": [
-      { "title": "Desarrollo Económico Comunitario", "skills": ["Diagnóstico de necesidades comunitarias", "Desarrollo de proyectos colaborativos", "Fortalecimiento organizacional"] },
       { "title": "Facilitación de Talleres", "skills": ["Diseño curricular", "Facilitación participativa", "Adaptación de contenido"] },
       { "title": "Educación Empresarial", "skills": ["Planificación de negocios", "Modelos de negocio", "Asesoría a emprendedores"] },
       { "title": "Alfabetización Financiera", "skills": ["Presupuesto personal", "Ahorro", "Educación financiera básica"] },
       { "title": "Gestión de Proyectos", "skills": ["Planificación de proyectos", "Monitoreo y evaluación", "Coordinación con socios"] },
-      { "title": "Alcance Comunitario y Alianzas", "skills": ["Construcción de relaciones", "Mapeo de actores", "Gestión de alianzas institucionales"] },
       { "title": "Comunicación Intercultural", "skills": ["Adaptación cultural", "Trabajo en contextos diversos"] }
     ]
   },
