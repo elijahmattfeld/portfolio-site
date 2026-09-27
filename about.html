@@ -52,14 +52,15 @@
 
   <section class="section-alt">
     <div class="container">
+      <h2 data-i18n="about.professionalLifeTitle">Vida Profesional</h2>
       <div id="about-bio"></div>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <h2 data-i18n="about.interestsTitle">Lo Que Me Gusta</h2>
-      <p id="about-interests"></p>
+      <h2 data-i18n="about.personalLifeTitle">Vida Personal</h2>
+      <div id="about-personal-life"></div>
     </div>
   </section>
 
@@ -123,9 +124,9 @@
     if (bio && dict.about.bio) {
       bio.innerHTML = dict.about.bio.map((p) => `<p>${p}</p>`).join("");
     }
-    const interests = document.getElementById("about-interests");
-    if (interests && dict.about.interestsText) {
-      interests.textContent = dict.about.interestsText;
+    const personalLife = document.getElementById("about-personal-life");
+    if (personalLife && dict.about.personalLife) {
+      personalLife.innerHTML = dict.about.personalLife.map((p) => `<p>${p}</p>`).join("");
     }
     const substackText = document.getElementById("about-substack-text");
     if (substackText && dict.about.substackText) {

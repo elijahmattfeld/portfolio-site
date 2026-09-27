@@ -106,11 +106,15 @@
     "intro": "Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, y actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.",
     "roleIntro": "Trabajo como profe de emprendimiento y asesor de negocios pequeños, colaborando con instituciones educativas, gobiernos locales y organizaciones comunitarias para fortalecer el emprendimiento y la educación financiera.",
     "portraitAlt": "Retrato de Elías Mattfeld Campos",
+    "professionalLifeTitle": "Vida Profesional",
     "bio": [
-      "Soy de San Diego, California, aunque nací y crecí en México. Durante la universidad estudié en varios países, incluyendo México, Alemania, Austria e Italia."
+      "Durante la universidad estudié en varios países, incluyendo México, Alemania, Austria e Italia."
     ],
-    "interestsTitle": "Lo Que Me Gusta",
-    "interestsText": "Fuera del trabajo, me gusta viajar, hacer senderismo, tocar guitarra, tomar fotografías y escribir.",
+    "personalLifeTitle": "Vida Personal",
+    "personalLife": [
+      "Soy mexicano-estadounidense de San Diego, California. He vivido en México, Estados Unidos e Indonesia.",
+      "Fuera del trabajo, me gusta viajar, hacer senderismo, tocar guitarra, tomar fotografías y escribir."
+    ],
     "substackTitle": "Mi Substack",
     "substackText": "Además de este portafolio, llevo un Substack donde escribo sobre mi experiencia sirviendo en el Cuerpo de Paz en Colombia: reflexiones, aprendizajes e historias de mi día a día en el campo.",
     "substackLinkLabel": "Leer en Substack",
