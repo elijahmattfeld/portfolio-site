@@ -114,15 +114,13 @@
     "whatItIsText": "Actualmente, Cuerpo de Paz Colombia desarrolla dos proyectos principales:",
     "projects": ["Enseñanza del Inglés (TEFL)", "Desarrollo Económico Comunitario (CED)"],
     "howItWorksTitle": "Cómo Funciona",
-    "howItWorksText": "Los voluntarios viven e integran sus comunidades durante aproximadamente dos años, trabajando junto a organizaciones locales, instituciones educativas y gobiernos municipales para apoyar iniciativas lideradas por la comunidad.",
+    "howItWorksText": "Los voluntarios viven e integran sus comunidades durante aproximadamente dos años, trabajando junto a organizaciones locales, instituciones educativas y gobiernos municipales para apoyar iniciativas lideradas por la comunidad. Construir relaciones genuinas y de confianza es tan importante como el trabajo técnico: el intercambio cultural ocurre en ambas direcciones, y los voluntarios aprenden tanto como aportan.",
     "goalsTitle": "Los Tres Objetivos del Cuerpo de Paz",
     "goals": [
       { "title": "Objetivo 1", "text": "Ayudar a los pueblos de los países interesados a satisfacer su necesidad de personal capacitado." },
       { "title": "Objetivo 2", "text": "Ayudar a promover una mejor comprensión de los estadounidenses por parte de los pueblos a quienes se sirve." },
       { "title": "Objetivo 3", "text": "Ayudar a promover una mejor comprensión de otros pueblos por parte de los estadounidenses." }
     ],
-    "exchangeTitle": "La Importancia del Intercambio Cultural",
-    "exchangeText": "Construir relaciones genuinas y de confianza es tan importante como el trabajo técnico de cualquier proyecto. El intercambio cultural ocurre en ambas direcciones: los voluntarios aprenden tanto como aportan.",
     "practiceTitle": "Cómo Se Ve el Servicio del Cuerpo de Paz en la Práctica",
     "practiceSteps": [
       { "title": "Capacitación Inicial", "text": "Los voluntarios reciben capacitación intensiva en idioma, cultura, seguridad y habilidades técnicas antes de comenzar su servicio." },
