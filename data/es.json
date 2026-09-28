@@ -220,9 +220,13 @@
     "heading": "Recursos",
     "intro": "Esta página reúne herramientas y enlaces gratuitos sobre educación financiera, empleabilidad y emprendimiento, pensados para ser útiles a la comunidad, no solo para hablar de mi trabajo.",
     "linksLabel": "Ir al recurso",
-    "budgetToolTitle": "Herramienta de Presupuesto (Próximamente)",
-    "budgetToolText": "Estoy desarrollando una aplicación sencilla para que estudiantes y emprendedores puedan crear y llevar su propio presupuesto personal. Mientras tanto, recomiendo las apps gratuitas listadas arriba.",
-    "budgetToolStatus": "En desarrollo"
+    "budgetToolTitle": "Herramienta de Presupuesto",
+    "budgetToolText": "Una plantilla de Google Sheets para que estudiantes y emprendedores puedan crear y llevar su propio presupuesto mensual. Al hacer clic se creará tu propia copia privada para editar.",
+    "budgetToolStatus": "Disponible",
+    "budgetToolLinkLabel": "Hacer una copia del presupuesto",
+    "surveyTitle": "Encuesta de Diagnóstico Empresarial",
+    "surveyText": "Una breve encuesta para ayudarme a entender la situación actual de tu negocio antes de una asesoría 1 a 1.",
+    "surveyOpenLabel": "Abrir la encuesta en una pestaña nueva"
   },
   "common": {
     "loading": "Cargando..."

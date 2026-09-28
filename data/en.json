@@ -301,9 +301,13 @@
     "heading": "Resources",
     "intro": "This page brings together free tools and links on financial literacy, employability, and entrepreneurship — meant to be useful to the community, not just to talk about my own work.",
     "linksLabel": "Go to resource",
-    "budgetToolTitle": "Budgeting Tool (Coming Soon)",
-    "budgetToolText": "I'm building a simple app so students and entrepreneurs can create and track their own personal budget. In the meantime, I recommend the free apps listed above.",
-    "budgetToolStatus": "In development"
+    "budgetToolTitle": "Budgeting Tool",
+    "budgetToolText": "A Google Sheets template for students and entrepreneurs to create and track their own monthly budget. Clicking it will create your own private copy to edit.",
+    "budgetToolStatus": "Available",
+    "budgetToolLinkLabel": "Make a copy of the budget planner",
+    "surveyTitle": "Business Advising Diagnosis Survey",
+    "surveyText": "A short survey to help me understand your business's current situation before a 1-on-1 advising session.",
+    "surveyOpenLabel": "Open the survey in a new tab"
   },
   "common": {
     "loading": "Loading..."
