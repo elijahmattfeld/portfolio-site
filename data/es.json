@@ -156,20 +156,7 @@
     "whoWeWorkWith": ["Ministerio de Educación Nacional", "SENA", "Alcaldías municipales", "Gobernaciones", "Instituciones educativas", "Universidades", "Fundaciones", "Organizaciones sociales", "Asociaciones comunitarias"],
     "whoWeWorkWithClosing": "El objetivo no es crear dependencia, sino desarrollar capacidades que permitan a las comunidades continuar creciendo de forma autónoma.",
     "responsibilitiesTitle": "Mi Rol como Voluntario de CED",
-    "responsibilitiesText": "Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, organizaciones comunitarias y entidades locales para fortalecer habilidades de emprendimiento, empleabilidad y desarrollo económico. Mi trabajo consiste en acompañar a socios locales para desarrollar proyectos sostenibles, compartiendo conocimientos y trabajando de manera colaborativa con la comunidad.",
-    "collaborativeNatureTitle": "La Naturaleza Colaborativa del Rol",
-    "collaborativeNatureText": "Todo el trabajo de CED se realiza en colaboración con socios locales. Los proyectos se co-diseñan y co-facilitan; los resultados reflejan el esfuerzo compartido entre voluntarios y comunidades.",
-    "institutionsTitle": "Trabajo en Instituciones Educativas",
-    "institutionsIntro": "En el ámbito educativo colaboro con docentes mediante un modelo de coenseñanza para diseñar e implementar actividades orientadas al desarrollo de habilidades emprendedoras y socioemocionales en estudiantes. Entre las iniciativas desarrolladas se incluyen:",
-    "institutionsList": ["Currículos de emprendimiento y educación financiera (como Construye Tus Sueños)", "Proyectos transversales", "Centros de interés", "Clubes de liderazgo juvenil", "Actividades de fortalecimiento del turismo local", "Recursos educativos relacionados con emprendimiento y desarrollo económico"],
-    "communityWorkTitle": "Trabajo con la Comunidad",
-    "communityWorkIntro": "Además del trabajo en las instituciones educativas, colaboro con organizaciones y aliados locales para fortalecer las capacidades de la comunidad mediante iniciativas como:",
-    "communityWorkList": ["Talleres de emprendimiento", "Educación financiera", "Administración de pequeños negocios", "Finanzas personales", "Fortalecimiento de organizaciones comunitarias", "Apoyo a emprendedores y pequeños empresarios", "Desarrollo de proyectos económicos sostenibles"],
-    "communityWorkClosing": "Estas actividades se realizan en conjunto con aliados como SENA, universidades, alcaldías, organizaciones comunitarias y otras instituciones locales, respondiendo a las necesidades y prioridades de cada comunidad.",
-    "myServiceTitle": "Mi Servicio en Colombia",
-    "myServiceIntro": "Durante mi servicio he tenido la oportunidad de trabajar en distintas regiones de Colombia apoyando iniciativas de emprendimiento, educación y desarrollo económico. Entre las principales áreas de trabajo se encuentran:",
-    "myServiceAreas": ["Educación financiera", "Formación en emprendimiento", "Desarrollo de habilidades socioemocionales", "Fortalecimiento empresarial", "Turismo comunitario", "Diseño de material educativo", "Organización de eventos", "Capacitación de estudiantes", "Apoyo a emprendimientos locales"],
-    "myServiceClosing": "Cada proyecto representa una colaboración construida junto con instituciones y líderes comunitarios, buscando siempre generar resultados sostenibles y medibles."
+    "responsibilitiesText": "Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, gobiernos locales y organizaciones comunitarias en Colombia. En las aulas, coenseño currículos de emprendimiento como Construye Tus Sueños y clubes de liderazgo juvenil; con la comunidad, facilito talleres de emprendimiento, fortalecimiento empresarial y turismo comunitario, en alianza con el SENA, universidades y alcaldías."
   },
   "projects": {
     "heading": "Proyectos",

@@ -64,46 +64,7 @@
   <section class="section-alt">
     <div class="container">
       <h2 data-i18n="cedRole.responsibilitiesTitle">Mi Rol como Voluntario de CED</h2>
-      <p data-i18n="cedRole.responsibilitiesText">Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, organizaciones comunitarias y entidades locales para fortalecer habilidades de emprendimiento, empleabilidad y desarrollo económico. Mi trabajo consiste en acompañar a socios locales para desarrollar proyectos sostenibles, compartiendo conocimientos y trabajando de manera colaborativa con la comunidad.</p>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <h2 data-i18n="cedRole.collaborativeNatureTitle">La Naturaleza Colaborativa del Rol</h2>
-      <p data-i18n="cedRole.collaborativeNatureText">Todo el trabajo de CED se realiza en colaboración con socios locales.</p>
-    </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="cedRole.institutionsTitle">Trabajo en Instituciones Educativas</h2>
-        <p data-i18n="cedRole.institutionsIntro">En el ámbito educativo colaboro con docentes mediante un modelo de coenseñanza.</p>
-      </div>
-      <ul id="ced-institutions-list"></ul>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="cedRole.communityWorkTitle">Trabajo con la Comunidad</h2>
-        <p data-i18n="cedRole.communityWorkIntro">Colaboro con organizaciones y aliados locales para fortalecer las capacidades de la comunidad.</p>
-      </div>
-      <ul id="ced-community-work-list"></ul>
-      <p data-i18n="cedRole.communityWorkClosing">Estas actividades se realizan en conjunto con aliados locales.</p>
-    </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="cedRole.myServiceTitle">Mi Servicio en Colombia</h2>
-        <p data-i18n="cedRole.myServiceIntro">Durante mi servicio he tenido la oportunidad de trabajar en distintas regiones de Colombia.</p>
-      </div>
-      <ul id="ced-my-service-areas"></ul>
-      <p data-i18n="cedRole.myServiceClosing">Cada proyecto representa una colaboración construida junto con instituciones y líderes comunitarios.</p>
+      <p data-i18n="cedRole.responsibilitiesText">Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, gobiernos locales y organizaciones comunitarias en Colombia. En las aulas, coenseño currículos de emprendimiento como Construye Tus Sueños y clubes de liderazgo juvenil; con la comunidad, facilito talleres de emprendimiento, fortalecimiento empresarial y turismo comunitario, en alianza con el SENA, universidades y alcaldías.</p>
     </div>
   </section>
 </main>
@@ -132,18 +93,6 @@
     const whoList = document.getElementById("ced-who-we-work-with");
     if (whoList && dict.cedRole.whoWeWorkWith) {
       whoList.innerHTML = dict.cedRole.whoWeWorkWith.map((item) => `<li>${item}</li>`).join("");
-    }
-    const institutionsList = document.getElementById("ced-institutions-list");
-    if (institutionsList && dict.cedRole.institutionsList) {
-      institutionsList.innerHTML = dict.cedRole.institutionsList.map((item) => `<li>${item}</li>`).join("");
-    }
-    const communityWorkList = document.getElementById("ced-community-work-list");
-    if (communityWorkList && dict.cedRole.communityWorkList) {
-      communityWorkList.innerHTML = dict.cedRole.communityWorkList.map((item) => `<li>${item}</li>`).join("");
-    }
-    const serviceAreas = document.getElementById("ced-my-service-areas");
-    if (serviceAreas && dict.cedRole.myServiceAreas) {
-      serviceAreas.innerHTML = dict.cedRole.myServiceAreas.map((item) => `<li>${item}</li>`).join("");
     }
   }
   document.addEventListener("i18n:rendered", (e) => renderCedSections(e.detail.dict));
