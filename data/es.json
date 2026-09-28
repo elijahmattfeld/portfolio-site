@@ -103,13 +103,10 @@
   },
   "about": {
     "heading": "Sobre Mí",
-    "intro": "Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, y actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.",
+    "intro": "Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, donde también estudié en el extranjero en México, Alemania, Austria e Italia. Actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.",
     "roleIntro": "Trabajo como profe de emprendimiento y asesor de negocios pequeños, colaborando con instituciones educativas, gobiernos locales y organizaciones comunitarias para fortalecer el emprendimiento y la educación financiera.",
     "portraitAlt": "Retrato de Elías Mattfeld Campos",
     "professionalLifeTitle": "Vida Profesional",
-    "bio": [
-      "Durante la universidad estudié en varios países, incluyendo México, Alemania, Austria e Italia."
-    ],
     "personalLifeTitle": "Vida Personal",
     "personalLife": [
       "Soy mexicano-estadounidense de San Diego, California. He vivido en México, Estados Unidos e Indonesia.",

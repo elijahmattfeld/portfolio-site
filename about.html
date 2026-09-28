@@ -43,17 +43,11 @@
     <div class="container hero-grid">
       <div>
         <h1 data-i18n="about.heading">Sobre Mí</h1>
-        <p data-i18n="about.intro">Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, y actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.</p>
+        <h2 data-i18n="about.professionalLifeTitle">Vida Profesional</h2>
+        <p data-i18n="about.intro">Soy graduado en Administración y Gestión de Empresas con énfasis en Negocios Internacionales por California State University San Marcos, donde también estudié en el extranjero en México, Alemania, Austria e Italia. Actualmente sirvo como voluntario del Cuerpo de Paz en Colombia.</p>
         <p data-i18n="about.roleIntro">Trabajo como profe de emprendimiento y asesor de negocios pequeños, colaborando con instituciones educativas, gobiernos locales y organizaciones comunitarias para fortalecer el emprendimiento y la educación financiera.</p>
       </div>
       <img class="hero-photo" src="assets/images/graduation.jpg" data-i18n-attr="alt:about.portraitAlt" alt="Retrato de Elías Mattfeld Campos" loading="lazy" />
-    </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="container">
-      <h2 data-i18n="about.professionalLifeTitle">Vida Profesional</h2>
-      <div id="about-bio"></div>
     </div>
   </section>
 
@@ -120,10 +114,6 @@
   }
 
   function renderAbout(dict) {
-    const bio = document.getElementById("about-bio");
-    if (bio && dict.about.bio) {
-      bio.innerHTML = dict.about.bio.map((p) => `<p>${p}</p>`).join("");
-    }
     const personalLife = document.getElementById("about-personal-life");
     if (personalLife && dict.about.personalLife) {
       personalLife.innerHTML = dict.about.personalLife.map((p) => `<p>${p}</p>`).join("");
