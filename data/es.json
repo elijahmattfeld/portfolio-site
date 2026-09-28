@@ -25,10 +25,6 @@
       "title": "Proyecto | Elías Mattfeld Campos",
       "description": "Detalles de un proyecto comunitario o profesional."
     },
-    "gallery": {
-      "title": "Galería | Elías Mattfeld Campos",
-      "description": "Fotos de talleres, proyectos comunitarios y actividades de servicio."
-    },
     "resources": {
       "title": "Recursos | Elías Mattfeld Campos",
       "description": "Recursos gratuitos de educación financiera, empleabilidad y emprendimiento para la comunidad."
@@ -41,7 +37,6 @@
     "cedRole": "Mi Rol de CED",
     "projects": "Proyectos",
     "resources": "Recursos",
-    "gallery": "Galería",
     "contact": "Contacto",
     "menu": "Menú",
     "langToggle": "EN"
@@ -156,8 +151,7 @@
     "whoWeWorkWith": ["Ministerio de Educación Nacional", "SENA", "Alcaldías municipales", "Gobernaciones", "Instituciones educativas", "Universidades", "Fundaciones", "Organizaciones sociales", "Asociaciones comunitarias"],
     "whoWeWorkWithClosing": "El objetivo no es crear dependencia, sino desarrollar capacidades que permitan a las comunidades continuar creciendo de forma autónoma.",
     "responsibilitiesTitle": "Mi Rol como Voluntario de CED",
-    "responsibilitiesText": "Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, gobiernos locales y organizaciones comunitarias en Colombia. En las aulas, coenseño currículos de emprendimiento como Construye Tus Sueños y clubes de liderazgo juvenil; con la comunidad, facilito talleres de emprendimiento, fortalecimiento empresarial y turismo comunitario, en alianza con el SENA, universidades y alcaldías.",
-    "galleryViewAll": "Ver galería completa"
+    "responsibilitiesText": "Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, gobiernos locales y organizaciones comunitarias en Colombia. En las aulas, coenseño currículos de emprendimiento como Construye Tus Sueños y clubes de liderazgo juvenil; con la comunidad, facilito talleres de emprendimiento, fortalecimiento empresarial y turismo comunitario, en alianza con el SENA, universidades y alcaldías."
   },
   "projects": {
     "heading": "Proyectos",

@@ -32,7 +32,6 @@
         <li><a href="ced-role.html" data-i18n="nav.cedRole">Mi Rol de CED</a></li>
         <li><a href="projects.html" data-i18n="nav.projects">Proyectos</a></li>
         <li><a href="resources.html" data-i18n="nav.resources">Recursos</a></li>
-        <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
       </ul>
     </div>
   </nav>
@@ -68,13 +67,21 @@
     </div>
   </section>
 
-  <section class="section-alt">
+  <section>
     <div class="container">
-      <h2 data-i18n="nav.gallery">Galería</h2>
+      <h2 data-i18n="gallery.heading">Galería</h2>
+      <p data-i18n="gallery.intro">Fotos de talleres, actividades de proyectos, materiales educativos, comunidades y eventos.</p>
+      <p class="text-muted" data-i18n="gallery.consentNote" style="font-size: 0.85rem;">Nota: se obtiene consentimiento antes de publicar fotos identificables.</p>
+
+      <div class="filter-bar">
+        <div class="filter-field">
+          <label for="gallery-filter" data-i18n="gallery.filterLabel">Filtrar por proyecto</label>
+          <select id="gallery-filter"></select>
+        </div>
+      </div>
+
+      <div id="gallery-empty" class="empty-state" hidden data-i18n="gallery.noImages">Aún no hay fotos en esta categoría.</div>
       <div id="ced-gallery-grid" class="gallery-grid"></div>
-      <p style="margin-top: var(--space-5);">
-        <a class="btn btn-secondary" href="gallery.html" data-i18n="cedRole.galleryViewAll">Ver galería completa</a>
-      </p>
     </div>
   </section>
 </main>
