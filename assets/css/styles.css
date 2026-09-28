@@ -695,6 +695,29 @@ section {
 }
 
 /* =========================
+   Interest tests
+   ========================= */
+.interest-tests {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+@media (min-width: 600px) {
+  .interest-tests { grid-template-columns: repeat(2, 1fr); }
+}
+.interest-test {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.interest-test h3 { margin-bottom: 0; }
+.interest-test .btn { align-self: flex-start; }
+
+/* =========================
    Responsive embed (Google Forms, etc.)
    ========================= */
 .responsive-embed {
