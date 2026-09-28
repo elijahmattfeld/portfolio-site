@@ -695,6 +695,16 @@ section {
 }
 
 /* =========================
+   Contact list
+   ========================= */
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.contact-list li { list-style: none; font-size: 1.05rem; }
+
+/* =========================
    Interest tests
    ========================= */
 .interest-tests {
