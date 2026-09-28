@@ -67,6 +67,16 @@
       <p data-i18n="cedRole.responsibilitiesText">Como voluntario de Desarrollo Económico Comunitario del Cuerpo de Paz, colaboro con instituciones educativas, gobiernos locales y organizaciones comunitarias en Colombia. En las aulas, coenseño currículos de emprendimiento como Construye Tus Sueños y clubes de liderazgo juvenil; con la comunidad, facilito talleres de emprendimiento, fortalecimiento empresarial y turismo comunitario, en alianza con el SENA, universidades y alcaldías.</p>
     </div>
   </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <h2 data-i18n="nav.gallery">Galería</h2>
+      <div id="ced-gallery-grid" class="gallery-grid"></div>
+      <p style="margin-top: var(--space-5);">
+        <a class="btn btn-secondary" href="gallery.html" data-i18n="cedRole.galleryViewAll">Ver galería completa</a>
+      </p>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
@@ -82,8 +92,21 @@
   </div>
 </footer>
 
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes">
+  <div class="lightbox-content">
+    <img src="" alt="" />
+    <p class="lightbox-caption"></p>
+    <div class="lightbox-controls">
+      <button type="button" class="lightbox-prev" data-i18n="gallery.lightboxPrev">Anterior</button>
+      <button type="button" class="lightbox-close" data-i18n="gallery.lightboxClose">Cerrar</button>
+      <button type="button" class="lightbox-next" data-i18n="gallery.lightboxNext">Siguiente</button>
+    </div>
+  </div>
+</div>
+
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/gallery.js"></script>
 <script>
   function renderCedSections(dict) {
     const objectives = document.getElementById("ced-objectives");
@@ -96,6 +119,10 @@
     }
   }
   document.addEventListener("i18n:rendered", (e) => renderCedSections(e.detail.dict));
+  document.addEventListener("DOMContentLoaded", () => {
+    window.GalleryModule.renderGallery("ced-gallery-grid");
+    window.GalleryModule.setupLightboxControls();
+  });
 </script>
 </body>
 </html>
