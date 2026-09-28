@@ -43,7 +43,6 @@
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <p class="hero-eyebrow" data-i18n="nav.cedRole">Mi Rol de CED</p>
         <h1>Elías Mattfeld Campos</h1>
         <p class="hero-headline" data-i18n="home.headline">Voluntario de Desarrollo Económico Comunitario | Negocios y Desarrollo Internacional</p>
         <p data-i18n="home.intro" style="white-space: pre-line;">Durante mi servicio como voluntario del Cuerpo de Paz en Colombia he trabajado junto a instituciones educativas, gobiernos locales, emprendedores y organizaciones comunitarias para fortalecer capacidades empresariales, promover la educación financiera y apoyar iniciativas de desarrollo económico sostenible.
@@ -84,19 +83,6 @@ Este sitio reúne los proyectos, experiencias y aprendizajes desarrollados duran
     </div>
   </section>
 
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="home.featuredTitle">Proyectos Destacados</h2>
-        <p data-i18n="home.featuredSubtitle">Una muestra de los proyectos en los que he colaborado.</p>
-      </div>
-      <div id="featured-projects" class="card-grid cols-3"></div>
-      <p style="margin-top: var(--space-5);">
-        <a class="btn btn-secondary" href="projects.html" data-i18n="home.featuredViewAll">Ver todos los proyectos</a>
-      </p>
-    </div>
-  </section>
-
 </main>
 
 <footer class="site-footer">
@@ -114,7 +100,6 @@ Este sitio reúne los proyectos, experiencias y aprendizajes desarrollados duran
 
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/projects.js"></script>
 <script>
   function renderHomeLists(dict) {
     const schedule = document.getElementById("home-schedule");
@@ -136,9 +121,6 @@ Este sitio reúne los proyectos, experiencias y aprendizajes desarrollados duran
     }
   }
   document.addEventListener("i18n:rendered", (e) => renderHomeLists(e.detail.dict));
-  document.addEventListener("DOMContentLoaded", () => {
-    window.ProjectsModule.renderFeatured("featured-projects", 3);
-  });
 </script>
 </body>
 </html>
